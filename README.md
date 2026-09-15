@@ -1,48 +1,39 @@
 # Representation-Matched q-Sensitivity — Reproducibility Archive
 
-Public repository: https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity
-
-Companion computational archive for the manuscript:
+Companion public archive for the manuscript:
 
 **Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models**
 
 Authors: Ghassan Malkawi, Ahmed Abdelaziz Elsayed, Mohammed Alhagyan, Nazihah Ahmad, Haslinda Ibrahim, and Wan Suhana Wan Daud.
 
-## What this archive contains
+## Repository role
 
-- `benchmark/` — seven executable published q-rung orthopair fuzzy case reproductions used for the primary representation-matched benchmark.
-- `analysis/` — Qin stagewise sensitivity, local sensitivity, radius-certificate replay, directed upper-witness verification, and He structural-control analysis.
-- `results/` — concise public result summaries and release metadata.
-- `run_all.py` — top-level verification entry point.
+This GitHub repository is the public landing and version-control record for the reproducibility release. The complete executable archive, including the seven-case benchmark, Qin/He verification layer, retained radius-cover trace, derived outputs, and provenance records, is packaged for permanent deposit in Zenodo as `v1.0.0`.
 
-## Quick start
+Full archive SHA-256:
 
-```bash
-python -m pip install -r analysis/requirements.txt
-python run_all.py
-```
+`34e44da5596cf083a18c312f8ed3ce625f7ad961f9fea57ff75aadd3fe9f14e5`
 
-The default command runs the seven-case benchmark plus the fast Qin/He verification layer. Use `python run_all.py --full` to rebuild the complete radius cover. The retained precomputed cover trace is distributed in the Zenodo archive rather than in the GitHub repository because it is a larger compressed binary asset.
-
-The analysis layer compiles an MPFR-backed C++ interval kernel locally. A C++17 compiler plus GMP/MPFR runtime/development support may be required.
+The Zenodo DOI will be added here after the record is published.
 
 ## Scientific locks
 
-The archive reproduces the manuscript's bounded conclusions. In particular:
+The public archive reproduces the manuscript's bounded conclusions. In particular:
 
 - the primary benchmark is purposive and is not a prevalence sample;
 - the matched primary paths do not change rank through the declared benchmark range;
 - for the Qin application, the exact global winner-reversal radius remains **unknown / not claimed**;
-- the reported bound is
-  `0.000995 <= rho_win <= 0.003514796840392034`;
+- the reported bound is `0.000995 <= rho_win <= 0.003514796840392034`;
 - the upper endpoint is a feasible witness, not a certified global minimum.
 
-## Data and redistribution boundary
+## Public-release boundary
 
-Publisher-supplied binaries, publisher PDFs, and respondent-level third-party data are not included. Source studies are identified by bibliographic metadata/DOI in the manuscript and benchmark provenance records. This public archive contains executable reconstructions, derived numeric records, verification outputs, and source code prepared for reproducibility.
-
-No license file is included in this release candidate. Until the authors select a reuse license, copyright remains reserved by the respective rights holders.
+Publisher PDFs, publisher-supplied binaries, respondent-level third-party data, internal manuscript-development notes, and superseded working packages are not redistributed. See `PUBLIC_RELEASE_BOUNDARY.md` and `PUBLIC_RELEASE_QA.md`.
 
 ## Citation
 
-See `CITATION.cff`. The permanent Zenodo DOI will be added after the public archive is deposited.
+See `CITATION.cff`. The permanent Zenodo DOI will be added after publication of the `v1.0.0` archive.
+
+## License status
+
+No reuse license has yet been selected for this archive. Until the authors select one, copyright remains reserved by the respective rights holders.
