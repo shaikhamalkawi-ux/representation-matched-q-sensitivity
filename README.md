@@ -22,7 +22,7 @@ python -m pip install -r analysis/requirements.txt
 python run_all.py
 ```
 
-The default command runs the seven-case benchmark plus the fast Qin/He verification layer. Use `python run_all.py --radius-replay` to replay the retained radius certificate, or `python run_all.py --full` to rebuild the complete radius cover.
+The default command runs the seven-case benchmark plus the fast Qin/He verification layer. Use `python run_all.py --full` to rebuild the complete radius cover. The retained precomputed cover trace is distributed in the Zenodo archive rather than in the GitHub repository because it is a larger compressed binary asset.
 
 The analysis layer compiles an MPFR-backed C++ interval kernel locally. A C++17 compiler plus GMP/MPFR runtime/development support may be required.
 
@@ -45,4 +45,4 @@ No license file is included in this release candidate. Until the authors select 
 
 ## Citation
 
-See `CITATION.cff`. A Zenodo DOI can be added after the GitHub repository is enabled in Zenodo and release `v1.0.0` is archived.
+See `CITATION.cff`. The permanent Zenodo DOI will be added after the public archive is deposited.
