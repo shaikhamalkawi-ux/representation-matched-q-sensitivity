@@ -1,8 +1,14 @@
-# Authors
+# Archive creator
 
-1. Ghassan Malkawi — Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates — gmalkawi@hct.ac.ae
-2. Ahmed Abdelaziz Elsayed — Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates — ahmed.elsayed@cud.ac.ae
-3. Mohammed Alhagyan — Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates — m.alhagyan@uaeu.ac.ae
-4. Nazihah Ahmad — School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia — nazihah@uum.edu.my
-5. Haslinda Ibrahim — School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia — linda@uum.edu.my
-6. Wan Suhana Wan Daud — Institute of Engineering Mathematics, Universiti Malaysia Perlis, Malaysia — wsuhana@unimap.edu.my
+Ghassan Malkawi — Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates — gmalkawi@hct.ac.ae
+
+# Associated manuscript authors
+
+1. Ghassan Malkawi
+2. Ahmed Abdelaziz Elsayed
+3. Mohammed Alhagyan
+4. Nazihah Ahmad
+5. Haslinda Ibrahim
+6. Wan Suhana Wan Daud
+
+The Zenodo software archive is deposited under Ghassan Malkawi as creator/contact. The associated manuscript retains the six-author byline shown above.
