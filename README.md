@@ -4,21 +4,19 @@ Companion public archive for the manuscript:
 
 **Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models**
 
-Authors: Ghassan Malkawi, Ahmed Abdelaziz Elsayed, Mohammed Alhagyan, Nazihah Ahmad, Haslinda Ibrahim, and Wan Suhana Wan Daud.
+Manuscript authors: Ghassan Malkawi, Ahmed Abdelaziz Elsayed, Mohammed Alhagyan, Nazihah Ahmad, Haslinda Ibrahim, and Wan Suhana Wan Daud.
+
+Archive creator and contact: Ghassan Malkawi.
 
 ## Repository role
 
-This GitHub repository is the public landing and version-control record for the reproducibility release. The complete executable archive, including the seven-case benchmark, Qin/He verification layer, retained radius-cover trace, derived outputs, and provenance records, is packaged for permanent deposit in Zenodo as `v1.0.0`.
+This GitHub repository is the public landing and version-control record for the reproducibility release. The complete executable archive, including the seven-case benchmark, Qin/He verification layer, retained radius-cover trace, derived outputs, and provenance records, is permanently archived in Zenodo as version `1.0.0`.
 
-Full archive SHA-256:
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22793242
+
+Full deposited archive SHA-256:
 
 `34e44da5596cf083a18c312f8ed3ce625f7ad961f9fea57ff75aadd3fe9f14e5`
-
-Reserved Zenodo DOI:
-
-**10.5281/zenodo.22793242**
-
-The DOI is reserved and will be registered by Zenodo when the draft record is published.
 
 ## Scientific locks
 
@@ -36,10 +34,8 @@ Publisher PDFs, publisher-supplied binaries, respondent-level third-party data, 
 
 ## Citation
 
-See `CITATION.cff`. After publication, the archival record will be available at https://doi.org/10.5281/zenodo.22793242.
+See `CITATION.cff`. The archived software release is available at https://doi.org/10.5281/zenodo.22793242.
 
 ## License
 
-This public archive is released under **CC0 1.0 Universal**. To the extent legally possible, the authors waive copyright and related rights in the original material contained in this archive. Third-party material, where identified, remains subject to its original rights and terms.
-
-License: https://creativecommons.org/publicdomain/zero/1.0/
+Original material in this public archive is released under **CC0 1.0 Universal**. See `LICENSE`. Third-party material, where identified, remains subject to its original rights and terms.
