@@ -6,6 +6,7 @@ version: 1.0.0
 date-released: 2026-09-16
 doi: 10.5281/zenodo.22793242
 repository-code: "https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity"
+license: CC0-1.0
 authors:
   - family-names: Malkawi
     given-names: Ghassan
@@ -18,7 +19,7 @@ authors:
   - family-names: Alhagyan
     given-names: Mohammed
     email: m.alhagyan@uaeu.ac.ae
-    affiliation: "Department of Mathematical Sciences, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"
+    affiliation: "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"
   - family-names: Ahmad
     given-names: Nazihah
     email: nazihah@uum.edu.my
