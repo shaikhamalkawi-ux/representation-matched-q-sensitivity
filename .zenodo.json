@@ -1,11 +1,12 @@
 {
   "title": "Representation-Matched q-Sensitivity: Reproducibility Archive",
   "upload_type": "software",
+  "license": "cc0-1.0",
   "description": "Public reproducibility archive supporting the manuscript 'Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models'. It contains seven executable benchmark reconstructions, Qin/He verification code, retained radius-certificate assets, directed-rounding verification, derived numeric records, and provenance files. The exact global winner-reversal radius is not claimed.",
   "creators": [
     {"name": "Malkawi, Ghassan", "affiliation": "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"},
     {"name": "Elsayed, Ahmed Abdelaziz", "affiliation": "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"},
-    {"name": "Alhagyan, Mohammed", "affiliation": "Department of Mathematical Sciences, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"},
+    {"name": "Alhagyan, Mohammed", "affiliation": "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"},
     {"name": "Ahmad, Nazihah", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
     {"name": "Ibrahim, Haslinda", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
     {"name": "Wan Daud, Wan Suhana", "affiliation": "Institute of Engineering Mathematics, Universiti Malaysia Perlis, Malaysia"}
