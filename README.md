@@ -38,6 +38,8 @@ Publisher PDFs, publisher-supplied binaries, respondent-level third-party data, 
 
 See `CITATION.cff`. After publication, the archival record will be available at https://doi.org/10.5281/zenodo.22793242.
 
-## License status
+## License
 
-No reuse license has yet been selected for this archive. Until the authors select one, copyright remains reserved by the respective rights holders.
+This public archive is released under **CC0 1.0 Universal**. To the extent legally possible, the authors waive copyright and related rights in the original material contained in this archive. Third-party material, where identified, remains subject to its original rights and terms.
+
+License: https://creativecommons.org/publicdomain/zero/1.0/
