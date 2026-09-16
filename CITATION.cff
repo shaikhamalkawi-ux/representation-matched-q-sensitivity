@@ -12,26 +12,6 @@ authors:
     given-names: Ghassan
     email: gmalkawi@hct.ac.ae
     affiliation: "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"
-  - family-names: Elsayed
-    given-names: Ahmed Abdelaziz
-    email: ahmed.elsayed@cud.ac.ae
-    affiliation: "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"
-  - family-names: Alhagyan
-    given-names: Mohammed
-    email: m.alhagyan@uaeu.ac.ae
-    affiliation: "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"
-  - family-names: Ahmad
-    given-names: Nazihah
-    email: nazihah@uum.edu.my
-    affiliation: "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"
-  - family-names: Ibrahim
-    given-names: Haslinda
-    email: linda@uum.edu.my
-    affiliation: "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"
-  - family-names: Wan Daud
-    given-names: Wan Suhana
-    email: wsuhana@unimap.edu.my
-    affiliation: "Institute of Engineering Mathematics, Universiti Malaysia Perlis, Malaysia"
 keywords:
   - q-rung orthopair fuzzy sets
   - sensitivity analysis
