@@ -14,7 +14,11 @@ Full archive SHA-256:
 
 `34e44da5596cf083a18c312f8ed3ce625f7ad961f9fea57ff75aadd3fe9f14e5`
 
-The Zenodo DOI will be added here after the record is published.
+Reserved Zenodo DOI:
+
+**10.5281/zenodo.22793242**
+
+The DOI is reserved and will be registered by Zenodo when the draft record is published.
 
 ## Scientific locks
 
@@ -32,7 +36,7 @@ Publisher PDFs, publisher-supplied binaries, respondent-level third-party data, 
 
 ## Citation
 
-See `CITATION.cff`. The permanent Zenodo DOI will be added after publication of the `v1.0.0` archive.
+See `CITATION.cff`. After publication, the archival record will be available at https://doi.org/10.5281/zenodo.22793242.
 
 ## License status
 
