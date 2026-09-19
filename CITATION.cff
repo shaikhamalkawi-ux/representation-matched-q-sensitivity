@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility archive, please cite the associated manuscript and this software archive."
-title: "Representation-Matched q-Sensitivity: Reproducibility Archive"
+title: "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models"
 type: software
 version: 1.0.0
 date-released: 2026-09-16
@@ -12,10 +12,31 @@ authors:
     given-names: Ghassan
     email: gmalkawi@hct.ac.ae
     affiliation: "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"
+  - family-names: Elsayed
+    given-names: Ahmed Abdelaziz
+    email: ahmed.elsayed@cud.ac.ae
+    affiliation: "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"
+  - family-names: Alhagyan
+    given-names: Mohammed
+    email: m.alhagyan@uaeu.ac.ae
+    affiliation: "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"
+  - family-names: Ahmad
+    given-names: Nazihah
+    email: nazihah@uum.edu.my
+    affiliation: "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"
+  - family-names: Ibrahim
+    given-names: Haslinda
+    email: linda@uum.edu.my
+    affiliation: "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"
+  - family-names: Wan Daud
+    given-names: Wan Suhana
+    email: wsuhana@unimap.edu.my
+    affiliation: "Department of Mathematical Sciences, Faculty of Intelligent Computing, Universiti Malaysia Perlis, 02600, Arau, Perlis, Malaysia"
 keywords:
   - q-rung orthopair fuzzy sets
-  - sensitivity analysis
-  - matched control
-  - equivariance
+  - q-ROF
+  - representation matching
+  - rank reversal
   - decision robustness
+  - sensitivity analysis
   - reproducibility
