@@ -42,8 +42,10 @@ https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity
 - Python
 - C++
 
-## DOI
+## Reserved DOI
 10.5281/zenodo.22793242
+
+The DOI will resolve after the Zenodo deposit is published.
 
 ## File to upload
 `QROF_Representation_Matched_q_Sensitivity_Reproducibility_v1.0.0.zip`
