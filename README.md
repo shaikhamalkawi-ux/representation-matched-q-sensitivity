@@ -12,7 +12,7 @@ Contact person: Ghassan Malkawi.
 
 This GitHub repository is the public landing and version-control record for reproducibility release `1.0.0`. The release materials cover the executable seven-case benchmark, Qin/He verification layer, retained radius-cover trace, derived outputs, and provenance records.
 
-**Zenodo DOI for v1.0.0:** https://doi.org/10.5281/zenodo.22793242
+**Reserved Zenodo DOI for v1.0.0:** 10.5281/zenodo.22793242 (the DOI will resolve after the Zenodo deposit is published)
 
 Release archive SHA-256:
 
