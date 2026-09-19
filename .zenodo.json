@@ -1,20 +1,24 @@
 {
-  "title": "Representation-Matched q-Sensitivity: Reproducibility Archive",
+  "title": "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models",
   "upload_type": "software",
   "license": "cc0-1.0",
-  "description": "Public reproducibility archive supporting the manuscript 'Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models'. It contains seven executable benchmark reconstructions, Qin/He verification code, retained radius-certificate assets, directed-rounding verification, derived numeric records, and provenance files. The exact global winner-reversal radius is not claimed.",
+  "version": "1.0.0",
+  "description": "Reproducibility archive accompanying the manuscript “Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models.” The archive contains the executable seven-case q-rung orthopair fuzzy benchmark, Qin stagewise and local sensitivity analysis, winner-reversal radius verification, He structural-control analysis, derived numerical outputs, and provenance records. The exact global Qin winner-reversal radius is not claimed; the verified bound is 0.000995 ≤ ρ_win ≤ 0.003514796840392034.",
   "creators": [
-    {"name": "Malkawi, Ghassan", "affiliation": "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"}
+    {"name": "Malkawi, Ghassan", "affiliation": "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"},
+    {"name": "Elsayed, Ahmed Abdelaziz", "affiliation": "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"},
+    {"name": "Alhagyan, Mohammed", "affiliation": "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"},
+    {"name": "Ahmad, Nazihah", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
+    {"name": "Ibrahim, Haslinda", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
+    {"name": "Wan Daud, Wan Suhana", "affiliation": "Department of Mathematical Sciences, Faculty of Intelligent Computing, Universiti Malaysia Perlis, 02600, Arau, Perlis, Malaysia"}
   ],
   "keywords": [
     "q-rung orthopair fuzzy sets",
-    "sensitivity analysis",
-    "matched control",
-    "equivariance",
+    "q-ROF",
+    "representation matching",
+    "rank reversal",
     "decision robustness",
+    "sensitivity analysis",
     "reproducibility"
-  ],
-  "related_identifiers": [
-    {"identifier": "https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity", "relation": "isSupplementTo", "scheme": "url"}
   ]
 }
