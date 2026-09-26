@@ -1,10 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility archive, please cite the associated manuscript and this software archive."
-title: "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models"
+title: "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Changes and Winner Robustness in Orthopair Fuzzy Models"
 type: software
-version: 1.0.0
-date-released: 2026-09-16
-doi: 10.5281/zenodo.22793242
+version: V18
+date-released: 2026-09-26
 repository-code: "https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity"
 license: CC0-1.0
 authors:
@@ -13,7 +12,7 @@ authors:
     email: gmalkawi@hct.ac.ae
     affiliation: "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"
   - family-names: Elsayed
-    given-names: Ahmed Abdelaziz
+    given-names: Ahmed
     email: ahmed.elsayed@cud.ac.ae
     affiliation: "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"
   - family-names: Alhagyan

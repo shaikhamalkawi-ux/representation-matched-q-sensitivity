@@ -1,0 +1,286 @@
+{
+  "checks": [
+    {
+      "name": "directed primitive 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed primitive 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed primitive 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed primitive 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed nonlinear 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed nonlinear 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed nonlinear 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed nonlinear 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "directed nonlinear 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint zero/one 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint zero/one 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint zero/one 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint zero/one 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "200 exact-decimal source inputs independently cross-checked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all 100 source canonical pairs admissible at q3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (3,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (3,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (4,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (4,4)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (5,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (5,5)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (6,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (6,6)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (7,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (7,7)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (8,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (8,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (9,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (9,9)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (10,3)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5 source-form endpoints in interval: (10,10)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all 120 saved hybrid rows enclose source-form replay",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independently evaluated directional chain-rule closure",
+      "pass": true,
+      "detail": "3.2321592e-81"
+    },
+    {
+      "name": "Step1 value preserved d_raw_margin_dq_at_q3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Step1 value preserved d_matched_margin_dq_at_q3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Step1 value preserved representation_motion_term_at_q3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent propagated budget inclusion q=10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonvacuous full-winner stage budget q=10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "telescoping cancellation unit test",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "zero defect composition unit test",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "passed": 54,
+  "total": 54,
+  "independent_source_max_abs_error": "2.71740560708108e-17",
+  "mpfr": "4.2.2",
+  "bits": 192,
+  "direct_derivatives": {
+    "raw": "-0.021837493050374346762988047611096434059197909600019757736318798812",
+    "matched": "0.00037733907932703158412101669669482006071635130372117634084341536033",
+    "representation_direction": "-0.022214832129701378347109064307791254119914260903740934077162214172"
+  },
+  "local_derivative_scope": "Equality-preserving smooth stratum, not an assumed ambient Frechet gradient",
+  "source_sha256": "f864da5027d8d0f3e2bbecbb7f85f7e258281d19b4b76b0c4807cb68fe5e0083"
+}

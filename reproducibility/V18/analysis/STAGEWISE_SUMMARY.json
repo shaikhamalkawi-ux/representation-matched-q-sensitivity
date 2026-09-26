@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "q=3,...,10 only; fixed exact printed inputs; source-order expert-then-criterion hybrid path",
+  "rungs": 8,
+  "max_budget_upper": 0.002583069107942315,
+  "min_margin_lower": 0.039533458581492535,
+  "baseline_margin_lower": 0.044699596797377165,
+  "library": "MPFR 4.2.2",
+  "bits": 192,
+  "exact_global_input_radius": "NOT_CLAIMED",
+  "general_propagation_novelty": "NOT_CLAIMED"
+}

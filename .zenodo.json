@@ -1,12 +1,12 @@
 {
-  "title": "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models",
+  "title": "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Changes and Winner Robustness in Orthopair Fuzzy Models",
   "upload_type": "software",
   "license": "cc0-1.0",
-  "version": "1.0.0",
-  "description": "Reproducibility archive accompanying the manuscript “Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models.” The archive contains the executable seven-case q-rung orthopair fuzzy benchmark, Qin stagewise and local sensitivity analysis, winner-reversal radius verification, He structural-control analysis, derived numerical outputs, and provenance records. The exact global Qin winner-reversal radius is not claimed; the verified bound is 0.000995 ≤ ρ_win ≤ 0.003514796840392034.",
+  "version": "V18",
+  "description": "Curated code and certificate archive accompanying Representation-Matched q-Sensitivity: Rank Changes and Winner Robustness in Orthopair Fuzzy Models. It includes the recoverable seven-case benchmark, Qin and He checks, and the V17 Seikh integer-interval and MPFR certificate/witness evidence retained in manuscript V18. The Seikh comparison proves rho_src(4) <= 0.02321968 < 0.0235 <= rho_src(16) in the same normalized-baseline-raw L-infinity geometry; these are bounds, not exact radii or a claim of monotonicity for all q. The uniform finite-real-q>=4 bracket is 0.019 <= rho_src <= 0.02321968. The archive inventory distinguishes fresh replays from inherited evidence and missing historical records. Publisher PDFs and binaries, respondent-level third-party data, and internal development archives are not redistributed. The historical 30-record candidate-state ledger remains unavailable.",
   "creators": [
     {"name": "Malkawi, Ghassan", "affiliation": "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"},
-    {"name": "Elsayed, Ahmed Abdelaziz", "affiliation": "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"},
+    {"name": "Elsayed, Ahmed", "affiliation": "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"},
     {"name": "Alhagyan, Mohammed", "affiliation": "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"},
     {"name": "Ahmad, Nazihah", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
     {"name": "Ibrahim, Haslinda", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},

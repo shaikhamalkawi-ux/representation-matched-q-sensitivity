@@ -1,0 +1,34 @@
+{
+  "case": "Seikh & Mandal 2023 q-ROFAWA site-selection case",
+  "doi": "10.3390/sym15091680",
+  "baseline_q": 4,
+  "q_min": 4,
+  "published_normalized_matrix_used": true,
+  "formula_entropy_weights": [
+    "0.191704161165001881941810096656",
+    "0.205199770658628190398659251015",
+    "0.192470989667732469530051675286",
+    "0.222056351168630631194458323455",
+    "0.188568727340006826935020653588"
+  ],
+  "formula_weights_round_to_published_3dp": true,
+  "publication_matched_q4_using_printed_3dp_weights": {
+    "pass": true,
+    "max_aggregate_pair_abs_error": "0.0000943657798852516842042212214703",
+    "max_score_abs_error": "0.000048646277308275509655189328934",
+    "rank": "Y2>Y1>Y4>Y3"
+  },
+  "raw_rank_transitions_q4_q50": [
+    {
+      "q": 10,
+      "from": "Y2>Y1>Y4>Y3",
+      "to": "Y2>Y1>Y3>Y4"
+    }
+  ],
+  "controlled_rank_transitions_q4_q50": [],
+  "max_controlled_entropy_weight_deviation_vs_q4": "0.019958444725880256052049005504",
+  "max_controlled_score_deviation_vs_q4": "0.0101140930740182882609006389587",
+  "class": "CLASS_III_RAW_COORDINATE_DEPENDENT_ENTROPY_STAGE",
+  "interpretation": "The q-ROFAWA aggregation and q-score are q-natural, but Eq. (6) entropy uses raw mu and nu. Under transport the criterion weights drift; despite that residual dependence, the controlled ranking remains stable through q=50.",
+  "decision": "EXECUTABLE_ADMIT"
+}

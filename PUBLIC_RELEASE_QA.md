@@ -1,4 +1,6 @@
-# Public release QA — 2026-09-16
+# Historical baseline QA - 2026-09-16
+
+This is a preserved baseline summary, not the current V18 test log or a claim of past public availability. For V18, see `reproducibility/V18/PUBLIC_QA.json` and its replay instructions. The Qin cover trace is now included in the V18 GitHub directory; the historical distribution wording below is not a statement of current Zenodo publication status.
 
 Status: PASS for the public quick workflow.
 

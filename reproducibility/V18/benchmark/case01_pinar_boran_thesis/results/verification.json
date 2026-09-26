@@ -1,0 +1,53 @@
+{
+  "case": "Pinar 2020 thesis q-ROF TOPSIS",
+  "q_min": 2,
+  "baseline_q": 3,
+  "p": 1,
+  "raw_cells_transcribed": 750,
+  "baseline_checks": {
+    "dm_weights_q3_to_4dp": true,
+    "criterion_weights_q3_to_5dp": true,
+    "table74_dplus_to_3dp": true,
+    "table74_dminus_to_3dp": true,
+    "table75_cc_to_3dp": true,
+    "table75_rank_exact": true
+  },
+  "figure_7_4a_all_90_printed_values_reproduced": true,
+  "figure_7_4a_checks_by_q": {
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true
+  },
+  "maximum_absolute_difference_vs_3dp_figure_value": "0.000494647408703994400812962720463",
+  "raw_rank_transitions_q2_q50_high_precision": [
+    {
+      "q": 6,
+      "from": "A8>A9>A2>A1>A10>A3>A4>A5>A7>A6",
+      "to": "A8>A9>A2>A1>A10>A3>A4>A7>A5>A6"
+    },
+    {
+      "q": 10,
+      "from": "A8>A9>A2>A1>A10>A3>A4>A7>A5>A6",
+      "to": "A8>A9>A2>A1>A10>A3>A4>A7>A6>A5"
+    }
+  ],
+  "controlled_rank_transitions_q2_q50_high_precision": [],
+  "max_controlled_dm_weight_deviation_vs_q3": "2.63554948580763080608714351282e-81",
+  "max_controlled_criterion_weight_deviation_vs_q3": "7.90664845742289241826143053845e-82",
+  "numerical_note": {
+    "reason_for_high_precision": "At large q, ordinary float64 suffers cancellation/underflow in the weighted q-ROF and distance pipeline and can create spurious rank reversals.",
+    "precision_decimal_digits": 80
+  },
+  "reporting_note": {
+    "thesis_text": "The prose says the A5/A7 change is for q>7.",
+    "recomputed_unrounded_result": "The exact raw ranking first changes at q=6; Figure 7.4(a) prints A5 and A7 both as 0.214 at q=6, then separates them at q=7. A6 also passes A5 at q=10.",
+    "classification": "Localized text/rounding-resolution discrepancy; the printed numeric Figure 7.4(a) is reproduced."
+  },
+  "decision": "EXECUTABLE_ADMIT"
+}

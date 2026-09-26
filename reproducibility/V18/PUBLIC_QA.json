@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "release": "V18",
+  "fresh_execution": true,
+  "network_or_installation": false,
+  "scientific_module_version": 17,
+  "all_source_files_unchanged_during_replay": true,
+  "replay_steps": [
+    {
+      "step": "dependencies",
+      "returncode": 0,
+      "seconds": 6.571751999988919
+    },
+    {
+      "step": "seikh_full_integer_mpfr",
+      "returncode": 0,
+      "seconds": 62.3116743999999
+    },
+    {
+      "step": "benchmark_seven_cases",
+      "returncode": 0,
+      "seconds": 31.045062399993185
+    },
+    {
+      "step": "qin_he_quick",
+      "returncode": 0,
+      "seconds": 76.38280130000203
+    },
+    {
+      "step": "qin_q3_retained_radius_cover",
+      "returncode": 0,
+      "seconds": 232.71213110000826
+    },
+    {
+      "step": "compile_compact_q_kernel",
+      "returncode": 0,
+      "seconds": 23.57879349999712
+    },
+    {
+      "step": "compile_continuous_q_kernel",
+      "returncode": 0,
+      "seconds": 16.777509300009115
+    },
+    {
+      "step": "qin_unbounded_H",
+      "returncode": 0,
+      "seconds": 19.829215799982194
+    },
+    {
+      "step": "qin_fullorder_H",
+      "returncode": 0,
+      "seconds": 123.6994961000164
+    },
+    {
+      "step": "qin_unbounded_A",
+      "returncode": 0,
+      "seconds": 18.663478200003738
+    },
+    {
+      "step": "qin_fullorder_A",
+      "returncode": 0,
+      "seconds": 60.36942489998182
+    },
+    {
+      "step": "qin_source_crosscheck",
+      "returncode": 0,
+      "seconds": 56.742088500002865
+    },
+    {
+      "step": "zhang_control",
+      "returncode": 0,
+      "seconds": 4.937396200024523
+    }
+  ],
+  "replay_total_seconds": 737.4030475000036,
+  "seikh": {
+    "certificates": 4,
+    "leaf_checks": 40,
+    "witnesses": 3,
+    "integer_entropy_tests": 21,
+    "integer_record_negative_tests": 8,
+    "integer_witness_negative_tests": 11,
+    "mpfr_negative_tests": 20,
+    "mpfr_recheck": {
+      "certificates": 4,
+      "leaves": 40,
+      "witnesses": 3,
+      "bits": 256,
+      "version": "4.2.2"
+    },
+    "exact_regeneration_matches": {
+      "Q4_H_0_019.json": true,
+      "Q8_H_0_0215.json": true,
+      "Q16_H_0_0235.json": true,
+      "UNIFORM_H_0_019.json": true
+    }
+  },
+  "historical_qin_q3_radius_cover": {
+    "scope": "Freshly re-evaluated retained cover; not a new search",
+    "nodes": 18515,
+    "positive_leaves": 9258,
+    "unresolved_nodes": 0,
+    "bits": 256,
+    "trace_sha256": "a1345e58b8d83e646816b818fd00a1c221921d1d9dcb79a0bfcb280d6bd670c8"
+  },
+  "seven_case_benchmark": {
+    "release": "QRUNG_ISO_CONTROL_BENCHMARK_v0_4",
+    "status": "PASS",
+    "errors": [],
+    "executable_cases": 7,
+    "raw_transition_cases": 7,
+    "controlled_transition_cases": 0,
+    "theorem_level_primary_cases": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "residual_cases": [
+      1,
+      4
+    ]
+  },
+  "qin_allq_fullorder": {
+    "scope": "Freshly compiled source, retained covers rechecked; original binary hashes preserved",
+    "H": {
+      "unbounded_leaves": 144,
+      "unbounded_negative_tests": 13,
+      "fullorder_leaves": 793,
+      "fullorder_negative_tests": 13
+    },
+    "A": {
+      "unbounded_leaves": 156,
+      "unbounded_negative_tests": 13,
+      "fullorder_leaves": 748,
+      "fullorder_negative_tests": 13
+    }
+  },
+  "zhang_control": {
+    "scope": "Fresh source-control execution without a publisher PDF",
+    "printed_scores_reproduced": 15,
+    "printed_ranks_reproduced": 15,
+    "source_pdf_freshly_verified_this_release": false
+  },
+  "historical_record_labels": "Retained derived JSONs describe their original checkpoint. In particular, the retained Zhang source_pdf_freshly_verified flag describes its prior private audit, not a PDF supplied or rechecked in V18.",
+  "not_claimed": [
+    "historical 30-record candidate-state ledger availability",
+    "fresh original Java execution",
+    "every historical optimizer/search rerun",
+    "formal proof-assistant verification"
+  ],
+  "portable_loader": "Only platform/compiler selection changed; scientific wrapper tail byte-equivalent as text",
+  "license_preserved_sha256": "11d7857ecfd614f45c2a9ee2800d7a30321928d94b641ea68003bc6df9932e22"
+}

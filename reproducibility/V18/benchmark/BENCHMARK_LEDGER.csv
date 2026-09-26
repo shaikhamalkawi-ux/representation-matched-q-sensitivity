@@ -1,0 +1,8 @@
+case_id,case,q_min,baseline_q,status,primary_class,primary_endpoint,raw_transition_rungs,controlled_transition_rungs,controlled_status,reproduction_lock
+1,Pınar 2020 thesis q-ROF TOPSIS,2,3,EXECUTABLE_ADMIT,CLASS_II_RESIDUAL_Q_DEPENDENT_DISTANCE,TOPSIS closeness,6;10,NONE,EMPIRICAL_STABILITY,750/750 raw ratings; q=3 Tables 7.4-7.5; 90/90 Figure 7.4(a) values
+2,Khan et al. 2021 weighted-cosine qROF-TOPSIS,1,3,EXECUTABLE_ADMIT,CLASS_I_Q_NATURAL,TOPSIS closeness,3;4,NONE,THEOREM_LEVEL,Table 4 to 6dp; all Table 5 q=1..10 values within one printed 4dp unit
+3,Liu & Wang 2018 q-ROFWA,2,3,EXECUTABLE_ADMIT_QROFWA_ONLY,CLASS_I_Q_NATURAL,q-ROFWA + q-score,8;9,NONE,THEOREM_LEVEL,q-ROFWA published q sweep reproduced; q-ROFWG retained HOLD for localized X1 mismatch
+4,Seikh & Mandal 2023 q-ROFAWA,4,4,EXECUTABLE_ADMIT,CLASS_III_RAW_COORDINATE_ENTROPY,entropy weights + q-ROFAWA + q-score,10,NONE,EMPIRICAL_STABILITY,q=4 aggregate/score reproduced; q_min=4; entropy weights recomputed from published matrix
+5,Du 2021 q-ROFEWA,2,3,EXECUTABLE_ADMIT,CLASS_I_Q_NATURAL,Einstein averaging + q-score,3;9;11,NONE,THEOREM_LEVEL,q=3 and all published Table 2 q values reproduced to printed precision
+6,Du 2019 q-ROFWPM,2,3,EXECUTABLE_ADMIT,CLASS_I_Q_NATURAL_PRIMARY_ENDPOINT,weighted power mean + q-score,7,NONE,THEOREM_LEVEL,q=3 aggregate orthopairs/q-scores reproduced; secondary raw-coordinate CI audited separately
+7,Alkan & Kahraman 2021 q-ROF TOPSIS,2,5,EXECUTABLE_ADMIT_WITH_TABLE14_NOTE,CLASS_I_Q_NATURAL_TWO_PIPELINES,subjective-weight TOPSIS / entropy-weight TOPSIS,M1:3;8;15 | M2:3;11,NONE / NONE,THEOREM_LEVEL,both q=5 pipelines + complete published Table 19 q sweep; localized Table 14 weight inconsistency retained

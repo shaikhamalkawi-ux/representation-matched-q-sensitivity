@@ -1,0 +1,184 @@
+{
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "name": "He existing q-natural control q=1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "He existing q-natural control q=10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fixed common relabeling transport unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "transport does not imply arbitrary chart Euclidean metric invariance",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin canonical velocity tangent to equality A1C2E3E4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin canonical velocity tangent to equality A2C1E1E3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin canonical velocity tangent to equality A2C5E2E4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin canonical velocity tangent to equality A3C2E2E3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin canonical velocity tangent to equality A5C1E1E3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin canonical velocity tangent to equality A5C4E1E4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "six source input coincidences explicitly retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Qin criterion-support distinctness near baseline A1",
+      "pass": true,
+      "detail": "0.000014993157648365001372"
+    },
+    {
+      "name": "Qin criterion-support distinctness near baseline A3",
+      "pass": true,
+      "detail": "0.00020245553773082068529"
+    }
+  ],
+  "He_scope": "The archived table-consistent implementation, including its documented source Table-4 discrepancy; no new global-optimality claim.",
+  "Qin_equality_pairs": [
+    {
+      "alternative": 1,
+      "criterion": 2,
+      "experts": [
+        3,
+        4
+      ]
+    },
+    {
+      "alternative": 2,
+      "criterion": 1,
+      "experts": [
+        1,
+        3
+      ]
+    },
+    {
+      "alternative": 2,
+      "criterion": 5,
+      "experts": [
+        2,
+        4
+      ]
+    },
+    {
+      "alternative": 3,
+      "criterion": 2,
+      "experts": [
+        2,
+        3
+      ]
+    },
+    {
+      "alternative": 5,
+      "criterion": 1,
+      "experts": [
+        1,
+        3
+      ]
+    },
+    {
+      "alternative": 5,
+      "criterion": 4,
+      "experts": [
+        1,
+        4
+      ]
+    }
+  ],
+  "normal_direction_one_sided_diagnostic": [
+    {
+      "h": "0.00001",
+      "right_slope": "0.0340703372804580563138792",
+      "left_slope": "0.03270943919975629015149251",
+      "difference": "0.001360898080701766162386691"
+    },
+    {
+      "h": "0.0000001",
+      "right_slope": "0.03407038207581880070872331",
+      "left_slope": "0.03270949172843362205878401",
+      "difference": "0.001360890347385178649939306"
+    },
+    {
+      "h": "0.000000001",
+      "right_slope": "0.03407038252379721479125043",
+      "left_slope": "0.03270949225372076624879333",
+      "difference": "0.001360890270076448542457108"
+    }
+  ],
+  "local_derivative_scope": "Raw/matched q paths and the canonical representation-motion direction preserve all source equalities. Differentiate on this equality-preserving stratum. An ambient Frechet gradient is not asserted.",
+  "input_radius_scope": "The MPFR radius calculation is derivative-free and does not restrict perturbations to this stratum."
+}

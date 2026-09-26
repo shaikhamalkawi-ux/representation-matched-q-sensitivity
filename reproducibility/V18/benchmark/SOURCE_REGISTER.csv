@@ -1,0 +1,11 @@
+source_id,authors,year,title,venue,doi,role
+S01,Klement & Mesiar,2018,L-Fuzzy Sets and Isomorphic Lattices: Are All the “New” Results Really New?,Mathematics,10.3390/math6090146,Prior isomorphism theory / novelty boundary
+S02,"Mesiar, Kolesárová & Senapati",2022,Aggregation on lattices isomorphic to the lattice of closed subintervals of the real unit interval,Fuzzy Sets and Systems,10.1016/j.fss.2022.02.013,Prior isomorphism/aggregation-transfer theory / novelty boundary
+C01,Adem Pınar,2020,Q Seviyeli Bulanık Küme Temelli Tedarikçi Performans Değerlendirmesi,Gazi University PhD thesis,,Executable Case 1
+C02,"Khan, Kumam, Alreshidi & Kumam",2021,Improved cosine and cotangent function-based similarity measures for q-rung orthopair fuzzy sets and TOPSIS method,Complex & Intelligent Systems,10.1007/s40747-021-00425-7,Executable Case 2
+C03,Liu & Wang,2018,Some q-Rung Orthopair Fuzzy Aggregation Operators and their Applications to Multiple-Attribute Decision Making,International Journal of Intelligent Systems,10.1002/int.21927,Executable Case 3 primary q-ROFWA endpoint
+C03C,Correction,2026,Correction to Liu & Wang 2018,International Journal of Intelligent Systems,10.1155/int/9864340,Correction provenance; does not replace admitted q-ROFWA endpoint
+C04,Seikh & Mandal,2023,q-Rung Orthopair Fuzzy Archimedean Aggregation Operators: Application in the Site Selection for Software Operating Units,Symmetry,10.3390/sym15091680,Executable Case 4
+C05,Du,2021,A further investigation on q-rung orthopair fuzzy Einstein aggregation operators,Journal of Intelligent & Fuzzy Systems,10.3233/JIFS-210548,Executable Case 5
+C06,Du,2019,Weighted power means of q-rung orthopair fuzzy information and their applications in multiattribute decision making,International Journal of Intelligent Systems,10.1002/int.22167,Executable Case 6
+C07,Alkan & Kahraman,2021,Evaluation of government strategies against COVID-19 pandemic using q-rung orthopair fuzzy TOPSIS method,Applied Soft Computing,10.1016/j.asoc.2021.107653,Executable Case 7

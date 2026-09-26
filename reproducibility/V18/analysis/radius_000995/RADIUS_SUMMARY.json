@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "radius_decimal": "0.000995",
+  "radius_dyadic_hex": "0x1.04d551d68c693p-10",
+  "bits": 160,
+  "interval_evaluations": 18515,
+  "nodes": 18515,
+  "queue": 0,
+  "positive_leaves": 9258,
+  "outside_leaves": 0,
+  "smallest_positive_leaf_lower": 5.325100040065448e-07,
+  "other_challengers": [
+    {
+      "challenger": "A2",
+      "margin_lower": 0.13474231602530778,
+      "margin_upper": 0.30986320035009307,
+      "pass_": true
+    },
+    {
+      "challenger": "A4",
+      "margin_lower": 0.08460198289743122,
+      "margin_upper": 0.26673155508739704,
+      "pass_": true
+    },
+    {
+      "challenger": "A5",
+      "margin_lower": 0.08700800821298368,
+      "margin_upper": 0.2581138898971965,
+      "pass_": true
+    }
+  ],
+  "elapsed_seconds": 112.34679222106934,
+  "trust_scope": "MPFR-directed-rounding arithmetic plus audited interval transformations and covering algorithm; not a proof-assistant result",
+  "radius_upper_unchanged": "0.003514796840392008",
+  "global_optimum": "NOT_CLAIMED"
+}

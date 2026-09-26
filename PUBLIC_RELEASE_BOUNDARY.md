@@ -2,7 +2,7 @@
 
 This archive is intentionally narrower than the authors' complete internal development history.
 
-Included in GitHub are the executable seven-case benchmark reconstructions, current Qin/He verification code, deterministic derived outputs, radius-certificate metadata/replay verification, and provenance records needed to interpret the computations. The larger compressed retained cover trace is distributed with the Zenodo archive.
+The V18 directory includes the recoverable seven-case benchmark reconstructions, Qin/He verification code, Qin covers, Zhang's control, current Seikh certificates and witnesses, deterministic derived outputs, and provenance records. The compressed retained Qin cover trace is included in this repository. The exact inventory and missing-history boundaries are documented in `reproducibility/V18/SCOPE_AND_PROVENANCE.md`.
 
 Excluded are publisher PDFs, publisher-supplied binaries, respondent-level third-party data, internal manuscript-development notes, superseded source snapshots, and nested historical working-package archives.
 

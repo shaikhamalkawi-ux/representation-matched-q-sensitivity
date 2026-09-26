@@ -1,0 +1,59 @@
+{
+  "case": "Du 2019 q-ROFWPM, r=2",
+  "source_doi": "10.1002/int.22167",
+  "q_min": 2,
+  "q3_published_rounding_reproduction": true,
+  "q3_recomputed": {
+    "A1": {
+      "mu": 0.7158731584577797,
+      "nu": 0.2845756981098225,
+      "q_score": 0.343820765235683
+    },
+    "A2": {
+      "mu": 0.6101611512728835,
+      "nu": 0.46181167225044634,
+      "q_score": 0.12867035582818753
+    },
+    "A3": {
+      "mu": 0.6557369137276013,
+      "nu": 0.4360125179060274,
+      "q_score": 0.1990719106967914
+    },
+    "A4": {
+      "mu": 0.6645535942334726,
+      "nu": 0.4666974521749396,
+      "q_score": 0.19183804294531598
+    },
+    "A5": {
+      "mu": 0.6083270482639754,
+      "nu": 0.5273872621868881,
+      "q_score": 0.0784325190558986
+    }
+  },
+  "raw_qscore_transitions_q2_q50": [
+    {
+      "q": 7,
+      "from": "A1>A3>A4>A2>A5",
+      "to": "A1>A3>A4>A5>A2"
+    }
+  ],
+  "controlled_qscore_transitions_q2_q50": [],
+  "raw_CI_transitions_q2_q50": [
+    {
+      "q": 32,
+      "from": "A1>A3>A4>A2>A5",
+      "to": "A1>A3>A5>A2>A4"
+    },
+    {
+      "q": 41,
+      "from": "A1>A3>A5>A2>A4",
+      "to": "A1>A3>A4>A5>A2"
+    }
+  ],
+  "controlled_CI_transitions_q2_q50": [],
+  "max_controlled_qscore_deviation_vs_q3": 1.4988010832439613e-15,
+  "interpretation": {
+    "q_score_endpoint": "Class I / transport-invariant under the q-natural pipeline.",
+    "euclidean_closeness_endpoint": "Raw-coordinate endpoint; controlled stability is empirical, not theorem-guaranteed."
+  }
+}

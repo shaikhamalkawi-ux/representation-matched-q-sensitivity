@@ -1,0 +1,128 @@
+{
+  "case": "Alkan & Kahraman 2021 q-ROF TOPSIS",
+  "doi": "10.1016/j.asoc.2021.107653",
+  "baseline_q": 5,
+  "q_min": 2,
+  "q1_max_scale_power_sum": 1.1,
+  "q2_max_scale_power_sum": 0.9922,
+  "baseline_checks": {
+    "method1_d_plus_printed_precision": true,
+    "method1_d_minus_printed_precision": true,
+    "method1_cc_printed_precision": true,
+    "method1_rank_exact": true,
+    "method2_d_plus_printed_precision": true,
+    "method2_d_minus_printed_precision": true,
+    "method2_cc_printed_precision": true,
+    "method2_rank_exact": true
+  },
+  "published_table19_reproduction": {
+    "2": {
+      "method1": true,
+      "method2": true
+    },
+    "3": {
+      "method1": true,
+      "method2": true
+    },
+    "4": {
+      "method1": true,
+      "method2": true
+    },
+    "5": {
+      "method1": true,
+      "method2": true
+    },
+    "6": {
+      "method1": true,
+      "method2": true
+    },
+    "7": {
+      "method1": true,
+      "method2": true
+    },
+    "8": {
+      "method1": true,
+      "method2": true
+    },
+    "9": {
+      "method1": true,
+      "method2": true
+    },
+    "10": {
+      "method1": true,
+      "method2": true
+    },
+    "15": {
+      "method1": true,
+      "method2": true
+    }
+  },
+  "table14_audit": {
+    "formula_derived_weights": {
+      "C1": 0.1262345163130515,
+      "C2": 0.12206684805505882,
+      "C3": 0.12443878638876937,
+      "C4": 0.12490907416170126,
+      "C5": 0.12719485035263672,
+      "C6": 0.12464404671816642,
+      "C7": 0.12711616541089593,
+      "C8": 0.12339571259972
+    },
+    "printed_table14_weights": {
+      "C1": 0.12628,
+      "C2": 0.1205,
+      "C3": 0.12452,
+      "C4": 0.12479,
+      "C5": 0.12723,
+      "C6": 0.12404,
+      "C7": 0.12797,
+      "C8": 0.12467
+    },
+    "max_abs_difference": 0.0015668480550588282,
+    "formula_weights_reproduce_table17_18": true,
+    "printed_table14_weights_reproduce_table17_18": false,
+    "interpretation": "Localized reporting inconsistency: Eq. (34) applied to the published raw inputs reproduces Tables 17-18, while the printed Table 14 weight vector does not."
+  },
+  "raw_transitions_q2_q50": {
+    "method1": [
+      {
+        "q": 3,
+        "from": "A1>A6>A3>A7>A2>A5>A4",
+        "to": "A1>A6>A3>A2>A7>A5>A4"
+      },
+      {
+        "q": 8,
+        "from": "A1>A6>A3>A2>A7>A5>A4",
+        "to": "A1>A6>A3>A2>A5>A7>A4"
+      },
+      {
+        "q": 15,
+        "from": "A1>A6>A3>A2>A5>A7>A4",
+        "to": "A1>A6>A3>A2>A5>A4>A7"
+      }
+    ],
+    "method2": [
+      {
+        "q": 3,
+        "from": "A1>A3>A2>A6>A7>A5>A4",
+        "to": "A1>A6>A3>A2>A7>A5>A4"
+      },
+      {
+        "q": 11,
+        "from": "A1>A6>A3>A2>A7>A5>A4",
+        "to": "A1>A6>A3>A2>A5>A7>A4"
+      }
+    ]
+  },
+  "controlled_transitions_q2_q50": {
+    "method1": [],
+    "method2": []
+  },
+  "max_controlled_cc_deviation_vs_q5": {
+    "method1": 1.887379141862766e-15,
+    "method2": 1.5543122344752192e-15
+  },
+  "max_controlled_entropy_weight_deviation_vs_q5": 2.7755575615628914e-17,
+  "decision": "ADMIT_WITH_LOCALIZED_TABLE14_REPORTING_INCONSISTENCY",
+  "claim_boundary": "Both controlled pipelines are theorem-compatible q-natural pipelines. The Table 14 discrepancy is retained as an audit note and not silently corrected."
+}

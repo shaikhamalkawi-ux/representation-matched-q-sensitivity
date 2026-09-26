@@ -1,4 +1,6 @@
-# v1.0.0 — Public reproducibility release
+# Historical planned v1.0.0 release notes
+
+Preserved baseline text, superseded by V18. This note is not proof that its planned code or Zenodo distribution was publicly available. Current files, scope and verified publication status are described in the root README and V18 directory; the original wording below is retained only for provenance.
 
 Initial public release supporting the manuscript “Representation-Matched q-Sensitivity: Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models.”
 

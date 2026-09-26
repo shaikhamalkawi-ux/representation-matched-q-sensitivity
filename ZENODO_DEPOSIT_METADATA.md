@@ -1,4 +1,6 @@
-# Zenodo deposit metadata — v1.0.0
+# Historical planned Zenodo metadata - v1.0.0
+
+Preserved for provenance only; this is not the current title, version, author-name convention, file inventory or proof of publication. The V18 metadata are in `.zenodo.json`, with corrected name **Ahmed Elsayed** and manuscript corresponding author **Mohammed Alhagyan**. The README records the actual publication status. Historical values below are superseded.
 
 ## Title
 Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Reversal and Decision Robustness in q-Rung Orthopair Fuzzy Models

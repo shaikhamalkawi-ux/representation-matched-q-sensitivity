@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "radius_decimal": "0.000995",
+  "radius_dyadic_hex": "0x1.04d551d68c693p-10",
+  "cover_nodes": 18515,
+  "binary_splits": 9257,
+  "positive_leaves": 9258,
+  "outside_leaves": 0,
+  "unresolved_nodes": 0,
+  "minimum_256_bit_leaf_lower": 5.325100040065448e-07,
+  "leaf_evaluation_bits": 256,
+  "cover_contraction_bits": 160,
+  "other_challengers": [
+    {
+      "challenger": "A2",
+      "margin_lower": 0.13474231602530778,
+      "margin_upper": 0.30986320035009307
+    },
+    {
+      "challenger": "A4",
+      "margin_lower": 0.08460198289743122,
+      "margin_upper": 0.26673155508739704
+    },
+    {
+      "challenger": "A5",
+      "margin_lower": 0.08700800821298368,
+      "margin_upper": 0.2581138898971965
+    }
+  ],
+  "elapsed_seconds": 69.84018111228943,
+  "trace_sha256": "a1345e58b8d83e646816b818fd00a1c221921d1d9dcb79a0bfcb280d6bd670c8",
+  "trust_boundary": "Independent cover reconstruction and higher-precision leaf re-evaluation, sharing the audited MPFR interval kernel; not a proof-assistant check."
+}

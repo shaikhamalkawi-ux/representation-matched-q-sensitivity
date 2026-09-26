@@ -1,0 +1,67 @@
+{
+  "case": "Du 2021 q-ROFEWA blockchain traceability design case",
+  "doi": "10.3233/JIFS-210548",
+  "baseline_q": 3,
+  "q_min": 2,
+  "q3_reproduction": {
+    "pass": true,
+    "max_pair_abs_error": "0.0000436967248851040793197561276215",
+    "max_score_abs_error": "0.0000455014121743377272331434679851"
+  },
+  "table2_all_published_q_values_reproduced_to_4dp": true,
+  "table2_max_pair_abs_error": "0.0000486014080023432213977786925828",
+  "table2_checks": {
+    "4": {
+      "within_4dp_rounding_interval": true,
+      "max_pair_abs_error": "0.0000427076764529834826642033641733",
+      "rank": "A2>A3>A4>A1"
+    },
+    "6": {
+      "within_4dp_rounding_interval": true,
+      "max_pair_abs_error": "0.0000486014080023432213977786925828",
+      "rank": "A2>A3>A4>A1"
+    },
+    "8": {
+      "within_4dp_rounding_interval": true,
+      "max_pair_abs_error": "0.0000409378020653884653881238897703",
+      "rank": "A2>A3>A4>A1"
+    },
+    "10": {
+      "within_4dp_rounding_interval": true,
+      "max_pair_abs_error": "0.0000417657811961902071138887738029",
+      "rank": "A2>A3>A1>A4"
+    },
+    "15": {
+      "within_4dp_rounding_interval": true,
+      "max_pair_abs_error": "0.000044111130788494879935205752826",
+      "rank": "A2>A1>A3>A4"
+    },
+    "20": {
+      "within_4dp_rounding_interval": true,
+      "max_pair_abs_error": "0.0000441771578023855443753840509957",
+      "rank": "A2>A1>A3>A4"
+    }
+  },
+  "raw_rank_transitions_q2_q50": [
+    {
+      "q": 3,
+      "from": "A2>A4>A3>A1",
+      "to": "A2>A3>A4>A1"
+    },
+    {
+      "q": 9,
+      "from": "A2>A3>A4>A1",
+      "to": "A2>A3>A1>A4"
+    },
+    {
+      "q": 11,
+      "from": "A2>A3>A1>A4",
+      "to": "A2>A1>A3>A4"
+    }
+  ],
+  "controlled_rank_transitions_q2_q50": [],
+  "max_controlled_score_deviation_vs_q3": "1.23870825832958647886095745102e-80",
+  "class": "CLASS_I_Q_NATURAL_EINSTEIN_AVERAGING_PLUS_Q_SCORE",
+  "interpretation": "The Einstein aggregation formulas depend on the orthopair through powered coordinates before the final inverse q-root; q-score is powered-coordinate invariant. Controlled invariance is theorem-compatible.",
+  "decision": "EXECUTABLE_ADMIT"
+}

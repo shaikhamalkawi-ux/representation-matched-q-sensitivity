@@ -1,0 +1,82 @@
+{
+  "case": "Khan et al. 2021 weighted-cosine qROF-TOPSIS Algorithm 1",
+  "doi": "10.1007/s40747-021-00425-7",
+  "baseline_q": 3,
+  "q_min": 1,
+  "table4_exact_to_printed_6dp": true,
+  "table4_max_abs_errors": {
+    "d_plus": 4.7621364318573e-07,
+    "d_minus": 4.5211294574798444e-07,
+    "cc": 3.3868572657524965e-07
+  },
+  "table5_all_q1_q10_within_one_4dp_unit": true,
+  "table5_max_abs_error": 9.742117487931967e-05,
+  "table5_checks": {
+    "1": {
+      "max_abs_error": 6.387521572237542e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y2>y5>y1>y4"
+    },
+    "2": {
+      "max_abs_error": 9.476726883628217e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y2>y5>y1>y4"
+    },
+    "3": {
+      "max_abs_error": 9.732635671844125e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y2>y1>y5>y4"
+    },
+    "4": {
+      "max_abs_error": 9.742117487931967e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    },
+    "5": {
+      "max_abs_error": 9.709328018669972e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    },
+    "6": {
+      "max_abs_error": 6.24358807774783e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    },
+    "7": {
+      "max_abs_error": 6.69523801043459e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    },
+    "8": {
+      "max_abs_error": 9.145242816011034e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    },
+    "9": {
+      "max_abs_error": 9.721115401506442e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    },
+    "10": {
+      "max_abs_error": 8.693485532962342e-05,
+      "within_one_last_printed_unit": true,
+      "rank": "y3>y1>y2>y5>y4"
+    }
+  },
+  "raw_rank_transitions_q1_q50": [
+    {
+      "q": 3,
+      "from": "y3>y2>y5>y1>y4",
+      "to": "y3>y2>y1>y5>y4"
+    },
+    {
+      "q": 4,
+      "from": "y3>y2>y1>y5>y4",
+      "to": "y3>y1>y2>y5>y4"
+    }
+  ],
+  "controlled_rank_transitions_q1_q50": [],
+  "max_controlled_closeness_deviation_vs_q3": 2.220446049250313e-16,
+  "decision": "EXECUTABLE_ADMIT",
+  "interpretation": "Eq. (20), the fixed ideals, and the closeness calculation factor through powered coordinates; controlled invariance is theorem-compatible."
+}

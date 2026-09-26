@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "rejected": 4,
+  "tested": 4,
+  "tests": [
+    {
+      "name": "wrong_challenger",
+      "rejected": true
+    },
+    {
+      "name": "radius_below_declared",
+      "rejected": true
+    },
+    {
+      "name": "precision_mismatch",
+      "rejected": true
+    },
+    {
+      "name": "invalid_root_id",
+      "rejected": true
+    }
+  ],
+  "scope": "Malformed header/root rejection; not exhaustive adversarial software verification"
+}
