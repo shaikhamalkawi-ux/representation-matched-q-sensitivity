@@ -30,10 +30,13 @@ python -B verify_manifest.py
 
 ## Zenodo access status
 
-The identifier **10.5281/zenodo.22793242** is currently reserved in a draft;
-publication is not yet verified. Do not cite it as an accessible public archive
-until this status has been updated after anonymous record/file verification.
-GitHub V22 access is independent of Zenodo publication.
+The [Zenodo V22 record](https://zenodo.org/records/22793242) was published on
+2026-09-28. Anonymous record access and a fresh V22 ZIP download were verified;
+the downloaded ZIP has exactly the SHA-256 and byte size reported above.
+The assigned DOI is **10.5281/zenodo.22793242**. Its resolver and DataCite
+registration were still pending in the immediate post-publication check;
+use the direct record link until resolver activation is verified.
+The historical V18 ZIP is retained and clearly identified in the record.
 
 ## Preserved history
 

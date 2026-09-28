@@ -3,6 +3,8 @@ message: "Please cite this versioned software archive and the associated manuscr
 title: "Winner-Path Complexity and Score Margins in a Two-Criterion Entropy-Weighted Orthopair Model — V22 Reproducibility Archive"
 type: software
 version: V22
+doi: "10.5281/zenodo.22793242"
+url: "https://zenodo.org/records/22793242"
 date-released: 2026-09-28
 repository-code: "https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity"
 license: CC0-1.0
