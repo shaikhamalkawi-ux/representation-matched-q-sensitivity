@@ -1,0 +1,2235 @@
+{
+  "candidate_count": 81,
+  "exclusions": {
+    "primary": [
+      {
+        "id": "PISA2022_row_56",
+        "name": "Cambodia",
+        "source_row": 56,
+        "original_labels": {
+          "mathematics": "Cambodia",
+          "reading": "Cambodia"
+        },
+        "reasons": [
+          "reading: mu_not_strictly_positive"
+        ]
+      },
+      {
+        "id": "PISA2022_row_59",
+        "name": "Dominican Republic",
+        "source_row": 59,
+        "original_labels": {
+          "mathematics": "Dominican Republic",
+          "reading": "Dominican Republic"
+        },
+        "reasons": [
+          "mathematics: mu_not_strictly_positive"
+        ]
+      },
+      {
+        "id": "PISA2022_row_60",
+        "name": "El Salvador",
+        "source_row": 60,
+        "original_labels": {
+          "mathematics": "El Salvador",
+          "reading": "El Salvador"
+        },
+        "reasons": [
+          "mathematics: mu_not_strictly_positive"
+        ]
+      },
+      {
+        "id": "PISA2022_row_93",
+        "name": "Viet Nam",
+        "source_row": 93,
+        "original_labels": {
+          "mathematics": "Viet Nam",
+          "reading": "Viet Nam**"
+        },
+        "reasons": [
+          "reading_double_star_linkage_warning"
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "id": "PISA2022_row_11",
+        "name": "Australia",
+        "source_row": 11,
+        "original_labels": {
+          "mathematics": "Australia*",
+          "reading": "Australia*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_14",
+        "name": "Canada",
+        "source_row": 14,
+        "original_labels": {
+          "mathematics": "Canada*",
+          "reading": "Canada*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_19",
+        "name": "Denmark",
+        "source_row": 19,
+        "original_labels": {
+          "mathematics": "Denmark*",
+          "reading": "Denmark*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_27",
+        "name": "Ireland",
+        "source_row": 27,
+        "original_labels": {
+          "mathematics": "Ireland*",
+          "reading": "Ireland*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_32",
+        "name": "Latvia",
+        "source_row": 32,
+        "original_labels": {
+          "mathematics": "Latvia*",
+          "reading": "Latvia*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_35",
+        "name": "Netherlands",
+        "source_row": 35,
+        "original_labels": {
+          "mathematics": "Netherlands*",
+          "reading": "Netherlands*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_36",
+        "name": "New Zealand",
+        "source_row": 36,
+        "original_labels": {
+          "mathematics": "New Zealand*",
+          "reading": "New Zealand*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_46",
+        "name": "United Kingdom",
+        "source_row": 46,
+        "original_labels": {
+          "mathematics": "United Kingdom*",
+          "reading": "United Kingdom*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_47",
+        "name": "United States",
+        "source_row": 47,
+        "original_labels": {
+          "mathematics": "United States*",
+          "reading": "United States*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_56",
+        "name": "Cambodia",
+        "source_row": 56,
+        "original_labels": {
+          "mathematics": "Cambodia",
+          "reading": "Cambodia"
+        },
+        "reasons": [
+          "reading: mu_not_strictly_positive"
+        ]
+      },
+      {
+        "id": "PISA2022_row_59",
+        "name": "Dominican Republic",
+        "source_row": 59,
+        "original_labels": {
+          "mathematics": "Dominican Republic",
+          "reading": "Dominican Republic"
+        },
+        "reasons": [
+          "mathematics: mu_not_strictly_positive"
+        ]
+      },
+      {
+        "id": "PISA2022_row_60",
+        "name": "El Salvador",
+        "source_row": 60,
+        "original_labels": {
+          "mathematics": "El Salvador",
+          "reading": "El Salvador"
+        },
+        "reasons": [
+          "mathematics: mu_not_strictly_positive"
+        ]
+      },
+      {
+        "id": "PISA2022_row_63",
+        "name": "Hong Kong (China)",
+        "source_row": 63,
+        "original_labels": {
+          "mathematics": "Hong Kong (China)*",
+          "reading": "Hong Kong (China)*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_65",
+        "name": "Jamaica",
+        "source_row": 65,
+        "original_labels": {
+          "mathematics": "Jamaica*",
+          "reading": "Jamaica*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_78",
+        "name": "Panama",
+        "source_row": 78,
+        "original_labels": {
+          "mathematics": "Panama*",
+          "reading": "Panama*"
+        },
+        "reasons": [
+          "single_star_sampling_warning"
+        ]
+      },
+      {
+        "id": "PISA2022_row_93",
+        "name": "Viet Nam",
+        "source_row": 93,
+        "original_labels": {
+          "mathematics": "Viet Nam",
+          "reading": "Viet Nam**"
+        },
+        "reasons": [
+          "reading_double_star_linkage_warning"
+        ]
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "id": "PISA2022_row_11",
+      "name": "Australia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_12",
+      "name": "Austria",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_13",
+      "name": "Belgium",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_14",
+      "name": "Canada",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_15",
+      "name": "Chile",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_16",
+      "name": "Colombia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_17",
+      "name": "Costa Rica",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_18",
+      "name": "Czech Republic",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_19",
+      "name": "Denmark",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_20",
+      "name": "Estonia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_21",
+      "name": "Finland",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_22",
+      "name": "France",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_23",
+      "name": "Germany",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_24",
+      "name": "Greece",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_25",
+      "name": "Hungary",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_26",
+      "name": "Iceland",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_27",
+      "name": "Ireland",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_28",
+      "name": "Israel",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_29",
+      "name": "Italy",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_30",
+      "name": "Japan",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_31",
+      "name": "Korea",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_32",
+      "name": "Latvia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_33",
+      "name": "Lithuania",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_34",
+      "name": "Mexico",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_35",
+      "name": "Netherlands",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_36",
+      "name": "New Zealand",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_37",
+      "name": "Norway",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_38",
+      "name": "Poland",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_39",
+      "name": "Portugal",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_40",
+      "name": "Slovak Republic",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_41",
+      "name": "Slovenia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_42",
+      "name": "Spain",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_43",
+      "name": "Sweden",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_44",
+      "name": "Switzerland",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_45",
+      "name": "Türkiye",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_46",
+      "name": "United Kingdom",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_47",
+      "name": "United States",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_50",
+      "name": "Albania",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_51",
+      "name": "Argentina",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_52",
+      "name": "Baku (Azerbaijan)",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_53",
+      "name": "Brazil",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_54",
+      "name": "Brunei Darussalam",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_55",
+      "name": "Bulgaria",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_56",
+      "name": "Cambodia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": false,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [
+          "reading: mu_not_strictly_positive"
+        ],
+        "secondary": [
+          "reading: mu_not_strictly_positive"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_57",
+      "name": "Croatia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_58",
+      "name": "Cyprus",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_59",
+      "name": "Dominican Republic",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": false,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [
+          "mathematics: mu_not_strictly_positive"
+        ],
+        "secondary": [
+          "mathematics: mu_not_strictly_positive"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_60",
+      "name": "El Salvador",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": false,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [
+          "mathematics: mu_not_strictly_positive"
+        ],
+        "secondary": [
+          "mathematics: mu_not_strictly_positive"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_61",
+      "name": "Georgia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_62",
+      "name": "Guatemala",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_63",
+      "name": "Hong Kong (China)",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_64",
+      "name": "Indonesia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_65",
+      "name": "Jamaica",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_66",
+      "name": "Jordan",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_67",
+      "name": "Kazakhstan",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_68",
+      "name": "Kosovo",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_69",
+      "name": "Macao (China)",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_70",
+      "name": "Malaysia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_71",
+      "name": "Malta",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_72",
+      "name": "Moldova",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_73",
+      "name": "Mongolia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_74",
+      "name": "Montenegro",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_75",
+      "name": "Morocco",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_76",
+      "name": "North Macedonia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_77",
+      "name": "Palestinian Authority",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_78",
+      "name": "Panama",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 1,
+          "sampling_warning": true,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": [
+          "single_star_sampling_warning"
+        ]
+      }
+    },
+    {
+      "id": "PISA2022_row_79",
+      "name": "Paraguay",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_80",
+      "name": "Peru",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_81",
+      "name": "Philippines",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_82",
+      "name": "Qatar",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_83",
+      "name": "Romania",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_84",
+      "name": "Saudi Arabia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_85",
+      "name": "Serbia",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_86",
+      "name": "Singapore",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_87",
+      "name": "Chinese Taipei",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_88",
+      "name": "Thailand",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_89",
+      "name": "Ukrainian regions (18 of 27)",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_90",
+      "name": "United Arab Emirates",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_91",
+      "name": "Uruguay",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_92",
+      "name": "Uzbekistan",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        }
+      },
+      "eligibility": {
+        "primary": true,
+        "secondary": true
+      },
+      "exclusion_reasons": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    {
+      "id": "PISA2022_row_93",
+      "name": "Viet Nam",
+      "warnings": {
+        "mathematics": {
+          "trailing_stars": 0,
+          "sampling_warning": false,
+          "reading_linkage_warning": false
+        },
+        "reading": {
+          "trailing_stars": 2,
+          "sampling_warning": false,
+          "reading_linkage_warning": true
+        }
+      },
+      "eligibility": {
+        "primary": false,
+        "secondary": false
+      },
+      "exclusion_reasons": {
+        "primary": [
+          "reading_double_star_linkage_warning"
+        ],
+        "secondary": [
+          "reading_double_star_linkage_warning"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "qol_primary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 55
+  },
+  "qol_secondary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 37
+  },
+  "cms_primary": {
+    "pair_scope": "six_nodes",
+    "max_strict_discordance": 16872
+  },
+  "cms_strict": {
+    "pair_scope": "six_nodes",
+    "max_strict_discordance": 17380
+  },
+  "pisa_primary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 5,
+    "standard_all_finite_q_wa_dominance": "Singapore; exact rational strict-domain coordinate test"
+  },
+  "pisa_secondary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 3,
+    "standard_all_finite_q_wa_dominance": "Singapore; exact rational strict-domain coordinate test"
+  },
+  "caa_primary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 1
+  },
+  "epa_primary": {
+    "pair_scope": "six_nodes",
+    "max_strict_discordance": 232,
+    "standard_all_finite_q_wa_saturation_names": [
+      "Sonoma, California",
+      "Karnes, Texas",
+      "Carbon, Wyoming"
+    ]
+  },
+  "epa_secondary": {
+    "pair_scope": "six_nodes",
+    "max_strict_discordance": 83,
+    "standard_all_finite_q_wa_saturation_names": [
+      "Sonoma, California"
+    ]
+  },
+  "housing_primary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 49
+  },
+  "housing_secondary": {
+    "pair_scope": "all961_nodes",
+    "max_strict_discordance": 43
+  }
+}

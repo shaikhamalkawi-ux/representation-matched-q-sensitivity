@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility archive, please cite the associated manuscript and this software archive."
-title: "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Changes and Winner Robustness in Orthopair Fuzzy Models"
+message: "Please cite this versioned software archive and the associated manuscript when appropriate."
+title: "Winner-Path Complexity and Score Margins in a Two-Criterion Entropy-Weighted Orthopair Model — V22 Reproducibility Archive"
 type: software
-version: V18
-date-released: 2026-09-26
+version: V22
+date-released: 2026-09-28
 repository-code: "https://github.com/shaikhamalkawi-ux/representation-matched-q-sensitivity"
 license: CC0-1.0
+abstract: "CC0 applies only to original material. Third-party data retain source conditions; see THIRD_PARTY_NOTICES.md. This computational companion is not the manuscript or peer review."
 authors:
   - family-names: Malkawi
     given-names: Ghassan
@@ -32,10 +33,10 @@ authors:
     email: wsuhana@unimap.edu.my
     affiliation: "Department of Mathematical Sciences, Faculty of Intelligent Computing, Universiti Malaysia Perlis, 02600, Arau, Perlis, Malaysia"
 keywords:
-  - q-rung orthopair fuzzy sets
-  - q-ROF
-  - representation matching
-  - rank reversal
-  - decision robustness
-  - sensitivity analysis
+  - orthopair fuzzy models
+  - entropy weighting
+  - winner-path complexity
+  - score margins
   - reproducibility
+  - interval certificates
+  - multi-criteria decision analysis

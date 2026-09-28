@@ -1,0 +1,895 @@
+{
+  "cohort": "qol_secondary",
+  "names_in_order": [
+    "101 Graz",
+    "102 Wien",
+    "201 Antwerpen",
+    "202 Bruxelles / Brussel",
+    "203 Liège",
+    "301 Burgas",
+    "302 Sofia",
+    "401 Zagreb",
+    "501 Lefkosia",
+    "601 Ostrava",
+    "602 Praha",
+    "701 Aalborg",
+    "702 København",
+    "801 Tallinn",
+    "901 Helsinki / Helsingfors",
+    "902 Oulu / Uleåborg",
+    "1001 Bordeaux",
+    "1002 Lille",
+    "1003 Marseille",
+    "1004 Rennes",
+    "1005 Strasbourg",
+    "1006 Paris",
+    "1101 Berlin",
+    "1102 Dortmund",
+    "1103 Essen",
+    "1104 Hamburg",
+    "1105 Leipzig",
+    "1106 München",
+    "1107 Rostock",
+    "1201 Athina",
+    "1202 Irakleio",
+    "1301 Budapest",
+    "1302 Miskolc",
+    "1401 Dublin",
+    "1501 Bologna",
+    "1502 Napoli",
+    "1503 Palermo",
+    "1504 Roma",
+    "1505 Torino",
+    "1506 Verona",
+    "1601 Vilnius",
+    "1701 Luxembourg",
+    "1801 Riga",
+    "1901 Valletta",
+    "2001 Amsterdam",
+    "2002 Groningen",
+    "2003 Rotterdam",
+    "2101 Białystok",
+    "2102 Gdańsk",
+    "2103 Kraków",
+    "2104 Warszawa",
+    "2201 Braga",
+    "2202 Lisboa",
+    "2301 Bucureşti",
+    "2302 Cluj-Napoca",
+    "2303 Piatra Neamţ",
+    "2401 Bratislava",
+    "2402 Košice",
+    "2501 Ljubljana",
+    "2601 Barcelona",
+    "2602 Madrid",
+    "2603 Málaga",
+    "2604 Oviedo",
+    "2701 Malmö",
+    "2702 Stockholm",
+    "2801 Belfast",
+    "2802 Cardiff",
+    "2803 Glasgow",
+    "2804 London",
+    "2805 Manchester",
+    "2806 Tyneside conurbation",
+    "2901 Reykjavík",
+    "3001 Oslo",
+    "3101 Genève",
+    "3102 Zürich",
+    "3201 Tirana",
+    "3301 Skopje",
+    "3401 Podgorica",
+    "3501 Beograd",
+    "3601 Ankara",
+    "3602 Istanbul",
+    "3603 Antalya",
+    "3604 Diyarbakir"
+  ],
+  "ids_in_order": [
+    "101",
+    "102",
+    "201",
+    "202",
+    "203",
+    "301",
+    "302",
+    "401",
+    "501",
+    "601",
+    "602",
+    "701",
+    "702",
+    "801",
+    "901",
+    "902",
+    "1001",
+    "1002",
+    "1003",
+    "1004",
+    "1005",
+    "1006",
+    "1101",
+    "1102",
+    "1103",
+    "1104",
+    "1105",
+    "1106",
+    "1107",
+    "1201",
+    "1202",
+    "1301",
+    "1302",
+    "1401",
+    "1501",
+    "1502",
+    "1503",
+    "1504",
+    "1505",
+    "1506",
+    "1601",
+    "1701",
+    "1801",
+    "1901",
+    "2001",
+    "2002",
+    "2003",
+    "2101",
+    "2102",
+    "2103",
+    "2104",
+    "2201",
+    "2202",
+    "2301",
+    "2302",
+    "2303",
+    "2401",
+    "2402",
+    "2501",
+    "2601",
+    "2602",
+    "2603",
+    "2604",
+    "2701",
+    "2702",
+    "2801",
+    "2802",
+    "2803",
+    "2804",
+    "2805",
+    "2806",
+    "2901",
+    "3001",
+    "3101",
+    "3102",
+    "3201",
+    "3301",
+    "3401",
+    "3501",
+    "3601",
+    "3602",
+    "3603",
+    "3604"
+  ],
+  "methods": {
+    "wa": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 6,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3403,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3377,
+            "strict_discordance": 26,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3370,
+            "strict_discordance": 33,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3367,
+            "strict_discordance": 36,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3369,
+            "strict_discordance": 34,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3372,
+            "strict_discordance": 31,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3372,
+            "strict_discordance": 31,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 36
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "wg": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 6,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3403,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3365,
+            "strict_discordance": 38,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3358,
+            "strict_discordance": 45,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3356,
+            "strict_discordance": 47,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3358,
+            "strict_discordance": 45,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3362,
+            "strict_discordance": 41,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3362,
+            "strict_discordance": 41,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 47
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "cosine_topsis": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 7,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3403,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3362,
+            "strict_discordance": 41,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3350,
+            "strict_discordance": 53,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3348,
+            "strict_discordance": 55,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3354,
+            "strict_discordance": 49,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3356,
+            "strict_discordance": 47,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 3403,
+            "strict_concordance": 3356,
+            "strict_discordance": 47,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 55
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "3102"
+        ],
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              74
+            ],
+            "ids": [
+              "3102"
+            ],
+            "names": [
+              "3102 Zürich"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    }
+  },
+  "q1_cross_method": {
+    "frozen_q1": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 3403,
+        "strict_concordance": 3281,
+        "strict_discordance": 122,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 12
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 3403,
+        "strict_concordance": 3317,
+        "strict_discordance": 86,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 6
+      }
+    },
+    "equal": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 3403,
+        "strict_concordance": 3277,
+        "strict_discordance": 126,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 11
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 3403,
+        "strict_concordance": 3309,
+        "strict_discordance": 94,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 8
+      }
+    }
+  },
+  "q1_dominance": {
+    "wa": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 805,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 805,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 805,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 805,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "wg": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 805,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 805,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 805,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 805,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "cosine_topsis": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 805,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 805,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 805,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 805,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    }
+  },
+  "validation_nodes": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    12,
+    16
+  ],
+  "tie_tolerance": 1e-12,
+  "array_layout": {
+    "q": {
+      "shape": [
+        961
+      ],
+      "dtype": "float64"
+    },
+    "weights_dynamic": {
+      "shape": [
+        961,
+        10
+      ],
+      "dtype": "float64"
+    },
+    "weights_frozen_q1": {
+      "shape": [
+        10
+      ],
+      "dtype": "float64"
+    },
+    "weights_equal": {
+      "shape": [
+        10
+      ],
+      "dtype": "float64"
+    },
+    "ids": {
+      "shape": [
+        83
+      ],
+      "dtype": "<U4"
+    },
+    "names": {
+      "shape": [
+        83
+      ],
+      "dtype": "<U26"
+    },
+    "wa__dynamic": {
+      "shape": [
+        961,
+        83
+      ],
+      "dtype": "float64"
+    },
+    "wa__frozen_q1": {
+      "shape": [
+        83
+      ],
+      "dtype": "float64"
+    },
+    "wa__equal": {
+      "shape": [
+        83
+      ],
+      "dtype": "float64"
+    },
+    "wg__dynamic": {
+      "shape": [
+        961,
+        83
+      ],
+      "dtype": "float64"
+    },
+    "wg__frozen_q1": {
+      "shape": [
+        83
+      ],
+      "dtype": "float64"
+    },
+    "wg__equal": {
+      "shape": [
+        83
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__dynamic": {
+      "shape": [
+        961,
+        83
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__frozen_q1": {
+      "shape": [
+        83
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__equal": {
+      "shape": [
+        83
+      ],
+      "dtype": "float64"
+    }
+  },
+  "invariant_array_semantics": "Frozen/equal one-dimensional score arrays broadcast identically to all 961 q nodes by proved matching identities; these are not 961 independent evaluations."
+}

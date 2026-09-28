@@ -1,0 +1,831 @@
+{
+  "cohort": "housing_secondary",
+  "names_in_order": [
+    "Alabama",
+    "Alaska",
+    "Arizona",
+    "Arkansas",
+    "California",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "District of Columbia",
+    "Florida",
+    "Georgia",
+    "Hawaii",
+    "Idaho",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Maine",
+    "Maryland",
+    "Massachusetts",
+    "Michigan",
+    "Minnesota",
+    "Mississippi",
+    "Missouri",
+    "Montana",
+    "Nebraska",
+    "Nevada",
+    "New Hampshire",
+    "New Jersey",
+    "New Mexico",
+    "New York",
+    "North Carolina",
+    "North Dakota",
+    "Ohio",
+    "Oklahoma",
+    "Oregon",
+    "Pennsylvania",
+    "Rhode Island",
+    "South Carolina",
+    "South Dakota",
+    "Tennessee",
+    "Texas",
+    "Utah",
+    "Vermont",
+    "Virginia",
+    "Washington",
+    "West Virginia",
+    "Wisconsin",
+    "Wyoming"
+  ],
+  "ids_in_order": [
+    "01",
+    "02",
+    "04",
+    "05",
+    "06",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "53",
+    "54",
+    "55",
+    "56"
+  ],
+  "methods": {
+    "wa": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 6,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1275,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1248,
+            "strict_discordance": 27,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1240,
+            "strict_discordance": 35,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1234,
+            "strict_discordance": 41,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1232,
+            "strict_discordance": 43,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1232,
+            "strict_discordance": 43,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1232,
+            "strict_discordance": 43,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 43
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "wg": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 7,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1275,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1251,
+            "strict_discordance": 24,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1239,
+            "strict_discordance": 36,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1227,
+            "strict_discordance": 48,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1224,
+            "strict_discordance": 51,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1223,
+            "strict_discordance": 52,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1223,
+            "strict_discordance": 52,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 52
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "cosine_topsis": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 6,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1275,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1252,
+            "strict_discordance": 23,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1234,
+            "strict_discordance": 41,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1228,
+            "strict_discordance": 47,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1226,
+            "strict_discordance": 49,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1226,
+            "strict_discordance": 49,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 1275,
+            "strict_concordance": 1226,
+            "strict_discordance": 49,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 49
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "38"
+        ],
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              34
+            ],
+            "ids": [
+              "38"
+            ],
+            "names": [
+              "North Dakota"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    }
+  },
+  "q1_cross_method": {
+    "frozen_q1": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 1275,
+        "strict_concordance": 1188,
+        "strict_discordance": 87,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 10
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 1275,
+        "strict_concordance": 1240,
+        "strict_discordance": 35,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 4
+      }
+    },
+    "equal": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 1275,
+        "strict_concordance": 1179,
+        "strict_discordance": 96,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 13
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 1275,
+        "strict_concordance": 1239,
+        "strict_discordance": 36,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 5
+      }
+    }
+  },
+  "q1_dominance": {
+    "wa": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 793,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 793,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 793,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 793,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "wg": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 793,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 793,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 793,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 793,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "cosine_topsis": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 793,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 793,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 793,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 793,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    }
+  },
+  "validation_nodes": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    12,
+    16
+  ],
+  "tie_tolerance": 1e-12,
+  "array_layout": {
+    "q": {
+      "shape": [
+        961
+      ],
+      "dtype": "float64"
+    },
+    "weights_dynamic": {
+      "shape": [
+        961,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "weights_frozen_q1": {
+      "shape": [
+        2
+      ],
+      "dtype": "float64"
+    },
+    "weights_equal": {
+      "shape": [
+        2
+      ],
+      "dtype": "float64"
+    },
+    "ids": {
+      "shape": [
+        51
+      ],
+      "dtype": "<U2"
+    },
+    "names": {
+      "shape": [
+        51
+      ],
+      "dtype": "<U20"
+    },
+    "wa__dynamic": {
+      "shape": [
+        961,
+        51
+      ],
+      "dtype": "float64"
+    },
+    "wa__frozen_q1": {
+      "shape": [
+        51
+      ],
+      "dtype": "float64"
+    },
+    "wa__equal": {
+      "shape": [
+        51
+      ],
+      "dtype": "float64"
+    },
+    "wg__dynamic": {
+      "shape": [
+        961,
+        51
+      ],
+      "dtype": "float64"
+    },
+    "wg__frozen_q1": {
+      "shape": [
+        51
+      ],
+      "dtype": "float64"
+    },
+    "wg__equal": {
+      "shape": [
+        51
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__dynamic": {
+      "shape": [
+        961,
+        51
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__frozen_q1": {
+      "shape": [
+        51
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__equal": {
+      "shape": [
+        51
+      ],
+      "dtype": "float64"
+    }
+  },
+  "invariant_array_semantics": "Frozen/equal one-dimensional score arrays broadcast identically to all 961 q nodes by proved matching identities; these are not 961 independent evaluations."
+}

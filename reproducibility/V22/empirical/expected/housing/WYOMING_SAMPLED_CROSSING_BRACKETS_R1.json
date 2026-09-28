@@ -1,0 +1,242 @@
+{
+  "qualification": "Adjacent-node opposite signs only; not certified root isolation or all-continuum enumeration.",
+  "rank_tolerance": 1e-12,
+  "brackets": [
+    {
+      "rival_id": "35",
+      "rival_name": "New Mexico",
+      "lower_node_q": 1.015625,
+      "upper_node_q": 1.03125,
+      "wyoming_minus_rival_lower": -2.9549352440372267e-05,
+      "wyoming_minus_rival_upper": 4.6927471232582896e-05,
+      "ranks_lower": [
+        22,
+        21
+      ],
+      "ranks_upper": [
+        21,
+        22
+      ],
+      "wyoming_minus_rival_q1": -9.552136401846933e-05,
+      "wyoming_minus_rival_q16": 0.019641868140438445
+    },
+    {
+      "rival_id": "16",
+      "rival_name": "Idaho",
+      "lower_node_q": 1.09375,
+      "upper_node_q": 1.109375,
+      "wyoming_minus_rival_lower": -6.748256384703222e-05,
+      "wyoming_minus_rival_upper": 3.182860616268712e-05,
+      "ranks_lower": [
+        21,
+        20
+      ],
+      "ranks_upper": [
+        20,
+        21
+      ],
+      "wyoming_minus_rival_q1": -0.0005154991969087419,
+      "wyoming_minus_rival_q16": 0.015783175808751215
+    },
+    {
+      "rival_id": "28",
+      "rival_name": "Mississippi",
+      "lower_node_q": 1.171875,
+      "upper_node_q": 1.1875,
+      "wyoming_minus_rival_lower": -0.00014730415421138066,
+      "wyoming_minus_rival_upper": 2.4240113458473544e-05,
+      "ranks_lower": [
+        20,
+        19
+      ],
+      "ranks_upper": [
+        19,
+        20
+      ],
+      "wyoming_minus_rival_q1": -0.001522509469304545,
+      "wyoming_minus_rival_q16": 0.021039101480823996
+    },
+    {
+      "rival_id": "42",
+      "rival_name": "Pennsylvania",
+      "lower_node_q": 1.375,
+      "upper_node_q": 1.390625,
+      "wyoming_minus_rival_lower": -4.3099214344755055e-05,
+      "wyoming_minus_rival_upper": 0.0001643408062885765,
+      "ranks_lower": [
+        19,
+        18
+      ],
+      "ranks_upper": [
+        18,
+        19
+      ],
+      "wyoming_minus_rival_q1": -0.003859487303782161,
+      "wyoming_minus_rival_q16": 0.018166334684927232
+    },
+    {
+      "rival_id": "01",
+      "rival_name": "Alabama",
+      "lower_node_q": 2.15625,
+      "upper_node_q": 2.171875,
+      "wyoming_minus_rival_lower": -7.141459052795174e-05,
+      "wyoming_minus_rival_upper": 4.655335508707559e-05,
+      "ranks_lower": [
+        18,
+        16
+      ],
+      "ranks_upper": [
+        16,
+        17
+      ],
+      "wyoming_minus_rival_q1": -0.011244154610448587,
+      "wyoming_minus_rival_q16": 0.007673200661239776
+    },
+    {
+      "rival_id": "27",
+      "rival_name": "Minnesota",
+      "lower_node_q": 2.15625,
+      "upper_node_q": 2.171875,
+      "wyoming_minus_rival_lower": -2.5921007572260457e-05,
+      "wyoming_minus_rival_upper": 7.151173264985378e-05,
+      "ranks_lower": [
+        18,
+        17
+      ],
+      "ranks_upper": [
+        16,
+        18
+      ],
+      "wyoming_minus_rival_q1": -0.009268717048892872,
+      "wyoming_minus_rival_q16": 0.006364396773677172
+    },
+    {
+      "rival_id": "47",
+      "rival_name": "Tennessee",
+      "lower_node_q": 5.703125,
+      "upper_node_q": 5.71875,
+      "wyoming_minus_rival_lower": -2.975074426814217e-07,
+      "wyoming_minus_rival_upper": 4.883315452675063e-06,
+      "ranks_lower": [
+        16,
+        15
+      ],
+      "ranks_upper": [
+        15,
+        16
+      ],
+      "wyoming_minus_rival_q1": -0.021190765845726767,
+      "wyoming_minus_rival_q16": 4.1747034493999635e-05
+    }
+  ],
+  "rival_coordinate_rows": [
+    {
+      "id": "01",
+      "name": "Alabama",
+      "mu": [
+        "133922/258461",
+        "1166866/1443709"
+      ],
+      "nu": [
+        "126353/516922",
+        "125608/1443709"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Idaho",
+      "mu": [
+        "6389/12372",
+        "423107/534627"
+      ],
+      "nu": [
+        "23207/98976",
+        "44963/534627"
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Minnesota",
+      "mu": [
+        "330353/631651",
+        "1339155/1681189"
+      ],
+      "nu": [
+        "144965/631651",
+        "137733/1681189"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Mississippi",
+      "mu": [
+        "29503/59348",
+        "131437/163397"
+      ],
+      "nu": [
+        "37953/148370",
+        "71268/816985"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "New Mexico",
+      "mu": [
+        "7770/15067",
+        "480952/600561"
+      ],
+      "nu": [
+        "19341/75335",
+        "302/3393"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "North Dakota",
+      "mu": [
+        "40624/63609",
+        "180539/212729"
+      ],
+      "nu": [
+        "10678/63609",
+        "1086/19339"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Pennsylvania",
+      "mu": [
+        "774278/1529725",
+        "2955389/3681430"
+      ],
+      "nu": [
+        "397841/1529725",
+        "155186/1840715"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Tennessee",
+      "mu": [
+        "221754/444887",
+        "3737/4606"
+      ],
+      "nu": [
+        "207225/889774",
+        "75252/969563"
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Wyoming",
+      "mu": [
+        "37349/65386",
+        "28367/36521"
+      ],
+      "nu": [
+        "12319/65386",
+        "17289/182605"
+      ]
+    }
+  ]
+}

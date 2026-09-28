@@ -1,0 +1,164 @@
+{
+  "status": "DIRECT_HTML_TRANSCRIPTION_NOT_YET_PDF_VISUALLY_VERIFIED",
+  "doi": "10.1007/s41066-021-00290-2",
+  "source": "https://www.proquest.com/docview/3344529124",
+  "table": "Table 2, five alternatives and five criteria; unlike the separate 2023 four-row case",
+  "raw_cells": [
+    [
+      [
+        "0.3",
+        "0.8"
+      ],
+      [
+        "0.7",
+        "0.3"
+      ],
+      [
+        "0.6",
+        "0.2"
+      ],
+      [
+        "0.2",
+        "0.6"
+      ],
+      [
+        "0.2",
+        "0.7"
+      ]
+    ],
+    [
+      [
+        "0.2",
+        "0.7"
+      ],
+      [
+        "0.7",
+        "0.2"
+      ],
+      [
+        "0.4",
+        "0.2"
+      ],
+      [
+        "0.2",
+        "0.5"
+      ],
+      [
+        "0.3",
+        "0.4"
+      ]
+    ],
+    [
+      [
+        "0.4",
+        "0.5"
+      ],
+      [
+        "0.5",
+        "0.6"
+      ],
+      [
+        "0.2",
+        "0.7"
+      ],
+      [
+        "0.3",
+        "0.8"
+      ],
+      [
+        "0.4",
+        "0.5"
+      ]
+    ],
+    [
+      [
+        "0.3",
+        "0.4"
+      ],
+      [
+        "0.5",
+        "0.2"
+      ],
+      [
+        "0.7",
+        "0.3"
+      ],
+      [
+        "0.5",
+        "0.8"
+      ],
+      [
+        "0.9",
+        "0.6"
+      ]
+    ],
+    [
+      [
+        "0.7",
+        "0.5"
+      ],
+      [
+        "0.7",
+        "0.5"
+      ],
+      [
+        "0.7",
+        "0.6"
+      ],
+      [
+        "0.2",
+        "0.3"
+      ],
+      [
+        "0.7",
+        "0.8"
+      ]
+    ]
+  ],
+  "cost_criteria_one_based": [
+    1,
+    4,
+    5
+  ],
+  "entropy_equation": "Eq5: numerator1+(1/l)*sum_a(mu_ab log(mu_ab)+nu_ab log(nu_ab)); normalize across criteria. Printed inner upper limit n instead of l, irrelevant in square5x5 example. Log base not specified in the inspected text.",
+  "printed_entropy_weights_eq10": [
+    "0.1888",
+    "0.1937",
+    "0.1982",
+    "0.1993",
+    "0.2200"
+  ],
+  "printed_ahp_weights_eq9": [
+    "0.04148",
+    "0.43754",
+    "0.27646",
+    "0.08564",
+    "0.15868"
+  ],
+  "score_eq1": "(1+mu^q-nu^q)/2; not V19's unshifted score scale",
+  "baseline": {
+    "q": 4,
+    "tau": 2
+  },
+  "printed_frank_wa_entropy_scores_table4": [
+    "0.6152",
+    "0.5584",
+    "0.5431",
+    "0.5797",
+    "0.5729"
+  ],
+  "printed_frank_wg_entropy_scores_table4": [
+    "0.6025",
+    "0.5350",
+    "0.4785",
+    "0.4565",
+    "0.4849"
+  ],
+  "sensitivity": "Section6 varies q at fixed raw Table2 numbers and tau=4; Table7 entropy WA winnerV1 at q3,4,5,8,10 andV5 at12,16,20. This is NOT representation-matched transport or an all-real-q certificate.",
+  "limitations": [
+    "PDF download/local hash not verified",
+    "No inferred natural-log convention may be attributed to original authors",
+    "Transcription and ordinary numerical checks are not outward certificates",
+    "Public reproducibility bundles must not include subscription text or PDF"
+  ]
+}

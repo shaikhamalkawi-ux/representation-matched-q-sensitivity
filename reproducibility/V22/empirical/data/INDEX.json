@@ -1,0 +1,24 @@
+{
+  "cohorts": [
+    "qol_primary",
+    "qol_secondary",
+    "cms_primary",
+    "cms_strict",
+    "pisa_primary",
+    "pisa_secondary",
+    "caa_primary",
+    "epa_primary",
+    "epa_secondary",
+    "housing_primary",
+    "housing_secondary"
+  ],
+  "domains": {
+    "qol": "EC_QOL2023",
+    "cms": "CMS_HCAHPS2026",
+    "pisa": "OECD_PISA2022",
+    "caa": "CAA_PUNCTUALITY2025",
+    "epa": "EPA_AQI2024_2025",
+    "housing": "ACS_HOUSING2024"
+  },
+  "analyses_are_related": true
+}

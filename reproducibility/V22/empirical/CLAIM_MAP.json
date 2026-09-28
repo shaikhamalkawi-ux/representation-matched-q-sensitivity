@@ -1,0 +1,283 @@
+{
+  "version": "V22 empirical",
+  "six_domains": 6,
+  "cohort_encodings": 11,
+  "computed_grid": {
+    "q": "1+k/64, k=0,...,960",
+    "primary": "run_empirical.py",
+    "all_grid_summary": "expected/*_summary.json",
+    "independent_seven_nodes": "verify_decimal.py",
+    "ordinary_precision": 90
+  },
+  "historical_wa_pair_scope": "expected/historical_wa.json (six/full node qualification retained)",
+  "expected_dynamic_outcomes": {
+    "qol_primary": {
+      "wa": {
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "max_rank_displacement": 6,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "max_rank_displacement": 3,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "max_rank_displacement": 4,
+        "top_set_changes": 0
+      }
+    },
+    "qol_secondary": {
+      "wa": {
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "max_rank_displacement": 6,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "max_rank_displacement": 6,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "3102 Zürich"
+        ],
+        "max_rank_displacement": 7,
+        "top_set_changes": 0
+      }
+    },
+    "cms_primary": {
+      "wa": {
+        "q1_top_names": [
+          "UNITY MEDICAL CENTER"
+        ],
+        "max_rank_displacement": 84,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "UNITY MEDICAL CENTER"
+        ],
+        "max_rank_displacement": 95,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "UNITY MEDICAL CENTER"
+        ],
+        "max_rank_displacement": 93,
+        "top_set_changes": 0
+      }
+    },
+    "cms_strict": {
+      "wa": {
+        "q1_top_names": [
+          "NORTH ADAMS REGIONAL HOSPITAL CORPORATION"
+        ],
+        "max_rank_displacement": 84,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "NORTH ADAMS REGIONAL HOSPITAL CORPORATION"
+        ],
+        "max_rank_displacement": 95,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "NORTH ADAMS REGIONAL HOSPITAL CORPORATION"
+        ],
+        "max_rank_displacement": 94,
+        "top_set_changes": 0
+      }
+    },
+    "pisa_primary": {
+      "wa": {
+        "q1_top_names": [
+          "Singapore"
+        ],
+        "max_rank_displacement": 2,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "Singapore"
+        ],
+        "max_rank_displacement": 2,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "Singapore"
+        ],
+        "max_rank_displacement": 1,
+        "top_set_changes": 0
+      }
+    },
+    "pisa_secondary": {
+      "wa": {
+        "q1_top_names": [
+          "Singapore"
+        ],
+        "max_rank_displacement": 2,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "Singapore"
+        ],
+        "max_rank_displacement": 0,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "Singapore"
+        ],
+        "max_rank_displacement": 1,
+        "top_set_changes": 0
+      }
+    },
+    "caa_primary": {
+      "wa": {
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "max_rank_displacement": 1,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "max_rank_displacement": 1,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "max_rank_displacement": 0,
+        "top_set_changes": 0
+      }
+    },
+    "epa_primary": {
+      "wa": {
+        "q1_top_names": [
+          "Sonoma, California",
+          "Karnes, Texas",
+          "Carbon, Wyoming"
+        ],
+        "max_rank_displacement": 4,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "Karnes, Texas",
+          "Carbon, Wyoming"
+        ],
+        "max_rank_displacement": 4,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "Karnes, Texas",
+          "Carbon, Wyoming"
+        ],
+        "max_rank_displacement": 4,
+        "top_set_changes": 0
+      }
+    },
+    "epa_secondary": {
+      "wa": {
+        "q1_top_names": [
+          "Sonoma, California"
+        ],
+        "max_rank_displacement": 4,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "max_rank_displacement": 4,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "max_rank_displacement": 3,
+        "top_set_changes": 0
+      }
+    },
+    "housing_primary": {
+      "wa": {
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "max_rank_displacement": 7,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "max_rank_displacement": 5,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "max_rank_displacement": 7,
+        "top_set_changes": 0
+      }
+    },
+    "housing_secondary": {
+      "wa": {
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "max_rank_displacement": 6,
+        "top_set_changes": 0
+      },
+      "wg": {
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "max_rank_displacement": 7,
+        "top_set_changes": 0
+      },
+      "cosine_topsis": {
+        "q1_top_names": [
+          "North Dakota"
+        ],
+        "max_rank_displacement": 6,
+        "top_set_changes": 0
+      }
+    }
+  },
+  "housing_posthoc": "verify_housing.py; expected/housing/*; all 961 Decimal60 nodes",
+  "elementary_controls": "run_empirical.py tests PISA exact dominance and EPA exact WA saturation",
+  "not_in_this_module": [
+    "QOL directed continuum certificates (separate theory module)",
+    "Raw official-source acquisition and extraction",
+    "Core theoretical proofs and certificates (separate theory module)",
+    "Manuscript author review or peer review"
+  ],
+  "no_accuracy_or_superiority_claim": true,
+  "optional_figure": "render_housing.py; unchanged frozen V22 R2 plotting block and data",
+  "printed_examples": "verify_published_examples.py; literal numeric tables only, 29/28/1 with printed WG mismatch preserved; not source reauthentication"
+}

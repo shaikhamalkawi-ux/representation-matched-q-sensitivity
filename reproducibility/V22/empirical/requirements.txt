@@ -1,0 +1,2 @@
+# Tested core replay dependency; Python >=3.11. No script installs packages.
+numpy==2.3.5

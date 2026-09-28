@@ -1,0 +1,2118 @@
+{
+  "status": "PASS_BOUNDED_EMPIRICAL_REPLAY",
+  "created_utc": "2026-09-28T15:47:07.400207+00:00",
+  "coverage": "Existing six purpose-selected domains, eleven related exact tables, three operators; no new sources or mathematical claim.",
+  "tested_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Windows; ordinary Python commands without -B; no module bytecode created"
+  },
+  "actual_archive_extraction": true,
+  "unrelated_working_directory": true,
+  "network_or_installation": false,
+  "tested_pre_QA_manifest": {
+    "bytes": 11945,
+    "sha256": "7038b47cb77dbcad61da0873782cd67356cb58854482e44a07fac1f39f3d1b6c"
+  },
+  "tested_archive": {
+    "bytes": 3972783,
+    "sha256": "db957997cb2d2d1f2ded711c7128d0e4a8da39cbcf928e9db0581ad532fbc459"
+  },
+  "metadata_only_seal": "Only this PUBLIC_QA.json and its manifest entry are added after successful replay; all tested payload bytes are unchanged.",
+  "grid": {
+    "status": "PASS",
+    "cohort_analyses": 11,
+    "nodes": 961,
+    "dynamic_operator_paths": 33,
+    "sampled_top_changes": 0,
+    "elapsed_seconds": 55.12391480000224
+  },
+  "independent_Decimal90": {
+    "status": "PASS",
+    "precision": 90,
+    "outward": false,
+    "nodes": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      12,
+      16
+    ],
+    "cohorts": [
+      {
+        "cohort": "qol_primary",
+        "status": "PASS",
+        "scalar_comparisons": 5247,
+        "maximum_error_against_primary": "3.60802415588916230921172901264961305033668230673475033650146242357269070876E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "qol_secondary",
+        "status": "PASS",
+        "scalar_comparisons": 5319,
+        "maximum_error_against_primary": "4.1012172384619424228638444110910494061778135948036305910641068618148934976E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "cms_primary",
+        "status": "PASS",
+        "scalar_comparisons": 199602,
+        "maximum_error_against_primary": "2.083648891210956827031506821330598718508215116755123955457588108706086577659E-15",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "cms_strict",
+        "status": "PASS",
+        "scalar_comparisons": 197460,
+        "maximum_error_against_primary": "2.210870346896877174833947878155439315001994741616676316345594615369786083364E-15",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "pisa_primary",
+        "status": "PASS",
+        "scalar_comparisons": 4869,
+        "maximum_error_against_primary": "2.31451999818620564055811756182727486566668218735085784795139792376416873618E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "pisa_secondary",
+        "status": "PASS",
+        "scalar_comparisons": 4113,
+        "maximum_error_against_primary": "2.51060178096384964159926252413664733246717683488475210286320534460333201683E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "caa_primary",
+        "status": "PASS",
+        "scalar_comparisons": 1467,
+        "maximum_error_against_primary": "2.4864387108226426036450817467903489868866432777259720253176513234121603860E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "epa_primary",
+        "status": "PASS",
+        "scalar_comparisons": 46701,
+        "maximum_error_against_primary": "4.09380436546283590362128390213457423225780385989084942368807085527363263407E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "epa_secondary",
+        "status": "PASS",
+        "scalar_comparisons": 20997,
+        "maximum_error_against_primary": "4.07247413637931199495289971969703515875543763092291875091526091576495278404E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "housing_primary",
+        "status": "PASS",
+        "scalar_comparisons": 3231,
+        "maximum_error_against_primary": "2.6817772555733779262945328925490580309324808100865308119265703068820576120E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      },
+      {
+        "cohort": "housing_secondary",
+        "status": "PASS",
+        "scalar_comparisons": 3231,
+        "maximum_error_against_primary": "3.1294085971841064822242938266337106491860271196213651431158023476434553708E-16",
+        "maximum_error_against_original_Decimal_reference": 0.0,
+        "rank_top_agreement": true
+      }
+    ],
+    "scalar_comparisons": 492237,
+    "full_grid_model_evaluation": false,
+    "continuum_certificate": false,
+    "elapsed_seconds": 80.95948819999467
+  },
+  "independent_housing_Decimal60": {
+    "status": "PASS",
+    "precision": 60,
+    "outward_rounded": false,
+    "continuum_certificate": false,
+    "nodes": 961,
+    "rows": 51,
+    "total_assertions": 133911,
+    "maximum_numeric_errors": {
+      "all_frozen_weights": "2.97315803877622817150620211874136689365586665E-16",
+      "all_frozen_scores": "3.38232420845392446142817321689297101984035149E-16",
+      "frozen_q": "0",
+      "plotted_rank_tolerance": "0",
+      "every_plotted_field.q": "0",
+      "every_plotted_field.weight_renters": "2.97315803877622817150620211874136689365586665E-16",
+      "every_plotted_field.weight_owners": "2.40530670077175171085745677801171956982578990E-16",
+      "every_plotted_field.north_dakota_score": "2.11558044909213599704921589128491185137988058E-16",
+      "every_plotted_field.north_dakota_gap": "2.51231917236436366327029259500787783032328553E-16",
+      "every_plotted_field.wyoming_score": "2.92439718164292033498259169423728024227363497E-16",
+      "every_plotted_field.above_minus_wyoming_score": "3.68930085625942520384932381324522522919732045E-16",
+      "every_plotted_field.wyoming_minus_below_score": "2.96588337745773856050362445341345802575120179E-16",
+      "every_plotted_field.normalized_maximum_displacement": "0",
+      "csv_numeric": "3.68930085625942520384932381324522522919732045E-16",
+      "all_crossing_brackets.lower_node_q": "0",
+      "all_crossing_brackets.upper_node_q": "0",
+      "all_crossing_brackets.wyoming_minus_rival_lower": "1.99452852285190632914418365977858290708351107E-16",
+      "all_crossing_brackets.wyoming_minus_rival_upper": "1.35803843456984753944609321895959761903191701E-16",
+      "all_crossing_brackets.wyoming_minus_rival_q1": "1.80799181720076658256137928030074031556927491E-16",
+      "all_crossing_brackets.wyoming_minus_rival_q16": "1.02289468096859956666832898395578247495163253E-16",
+      "summary_ranges.renters.minimum": "4.911162423215340095668289641372050164243338E-18",
+      "summary_ranges.renters.first_q_at_minimum": "0",
+      "summary_ranges.renters.maximum": "3.8838302884580114847950523183186112659021293E-17",
+      "summary_ranges.renters.first_q_at_maximum": "0",
+      "summary_ranges.renters.q1": "4.911162423215340095668289641372050164243338E-18",
+      "summary_ranges.renters.q16": "6.9525429829594006017756144274499499719250087E-17",
+      "summary_ranges.renters.range_percentage_points": "6.072859538635225247717766458185937505222045E-16",
+      "summary_ranges.owners.minimum": "1.161697115419885152049476816813887340978704E-18",
+      "summary_ranges.owners.first_q_at_minimum": "0",
+      "summary_ranges.owners.maximum": "4.4911162423215340095668289641372050164243338E-17",
+      "summary_ranges.owners.first_q_at_maximum": "0",
+      "summary_ranges.owners.q1": "4.4911162423215340095668289641372050164243338E-17",
+      "summary_ranges.owners.q16": "3.0474570170405993982243855725500500280749910E-17",
+      "summary_ranges.owners.range_percentage_points": "6.072859538635225247717766458185937505222042E-16",
+      "summary_north_dakota.minimum_sampled_all_rival_gap": "3.7964523490361146286209192517926523531878452E-17",
+      "summary_north_dakota.q_at_gap_minimum": "0",
+      "summary_north_dakota.maximum_sampled_all_rival_gap": "1.28488664178375353305558675711929571386371887E-16",
+      "summary_north_dakota.q_at_gap_maximum": "0",
+      "summary_north_dakota.minimum_sampled_score": "1.8676974726767669744165669791128814148155284E-17",
+      "summary_north_dakota.maximum_sampled_score": "5.6565257562366020606847567759282727700219396E-17",
+      "selected_nodes.q": "0",
+      "selected_nodes.weight_renters": "6.9525429829594006017756144274499499719250087E-17",
+      "selected_nodes.weight_owners": "8.8822828988022795849342880939579486540183843E-17",
+      "selected_nodes.north_dakota_score": "5.6565257562366020606847567759282727700219396E-17",
+      "selected_nodes.north_dakota_gap": "1.24392985711523028648752483024931307472131996E-16",
+      "selected_nodes.wyoming_score": "1.30305498624881139394945812146522014770761133E-16",
+      "selected_nodes.above_minus_wyoming_score": "2.07975049778508532481132543110494273351223055E-16",
+      "selected_nodes.wyoming_minus_below_score": "1.54619557873971302502202145699636875031771333E-16",
+      "selected_nodes.normalized_maximum_displacement": "0",
+      "summary_normalized": "0"
+    },
+    "wyoming": {
+      "rank_q1": 22,
+      "rank_q16": 15,
+      "minimum_sampled_rank": 15,
+      "maximum_sampled_rank": 22,
+      "sampled_opposite_sign_brackets": 7,
+      "near_tied_rival_nodes": 0
+    },
+    "normalized_maximum_displacement": "0.14",
+    "elapsed_seconds": 21.54747469999711
+  },
+  "printed_examples": {
+    "status": "PASS",
+    "printed_value_comparisons": 29,
+    "compatible_values": 28,
+    "incompatible_values": 1,
+    "checks": {
+      "all_four_basic_coordinates_compatible": true,
+      "all_five_WA_scores_compatible": true,
+      "WG_X1_failure_X2toX5_compatible": true,
+      "all_fifteen_Khan_values_compatible": true,
+      "Khan_order": true,
+      "source_code_unchanged": true
+    },
+    "rounding": "Closed half-last-decimal analyst compatibility convention; not a source rounding guarantee.",
+    "interpretation": "Printed WG Example4 X1 remains incompatible and reverses its top relative to printed q3 order; formula-only benchmark qualification is essential.",
+    "original_numeric_report_agrees_except_timestamp": true
+  },
+  "figure": {
+    "status": "PASS_LAYOUT_ONLY",
+    "frozen_V22_R2_PNG_byte_identity": {
+      "original": {
+        "bytes": 70260,
+        "sha256": "06b9281cf6acc305a1652e9e36a08c4a0578fef28dc2f80ad1cab1b7395ac61c"
+      },
+      "fresh": {
+        "bytes": 70260,
+        "sha256": "06b9281cf6acc305a1652e9e36a08c4a0578fef28dc2f80ad1cab1b7395ac61c"
+      }
+    },
+    "new_scientific_calculations": 0,
+    "visual_readback": "Original plot geometry retained; generated PDF independently rendered using Poppler and visually checked for clipping, overlap and legibility. The R4 and final renderer share unchanged plot/data; final PNG equality checked."
+  },
+  "full_grid_original_array_parity": {
+    "status": "PASS",
+    "array_fields": 209,
+    "scalars": 52197172,
+    "all_fields_exact": true,
+    "maximum_absolute_difference": 0.0,
+    "comparisons": [
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 79763,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 79763,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 79763,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 1979,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 1979,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 1979,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 1979,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 9610,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 10,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 10,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 79763,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 79763,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 79763,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 83,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 805,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 805,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 805,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "qol_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 805,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 3044448,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 3044448,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 3044448,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 3168,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 3655944,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 3655944,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 3655944,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 3655944,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 3011774,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 3011774,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 3011774,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 3134,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 3555876,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 3555876,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 3555876,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "cms_strict",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 3555876,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 73997,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 73997,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 73997,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 77,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 2298,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 2298,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 2298,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 2298,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 62465,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 62465,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 62465,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 65,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 1667,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 1667,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 1667,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "pisa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 1667,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 22103,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 22103,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 22103,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 23,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 113,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 113,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 113,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "caa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 113,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 712101,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 712101,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 712101,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 741,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 144887,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 144887,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 144887,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 144887,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 320013,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 320013,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 320013,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 333,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 30272,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 30272,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 30272,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "epa_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 30272,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 49011,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 49011,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 49011,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 839,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 839,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 839,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_primary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 839,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "q",
+        "scalars": 961,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_dynamic",
+        "scalars": 1922,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_frozen_q1",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "weights_equal",
+        "scalars": 2,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "ids",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "names",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__dynamic",
+        "scalars": 49011,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__frozen_q1",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wa__equal",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__dynamic",
+        "scalars": 49011,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__frozen_q1",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "wg__equal",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__dynamic",
+        "scalars": 49011,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__frozen_q1",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "ALL_METHOD_SCORES_R1.npz",
+        "field": "cosine_topsis__equal",
+        "scalars": 51,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominator_indices",
+        "scalars": 793,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "dominated_indices",
+        "scalars": 793,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wa_exact_equal_positive_weight_products",
+        "scalars": 793,
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "cohort": "housing_secondary",
+        "archive": "EXACT_DOMINANCE_R1.npz",
+        "field": "wg_exact_equal_positive_weight_products",
+        "scalars": 793,
+        "exact": true,
+        "max_abs_difference": 0.0
+      }
+    ]
+  },
+  "scientific_output_files": {
+    "grid/qol_primary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 1454025,
+      "sha256": "261ec1415d8905cabaa486e0131243af812a8a9666ff1672fabaa70989c51b30"
+    },
+    "grid/qol_primary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 2097,
+      "sha256": "67044b074df5aa887b6c1402e3344b942a344e48e978f30bc41b87a1be166d1c"
+    },
+    "grid/qol_secondary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 1518345,
+      "sha256": "b1efac214d9ed889c9ca5226282fb3258d7cd20f79e7fc074460deac5937e59d"
+    },
+    "grid/qol_secondary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1704,
+      "sha256": "a64e51f6a26403a1bb9f5b961b41c609f6171bf1cdadd2de1c720bd852a74706"
+    },
+    "grid/cms_primary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 46360680,
+      "sha256": "9685a50dba64d0ed0def4558ca0d9ba01318902142aafb14165d7c985b91392d"
+    },
+    "grid/cms_primary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1918119,
+      "sha256": "be6128a87c462a80b2538e2fb9422c8d9e71007ca1c05cb93f64297a9796f791"
+    },
+    "grid/cms_strict/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 45985346,
+      "sha256": "0f4a9e8b5630f66da7447e584c174abe6d8e308abd878b30efc80e11fe447b52"
+    },
+    "grid/cms_strict/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1885345,
+      "sha256": "0f45016dff3e66a2218f09cdb4029f24f1f2098490dfb3e209e3255fbc49f9e1"
+    },
+    "grid/pisa_primary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 1301023,
+      "sha256": "9e716ce69232e8a17c36a1fa9cfea7be4b50b20377dbbbb4a9b1551194073384"
+    },
+    "grid/pisa_primary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1804,
+      "sha256": "e01fcd4e4e6cc7f8fa8722158e32e9a5245a7ca79338383ecee2e3de2bbd1a60"
+    },
+    "grid/pisa_secondary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 1095945,
+      "sha256": "37c5e2716277a2b8ef5a80990d96ee2c0b9678fe8a8a11d4f9a0c5ce5c0059bc"
+    },
+    "grid/pisa_secondary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1612,
+      "sha256": "bee6b4340fabdc8024c40b2373bb6eea4b80bad03950a74f614118ca959d89d6"
+    },
+    "grid/caa_primary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 351705,
+      "sha256": "62de415ccb4ab0adb0a87f616d83f69a6c2b72da8aad1ef3e9baa73ab75998c0"
+    },
+    "grid/caa_primary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1105,
+      "sha256": "0f2bd1c355bc3099225de84fb6ea0acf14f1632a2bddd5af41f5b9417f8297c1"
+    },
+    "grid/epa_primary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 11359210,
+      "sha256": "91f33a4b2eb263f138f119e3008c0991bc89460a953c9b13449dfcef9efa5858"
+    },
+    "grid/epa_primary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 49823,
+      "sha256": "e0aa2d88e17208fe63a231ed2be1bb23436ade227894c97d31609d132146283e"
+    },
+    "grid/epa_secondary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 5352669,
+      "sha256": "486c8cad5b691910807f423c355b193b454926c00d255fed5c2d59129342edc7"
+    },
+    "grid/epa_secondary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 11412,
+      "sha256": "a927f4009f7511f0ab0a50c51100b8d688c6aa24fe530c5106ddadc2328a5a3f"
+    },
+    "grid/housing_primary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 948518,
+      "sha256": "ea9040c03df8fd0d2a369264d459b382181ae08b33d83feae53b65333c6f3afc"
+    },
+    "grid/housing_primary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1508,
+      "sha256": "05f663b139a550ce431dd251bee052ec308123c7e8b1d6c04acacee79a9b5aef"
+    },
+    "grid/housing_secondary/ALL_METHOD_SCORES_R1.npz": {
+      "bytes": 941322,
+      "sha256": "86be349a7fb0d7cfb22328a7825a430daa0ecc4ca0e5d9c84c5497ec6b63a085"
+    },
+    "grid/housing_secondary/EXACT_DOMINANCE_R1.npz": {
+      "bytes": 1502,
+      "sha256": "f0a88496daa9e34f76332dacf26d027ee500c2cbf31bf5b09e6cf6c491efe505"
+    },
+    "decimal/DECIMAL_REPLAY.json": {
+      "bytes": 4185,
+      "sha256": "ee5c31529ae00e6b3a05a20397c2f7f3ffbbb9a8e17d49e03b162a2fd8ba7cc1"
+    },
+    "housing/INDEPENDENT_RESULT_R1.json": {
+      "bytes": 11410,
+      "sha256": "612be471df5ecb9e63695c46e7bcf5d23fb4458e76f22aef460fd381fd2d8d20"
+    },
+    "housing/DECIMAL60_ALL_NODES_R1.json": {
+      "bytes": 5223138,
+      "sha256": "723c03291fab750fe295981714ae879bd636c0fe20452ec5f322e4297c6314dd"
+    },
+    "published/PUBLISHED_EXAMPLE_RESULTS_R2.json": {
+      "bytes": 15383,
+      "sha256": "a96daf8d600d07380fae27a4b05ef7b3bb9d04a4f30da8823bae961aaec7b546"
+    },
+    "figure/housing_mechanism.png": {
+      "bytes": 70260,
+      "sha256": "06b9281cf6acc305a1652e9e36a08c4a0578fef28dc2f80ad1cab1b7395ac61c"
+    },
+    "figure/housing_mechanism.pdf": {
+      "bytes": 18815,
+      "sha256": "9ca4d3d105add513154419f458bbf38a79f562f0331324ffe9a5924603773e72"
+    }
+  },
+  "kernels": {
+    "model_core.py": {
+      "source_basename": "compare_methods_r1.py",
+      "source": {
+        "bytes": 24825,
+        "sha256": "a4b526d624f2f0d719a21a544c6ffdba2129c66528403e6410264c00cff6859f"
+      },
+      "unchanged_function_source_sha256": {
+        "utc": "eaf581fceee82ef95cedac7d0369ead3de59532e834ccec7e141b018164760c0",
+        "canonical": "f598c641f012cf157b63d6118a7f8efe4935633db0b2099c7302b4dffb74b1ec",
+        "digest": "a804309b8d14509551db4368edffa720f69ea13d05396177c269c7819c087ed4",
+        "file_pin": "89ab6c8d5ab285a25e979f13a39be7e6b31de06f32ebe36a2a68074f6d92f348",
+        "write_json": "ab99d05e55b8ac4257f9118126b23a62b41f2646d01fbda03c032a4ffa4a0f7a",
+        "write_npz": "47a646e2e591836893d521fc9bc6a714c77bd77db94925d25dba82822b7518e8",
+        "require": "8c712510f4d80e6894b5229c011e7ce59161462f166f5cdcdec4e06f588f26b8",
+        "entropy_weights": "553c005e102fe738da0791cf3ea5f961856e10322bb292a5bad827c9a2eaf6e8",
+        "log_products": "08cfca088ab6c800823b4be5275062c10b61274a0abce090e597af2c1cc87d6a",
+        "scores_for_weights": "481d1b805c6cbc078e9ee2d68df9bc171ae57819e1aa9271f8bfa36bbe79f89d",
+        "ranks": "1893ad9ceb60f570c20bb6f77d0e8a13eae880e3526d9a6ab2a171e062625aaf",
+        "top_indices": "37a90610b0da7b397fdf4317e05cee821badb7fded60208e0e71a00a93d2499c",
+        "pair_categories": "0f44cbb2a1bc463f1094387008310291a1ec0b49b4955bc923a988cbf6909241",
+        "trajectory_summary": "02fb789276867d24b2dca6c31f9286f837cbc2b9a2df772d1e24a974e539b75e",
+        "exact_dominance": "55577f34d0814d9d23bdab250e097cb1a49eb3edabff70636629161c93a7c9ea",
+        "dominance_summary": "b0fe55266101b057985841aa86642717334bb22ec783c08bbaab6e6a79ef04d4",
+        "evaluate_cohort": "951baf764d3ab2fe3b8476ac4dd6da4f01663cd985a58a78f5bd681fd7d490dc",
+        "synthetic_tests": "5fba583a2d05e6e26a8de05c1aae37a14023688b569eda2b2e7ea068139e9bff"
+      },
+      "changes": "New minimal imports/constants; exact named function source copied verbatim; private loader/main/admission omitted."
+    },
+    "decimal_core.py": {
+      "source_basename": "decimal80_comparison_r2.py",
+      "source": {
+        "bytes": 14010,
+        "sha256": "d594331396d162fa6da4a36cf5263dcb03cf45d00f589b7f99e5939ca2a85b5a"
+      },
+      "unchanged_function_source_sha256": {
+        "decimal_fraction": "d514b77bcc1bcf092da2538136a821fd5d4c163f861e9088f1a2584c829fa596",
+        "decimal_pi": "e5aee7ae9793bcaea44761b5423e29040d326091daea0b9121a0392027c6d844",
+        "cosine": "be0319226123250e3c53bc14545f5115bd41582c192b2efa093a0ac102693ddb",
+        "power": "541487f29b396c9b33b2a8104fcacff58ccea6e26266833bc598434014e06cb7",
+        "product_power": "cbdd3f5531b8a9fd0638060c3be3114547f550fa9831bc69e0899faf44bc8603",
+        "reduced": "9f2b25be1862e015669859c32d2df86541ebc04219b33d6f968677fee75d6959",
+        "literal_transport": "1ae1a4fbc17c0f96e8a9fc0dea0e28618990b8bd11675f6dd7b91d7c88f2a744",
+        "synthetic_gates": "0eacad9a3e49877ba02e856de4de83988a3b2030dd5e9ff79701bac0e31500e2",
+        "caches_for": "82c65c451abe6ea70f14b3cd7e57e39a38165f351994808a0898ccef220790d3",
+        "entropy_weights": "7cee94fab0e55629af6faed0c1c1100307f919092a3afedc3017d118adbb29fa",
+        "scores": "274634926b60456a5a1b4f02d1513d4da82ebd247cf0a456d6e2cc7e6a49d9aa",
+        "fmt": "e9b9d1ca966fd6253c7eaf40e7546d2ed63e0ff1f10ea3509cdd69a521861d3e"
+      },
+      "changes": "Minimal imports; exact named function source copied verbatim; only portable wrapper/I/O is new."
+    }
+  },
+  "source_provenance_file": {
+    "bytes": 20878,
+    "sha256": "4ffaafebe3e89fb2381e76ad84b624e2d3f51ef7b9f016c35d530cbbd49e9a4d"
+  },
+  "prior_wrapper_history": [
+    {
+      "revision": "R1",
+      "status": "INCOMPLETE_FAIL",
+      "reason": "Decimal child intentionally stopped during repeated reference-NPZ decompression; no observed numerical mismatch; other completed jobs retained."
+    },
+    {
+      "revision": "R3",
+      "status": "INCOMPLETE_FAIL",
+      "reason": "Same I/O issue; retained, not counted as a successful full replay."
+    },
+    {
+      "revision": "R4",
+      "status": "PASS",
+      "reason": "Cached reference-array I/O; full replay passed before final dependency/bytecode/60 explicit weight-check refinements."
+    }
+  ],
+  "counts_are_checks_not_experiments": true,
+  "not_claimed": [
+    "Original-source acquisition/extraction rerun",
+    "Continuum inference from grid",
+    "Native fuzzy elicitation or population prevalence",
+    "Accuracy or superiority",
+    "New theorem",
+    "Human specialist or author review completed"
+  ]
+}

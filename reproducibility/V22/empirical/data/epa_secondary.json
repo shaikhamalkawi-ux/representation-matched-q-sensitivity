@@ -1,0 +1,4018 @@
+{
+  "source_id": "EPA_AQI2024_2025",
+  "shape": [
+    333,
+    2
+  ],
+  "criteria": [
+    "2024",
+    "2025"
+  ],
+  "ids_sha256": "a3fca148287f5bf0894bd4dbf1627183a0fe4d6c1c56603b3e1eb97a7276016c",
+  "canonical_fraction_rows_sha256": "5b9af077910f2a159991f38d8bb2033e48c1e3ae556e4bdf3959a0708f4aeb9d",
+  "coordinate_boundary_counts": {
+    "mu_zero": 0,
+    "mu_one": 1,
+    "nu_zero": 186,
+    "nu_one": 0,
+    "residual_zero": 1
+  },
+  "rows": [
+    {
+      "id": "Alabama|DeKalb",
+      "name": "DeKalb, Alabama",
+      "mu": [
+        "277/366",
+        "282/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Alabama|Jefferson",
+      "name": "Jefferson, Alabama",
+      "mu": [
+        "95/366",
+        "159/365"
+      ],
+      "nu": [
+        "1/61",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Alabama|Morgan",
+      "name": "Morgan, Alabama",
+      "mu": [
+        "44/61",
+        "288/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Alaska|Anchorage ",
+      "name": "Anchorage , Alaska",
+      "mu": [
+        "99/122",
+        "289/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Alaska|Fairbanks North Star ",
+      "name": "Fairbanks North Star , Alaska",
+      "mu": [
+        "71/122",
+        "206/365"
+      ],
+      "nu": [
+        "25/366",
+        "4/73"
+      ]
+    },
+    {
+      "id": "Arizona|Cochise",
+      "name": "Cochise, Arizona",
+      "mu": [
+        "75/122",
+        "51/73"
+      ],
+      "nu": [
+        "13/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Arizona|Coconino",
+      "name": "Coconino, Arizona",
+      "mu": [
+        "125/183",
+        "256/365"
+      ],
+      "nu": [
+        "5/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Arizona|Gila",
+      "name": "Gila, Arizona",
+      "mu": [
+        "193/366",
+        "229/365"
+      ],
+      "nu": [
+        "29/366",
+        "3/73"
+      ]
+    },
+    {
+      "id": "Arizona|Maricopa",
+      "name": "Maricopa, Arizona",
+      "mu": [
+        "11/122",
+        "32/365"
+      ],
+      "nu": [
+        "73/366",
+        "38/365"
+      ]
+    },
+    {
+      "id": "Arizona|Pima",
+      "name": "Pima, Arizona",
+      "mu": [
+        "113/366",
+        "123/365"
+      ],
+      "nu": [
+        "2/61",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Arizona|Pinal",
+      "name": "Pinal, Arizona",
+      "mu": [
+        "77/366",
+        "62/365"
+      ],
+      "nu": [
+        "35/183",
+        "34/365"
+      ]
+    },
+    {
+      "id": "Arkansas|Crittenden",
+      "name": "Crittenden, Arkansas",
+      "mu": [
+        "49/61",
+        "59/73"
+      ],
+      "nu": [
+        "5/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Arkansas|Pulaski",
+      "name": "Pulaski, Arkansas",
+      "mu": [
+        "59/183",
+        "114/365"
+      ],
+      "nu": [
+        "5/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Arkansas|Washington",
+      "name": "Washington, Arkansas",
+      "mu": [
+        "152/183",
+        "304/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Butte",
+      "name": "Butte, California",
+      "mu": [
+        "77/122",
+        "238/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Colusa",
+      "name": "Colusa, California",
+      "mu": [
+        "34/183",
+        "289/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|El Dorado",
+      "name": "El Dorado, California",
+      "mu": [
+        "87/122",
+        "64/73"
+      ],
+      "nu": [
+        "4/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "California|Fresno",
+      "name": "Fresno, California",
+      "mu": [
+        "71/366",
+        "21/73"
+      ],
+      "nu": [
+        "79/366",
+        "34/365"
+      ]
+    },
+    {
+      "id": "California|Glenn",
+      "name": "Glenn, California",
+      "mu": [
+        "146/183",
+        "4/5"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Humboldt",
+      "name": "Humboldt, California",
+      "mu": [
+        "133/183",
+        "57/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Imperial",
+      "name": "Imperial, California",
+      "mu": [
+        "83/366",
+        "101/365"
+      ],
+      "nu": [
+        "25/183",
+        "44/365"
+      ]
+    },
+    {
+      "id": "California|Inyo",
+      "name": "Inyo, California",
+      "mu": [
+        "15/61",
+        "136/365"
+      ],
+      "nu": [
+        "5/61",
+        "13/365"
+      ]
+    },
+    {
+      "id": "California|Kern",
+      "name": "Kern, California",
+      "mu": [
+        "38/183",
+        "64/365"
+      ],
+      "nu": [
+        "47/183",
+        "13/73"
+      ]
+    },
+    {
+      "id": "California|Kings",
+      "name": "Kings, California",
+      "mu": [
+        "50/183",
+        "126/365"
+      ],
+      "nu": [
+        "35/366",
+        "11/365"
+      ]
+    },
+    {
+      "id": "California|Los Angeles",
+      "name": "Los Angeles, California",
+      "mu": [
+        "19/183",
+        "39/365"
+      ],
+      "nu": [
+        "133/366",
+        "98/365"
+      ]
+    },
+    {
+      "id": "California|Madera",
+      "name": "Madera, California",
+      "mu": [
+        "163/366",
+        "184/365"
+      ],
+      "nu": [
+        "25/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "California|Mendocino",
+      "name": "Mendocino, California",
+      "mu": [
+        "2/3",
+        "269/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Merced",
+      "name": "Merced, California",
+      "mu": [
+        "28/61",
+        "186/365"
+      ],
+      "nu": [
+        "35/366",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Mono",
+      "name": "Mono, California",
+      "mu": [
+        "341/366",
+        "329/365"
+      ],
+      "nu": [
+        "0",
+        "7/365"
+      ]
+    },
+    {
+      "id": "California|Monterey",
+      "name": "Monterey, California",
+      "mu": [
+        "146/183",
+        "314/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Orange",
+      "name": "Orange, California",
+      "mu": [
+        "119/366",
+        "138/365"
+      ],
+      "nu": [
+        "8/183",
+        "13/365"
+      ]
+    },
+    {
+      "id": "California|Placer",
+      "name": "Placer, California",
+      "mu": [
+        "94/183",
+        "167/365"
+      ],
+      "nu": [
+        "9/122",
+        "2/365"
+      ]
+    },
+    {
+      "id": "California|Plumas",
+      "name": "Plumas, California",
+      "mu": [
+        "94/183",
+        "193/365"
+      ],
+      "nu": [
+        "8/183",
+        "2/73"
+      ]
+    },
+    {
+      "id": "California|Riverside",
+      "name": "Riverside, California",
+      "mu": [
+        "43/366",
+        "39/365"
+      ],
+      "nu": [
+        "49/122",
+        "109/365"
+      ]
+    },
+    {
+      "id": "California|Sacramento",
+      "name": "Sacramento, California",
+      "mu": [
+        "91/183",
+        "198/365"
+      ],
+      "nu": [
+        "5/122",
+        "1/73"
+      ]
+    },
+    {
+      "id": "California|San Benito",
+      "name": "San Benito, California",
+      "mu": [
+        "130/183",
+        "334/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "California|San Bernardino",
+      "name": "San Bernardino, California",
+      "mu": [
+        "20/183",
+        "46/365"
+      ],
+      "nu": [
+        "24/61",
+        "22/73"
+      ]
+    },
+    {
+      "id": "California|San Diego",
+      "name": "San Diego, California",
+      "mu": [
+        "47/366",
+        "64/365"
+      ],
+      "nu": [
+        "26/183",
+        "33/365"
+      ]
+    },
+    {
+      "id": "California|San Joaquin",
+      "name": "San Joaquin, California",
+      "mu": [
+        "89/183",
+        "3/5"
+      ],
+      "nu": [
+        "11/366",
+        "0"
+      ]
+    },
+    {
+      "id": "California|San Luis Obispo",
+      "name": "San Luis Obispo, California",
+      "mu": [
+        "193/366",
+        "191/365"
+      ],
+      "nu": [
+        "5/183",
+        "7/365"
+      ]
+    },
+    {
+      "id": "California|Santa Barbara",
+      "name": "Santa Barbara, California",
+      "mu": [
+        "193/366",
+        "164/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Santa Cruz",
+      "name": "Santa Cruz, California",
+      "mu": [
+        "293/366",
+        "64/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Shasta",
+      "name": "Shasta, California",
+      "mu": [
+        "134/183",
+        "276/365"
+      ],
+      "nu": [
+        "2/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "California|Sonoma",
+      "name": "Sonoma, California",
+      "mu": [
+        "58/61",
+        "1"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "California|Stanislaus",
+      "name": "Stanislaus, California",
+      "mu": [
+        "83/183",
+        "182/365"
+      ],
+      "nu": [
+        "19/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "California|Tehama",
+      "name": "Tehama, California",
+      "mu": [
+        "42/61",
+        "284/365"
+      ],
+      "nu": [
+        "1/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "California|Tulare",
+      "name": "Tulare, California",
+      "mu": [
+        "38/183",
+        "88/365"
+      ],
+      "nu": [
+        "37/122",
+        "43/365"
+      ]
+    },
+    {
+      "id": "California|Ventura",
+      "name": "Ventura, California",
+      "mu": [
+        "191/366",
+        "38/73"
+      ],
+      "nu": [
+        "5/122",
+        "8/365"
+      ]
+    },
+    {
+      "id": "California|Yolo",
+      "name": "Yolo, California",
+      "mu": [
+        "119/183",
+        "213/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Colorado|Adams",
+      "name": "Adams, Colorado",
+      "mu": [
+        "49/122",
+        "201/365"
+      ],
+      "nu": [
+        "11/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Colorado|Arapahoe",
+      "name": "Arapahoe, Colorado",
+      "mu": [
+        "98/183",
+        "212/365"
+      ],
+      "nu": [
+        "17/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Colorado|Boulder",
+      "name": "Boulder, Colorado",
+      "mu": [
+        "106/183",
+        "213/365"
+      ],
+      "nu": [
+        "5/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Colorado|Denver",
+      "name": "Denver, Colorado",
+      "mu": [
+        "43/122",
+        "184/365"
+      ],
+      "nu": [
+        "29/366",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Colorado|El Paso",
+      "name": "El Paso, Colorado",
+      "mu": [
+        "101/183",
+        "249/365"
+      ],
+      "nu": [
+        "7/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Colorado|Garfield",
+      "name": "Garfield, Colorado",
+      "mu": [
+        "36/61",
+        "252/365"
+      ],
+      "nu": [
+        "5/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Colorado|Jefferson",
+      "name": "Jefferson, Colorado",
+      "mu": [
+        "32/61",
+        "43/73"
+      ],
+      "nu": [
+        "37/366",
+        "13/365"
+      ]
+    },
+    {
+      "id": "Colorado|La Plata",
+      "name": "La Plata, Colorado",
+      "mu": [
+        "121/183",
+        "222/365"
+      ],
+      "nu": [
+        "1/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Colorado|Larimer",
+      "name": "Larimer, Colorado",
+      "mu": [
+        "26/61",
+        "37/73"
+      ],
+      "nu": [
+        "23/366",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Colorado|Mesa",
+      "name": "Mesa, Colorado",
+      "mu": [
+        "215/366",
+        "238/365"
+      ],
+      "nu": [
+        "7/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Colorado|Montezuma",
+      "name": "Montezuma, Colorado",
+      "mu": [
+        "131/183",
+        "274/365"
+      ],
+      "nu": [
+        "1/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Colorado|Prowers",
+      "name": "Prowers, Colorado",
+      "mu": [
+        "107/122",
+        "338/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Colorado|Pueblo",
+      "name": "Pueblo, Colorado",
+      "mu": [
+        "83/122",
+        "268/365"
+      ],
+      "nu": [
+        "4/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Colorado|Weld",
+      "name": "Weld, Colorado",
+      "mu": [
+        "149/366",
+        "163/365"
+      ],
+      "nu": [
+        "7/122",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Connecticut|Fairfield",
+      "name": "Fairfield, Connecticut",
+      "mu": [
+        "124/183",
+        "236/365"
+      ],
+      "nu": [
+        "7/122",
+        "21/365"
+      ]
+    },
+    {
+      "id": "Connecticut|Hartford",
+      "name": "Hartford, Connecticut",
+      "mu": [
+        "140/183",
+        "248/365"
+      ],
+      "nu": [
+        "7/366",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Connecticut|New Haven",
+      "name": "New Haven, Connecticut",
+      "mu": [
+        "130/183",
+        "49/73"
+      ],
+      "nu": [
+        "2/61",
+        "13/365"
+      ]
+    },
+    {
+      "id": "Delaware|New Castle",
+      "name": "New Castle, Delaware",
+      "mu": [
+        "41/61",
+        "47/73"
+      ],
+      "nu": [
+        "2/183",
+        "4/365"
+      ]
+    },
+    {
+      "id": "District Of Columbia|District of Columbia",
+      "name": "District of Columbia, District Of Columbia",
+      "mu": [
+        "233/366",
+        "241/365"
+      ],
+      "nu": [
+        "2/183",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Florida|Brevard",
+      "name": "Brevard, Florida",
+      "mu": [
+        "311/366",
+        "333/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Florida|Broward",
+      "name": "Broward, Florida",
+      "mu": [
+        "71/122",
+        "268/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Florida|Collier",
+      "name": "Collier, Florida",
+      "mu": [
+        "93/122",
+        "263/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Florida|Duval",
+      "name": "Duval, Florida",
+      "mu": [
+        "95/183",
+        "35/73"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Florida|Escambia",
+      "name": "Escambia, Florida",
+      "mu": [
+        "128/183",
+        "269/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Florida|Miami-Dade",
+      "name": "Miami-Dade, Florida",
+      "mu": [
+        "73/122",
+        "206/365"
+      ],
+      "nu": [
+        "2/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Florida|Palm Beach",
+      "name": "Palm Beach, Florida",
+      "mu": [
+        "257/366",
+        "279/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Florida|Santa Rosa",
+      "name": "Santa Rosa, Florida",
+      "mu": [
+        "235/366",
+        "258/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Georgia|Bibb",
+      "name": "Bibb, Georgia",
+      "mu": [
+        "179/366",
+        "156/365"
+      ],
+      "nu": [
+        "1/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Georgia|DeKalb",
+      "name": "DeKalb, Georgia",
+      "mu": [
+        "89/183",
+        "213/365"
+      ],
+      "nu": [
+        "1/61",
+        "0"
+      ]
+    },
+    {
+      "id": "Georgia|Dougherty",
+      "name": "Dougherty, Georgia",
+      "mu": [
+        "227/366",
+        "209/365"
+      ],
+      "nu": [
+        "2/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Georgia|Fulton",
+      "name": "Fulton, Georgia",
+      "mu": [
+        "31/61",
+        "198/365"
+      ],
+      "nu": [
+        "2/183",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Georgia|Muscogee",
+      "name": "Muscogee, Georgia",
+      "mu": [
+        "193/366",
+        "199/365"
+      ],
+      "nu": [
+        "7/366",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Hawaii|Hawaii",
+      "name": "Hawaii, Hawaii",
+      "mu": [
+        "355/366",
+        "314/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Hawaii|Honolulu",
+      "name": "Honolulu, Hawaii",
+      "mu": [
+        "60/61",
+        "71/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Idaho|Ada",
+      "name": "Ada, Idaho",
+      "mu": [
+        "115/183",
+        "54/73"
+      ],
+      "nu": [
+        "35/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Idaho|Bannock",
+      "name": "Bannock, Idaho",
+      "mu": [
+        "143/183",
+        "324/365"
+      ],
+      "nu": [
+        "1/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Idaho|Boise",
+      "name": "Boise, Idaho",
+      "mu": [
+        "63/122",
+        "257/365"
+      ],
+      "nu": [
+        "49/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Idaho|Idaho",
+      "name": "Idaho, Idaho",
+      "mu": [
+        "79/122",
+        "262/365"
+      ],
+      "nu": [
+        "4/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Idaho|Lemhi",
+      "name": "Lemhi, Idaho",
+      "mu": [
+        "69/122",
+        "261/365"
+      ],
+      "nu": [
+        "8/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Illinois|Champaign",
+      "name": "Champaign, Illinois",
+      "mu": [
+        "125/183",
+        "48/73"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Illinois|Cook",
+      "name": "Cook, Illinois",
+      "mu": [
+        "131/366",
+        "149/365"
+      ],
+      "nu": [
+        "11/366",
+        "5/73"
+      ]
+    },
+    {
+      "id": "Illinois|DuPage",
+      "name": "DuPage, Illinois",
+      "mu": [
+        "115/183",
+        "233/365"
+      ],
+      "nu": [
+        "0",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Illinois|Macon",
+      "name": "Macon, Illinois",
+      "mu": [
+        "119/183",
+        "237/365"
+      ],
+      "nu": [
+        "1/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Illinois|Madison",
+      "name": "Madison, Illinois",
+      "mu": [
+        "193/366",
+        "191/365"
+      ],
+      "nu": [
+        "1/61",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Illinois|McLean",
+      "name": "McLean, Illinois",
+      "mu": [
+        "127/183",
+        "241/365"
+      ],
+      "nu": [
+        "1/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Illinois|Rock Island",
+      "name": "Rock Island, Illinois",
+      "mu": [
+        "277/366",
+        "244/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Illinois|Saint Clair",
+      "name": "Saint Clair, Illinois",
+      "mu": [
+        "109/183",
+        "213/365"
+      ],
+      "nu": [
+        "1/122",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Illinois|Sangamon",
+      "name": "Sangamon, Illinois",
+      "mu": [
+        "263/366",
+        "256/365"
+      ],
+      "nu": [
+        "1/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Indiana|Allen",
+      "name": "Allen, Indiana",
+      "mu": [
+        "229/366",
+        "3/5"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Indiana|Bartholomew",
+      "name": "Bartholomew, Indiana",
+      "mu": [
+        "131/183",
+        "53/73"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Indiana|Clark",
+      "name": "Clark, Indiana",
+      "mu": [
+        "36/61",
+        "212/365"
+      ],
+      "nu": [
+        "2/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Indiana|Delaware",
+      "name": "Delaware, Indiana",
+      "mu": [
+        "40/61",
+        "236/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Indiana|LaPorte",
+      "name": "LaPorte, Indiana",
+      "mu": [
+        "257/366",
+        "46/73"
+      ],
+      "nu": [
+        "1/183",
+        "12/365"
+      ]
+    },
+    {
+      "id": "Indiana|Lake",
+      "name": "Lake, Indiana",
+      "mu": [
+        "27/61",
+        "152/365"
+      ],
+      "nu": [
+        "5/366",
+        "3/73"
+      ]
+    },
+    {
+      "id": "Indiana|Marion",
+      "name": "Marion, Indiana",
+      "mu": [
+        "67/183",
+        "2/5"
+      ],
+      "nu": [
+        "2/183",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Indiana|Porter",
+      "name": "Porter, Indiana",
+      "mu": [
+        "81/122",
+        "226/365"
+      ],
+      "nu": [
+        "1/183",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Indiana|St. Joseph",
+      "name": "St. Joseph, Indiana",
+      "mu": [
+        "79/122",
+        "241/365"
+      ],
+      "nu": [
+        "1/183",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Indiana|Vanderburgh",
+      "name": "Vanderburgh, Indiana",
+      "mu": [
+        "227/366",
+        "217/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Indiana|Vigo",
+      "name": "Vigo, Indiana",
+      "mu": [
+        "34/61",
+        "218/365"
+      ],
+      "nu": [
+        "1/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Indiana|Warrick",
+      "name": "Warrick, Indiana",
+      "mu": [
+        "163/183",
+        "319/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Iowa|Johnson",
+      "name": "Johnson, Iowa",
+      "mu": [
+        "259/366",
+        "256/365"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Iowa|Linn",
+      "name": "Linn, Iowa",
+      "mu": [
+        "235/366",
+        "224/365"
+      ],
+      "nu": [
+        "0",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Iowa|Muscatine",
+      "name": "Muscatine, Iowa",
+      "mu": [
+        "269/366",
+        "241/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Iowa|Polk",
+      "name": "Polk, Iowa",
+      "mu": [
+        "247/366",
+        "224/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Iowa|Scott",
+      "name": "Scott, Iowa",
+      "mu": [
+        "112/183",
+        "43/73"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Kansas|Johnson",
+      "name": "Johnson, Kansas",
+      "mu": [
+        "257/366",
+        "50/73"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Kansas|Neosho",
+      "name": "Neosho, Kansas",
+      "mu": [
+        "247/366",
+        "234/365"
+      ],
+      "nu": [
+        "1/122",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Kansas|Sedgwick",
+      "name": "Sedgwick, Kansas",
+      "mu": [
+        "275/366",
+        "42/73"
+      ],
+      "nu": [
+        "1/122",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Kansas|Shawnee",
+      "name": "Shawnee, Kansas",
+      "mu": [
+        "41/61",
+        "234/365"
+      ],
+      "nu": [
+        "1/366",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Kentucky|Campbell",
+      "name": "Campbell, Kentucky",
+      "mu": [
+        "95/122",
+        "276/365"
+      ],
+      "nu": [
+        "1/122",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Kentucky|Jefferson",
+      "name": "Jefferson, Kentucky",
+      "mu": [
+        "31/61",
+        "188/365"
+      ],
+      "nu": [
+        "2/61",
+        "2/73"
+      ]
+    },
+    {
+      "id": "Kentucky|Pulaski",
+      "name": "Pulaski, Kentucky",
+      "mu": [
+        "146/183",
+        "297/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Louisiana|Calcasieu",
+      "name": "Calcasieu, Louisiana",
+      "mu": [
+        "97/183",
+        "227/365"
+      ],
+      "nu": [
+        "2/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Louisiana|East Baton Rouge",
+      "name": "East Baton Rouge, Louisiana",
+      "mu": [
+        "179/366",
+        "181/365"
+      ],
+      "nu": [
+        "7/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Louisiana|Jefferson",
+      "name": "Jefferson, Louisiana",
+      "mu": [
+        "112/183",
+        "227/365"
+      ],
+      "nu": [
+        "1/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Louisiana|Orleans",
+      "name": "Orleans, Louisiana",
+      "mu": [
+        "257/366",
+        "259/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Louisiana|Ouachita",
+      "name": "Ouachita, Louisiana",
+      "mu": [
+        "146/183",
+        "227/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Louisiana|St. Bernard",
+      "name": "St. Bernard, Louisiana",
+      "mu": [
+        "241/366",
+        "266/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Louisiana|West Baton Rouge",
+      "name": "West Baton Rouge, Louisiana",
+      "mu": [
+        "33/61",
+        "36/73"
+      ],
+      "nu": [
+        "1/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Maine|Androscoggin",
+      "name": "Androscoggin, Maine",
+      "mu": [
+        "113/122",
+        "311/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Maine|Aroostook",
+      "name": "Aroostook, Maine",
+      "mu": [
+        "299/366",
+        "304/365"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Maine|Cumberland",
+      "name": "Cumberland, Maine",
+      "mu": [
+        "97/122",
+        "271/365"
+      ],
+      "nu": [
+        "1/366",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Maine|Hancock",
+      "name": "Hancock, Maine",
+      "mu": [
+        "167/183",
+        "332/365"
+      ],
+      "nu": [
+        "1/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Maine|Kennebec",
+      "name": "Kennebec, Maine",
+      "mu": [
+        "155/183",
+        "311/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Maryland|Baltimore",
+      "name": "Baltimore, Maryland",
+      "mu": [
+        "40/61",
+        "236/365"
+      ],
+      "nu": [
+        "5/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Maryland|Dorchester",
+      "name": "Dorchester, Maryland",
+      "mu": [
+        "49/61",
+        "314/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Maryland|Garrett",
+      "name": "Garrett, Maryland",
+      "mu": [
+        "311/366",
+        "318/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Maryland|Howard",
+      "name": "Howard, Maryland",
+      "mu": [
+        "307/366",
+        "293/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Maryland|Prince George's",
+      "name": "Prince George's, Maryland",
+      "mu": [
+        "140/183",
+        "306/365"
+      ],
+      "nu": [
+        "1/122",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Berkshire",
+      "name": "Berkshire, Massachusetts",
+      "mu": [
+        "50/61",
+        "57/73"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Bristol",
+      "name": "Bristol, Massachusetts",
+      "mu": [
+        "161/183",
+        "306/365"
+      ],
+      "nu": [
+        "1/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Essex",
+      "name": "Essex, Massachusetts",
+      "mu": [
+        "50/61",
+        "296/365"
+      ],
+      "nu": [
+        "2/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Hampden",
+      "name": "Hampden, Massachusetts",
+      "mu": [
+        "145/183",
+        "281/365"
+      ],
+      "nu": [
+        "1/183",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Massachusetts|Hampshire",
+      "name": "Hampshire, Massachusetts",
+      "mu": [
+        "54/61",
+        "312/365"
+      ],
+      "nu": [
+        "1/183",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Middlesex",
+      "name": "Middlesex, Massachusetts",
+      "mu": [
+        "157/183",
+        "299/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Norfolk",
+      "name": "Norfolk, Massachusetts",
+      "mu": [
+        "319/366",
+        "308/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Plymouth",
+      "name": "Plymouth, Massachusetts",
+      "mu": [
+        "319/366",
+        "308/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Suffolk",
+      "name": "Suffolk, Massachusetts",
+      "mu": [
+        "97/122",
+        "279/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Massachusetts|Worcester",
+      "name": "Worcester, Massachusetts",
+      "mu": [
+        "107/122",
+        "298/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Michigan|Ingham",
+      "name": "Ingham, Michigan",
+      "mu": [
+        "281/366",
+        "53/73"
+      ],
+      "nu": [
+        "0",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Michigan|Kalamazoo",
+      "name": "Kalamazoo, Michigan",
+      "mu": [
+        "39/61",
+        "224/365"
+      ],
+      "nu": [
+        "0",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Michigan|Kent",
+      "name": "Kent, Michigan",
+      "mu": [
+        "30/61",
+        "153/365"
+      ],
+      "nu": [
+        "1/366",
+        "9/365"
+      ]
+    },
+    {
+      "id": "Michigan|Lenawee",
+      "name": "Lenawee, Michigan",
+      "mu": [
+        "253/366",
+        "253/365"
+      ],
+      "nu": [
+        "0",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Michigan|Macomb",
+      "name": "Macomb, Michigan",
+      "mu": [
+        "259/366",
+        "256/365"
+      ],
+      "nu": [
+        "1/122",
+        "2/73"
+      ]
+    },
+    {
+      "id": "Michigan|Washtenaw",
+      "name": "Washtenaw, Michigan",
+      "mu": [
+        "253/366",
+        "253/365"
+      ],
+      "nu": [
+        "0",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Michigan|Wayne",
+      "name": "Wayne, Michigan",
+      "mu": [
+        "20/61",
+        "132/365"
+      ],
+      "nu": [
+        "4/183",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Minnesota|Crow Wing",
+      "name": "Crow Wing, Minnesota",
+      "mu": [
+        "149/183",
+        "284/365"
+      ],
+      "nu": [
+        "1/366",
+        "14/365"
+      ]
+    },
+    {
+      "id": "Minnesota|Dakota",
+      "name": "Dakota, Minnesota",
+      "mu": [
+        "43/61",
+        "267/365"
+      ],
+      "nu": [
+        "1/366",
+        "2/73"
+      ]
+    },
+    {
+      "id": "Minnesota|Hennepin",
+      "name": "Hennepin, Minnesota",
+      "mu": [
+        "81/122",
+        "211/365"
+      ],
+      "nu": [
+        "2/183",
+        "2/73"
+      ]
+    },
+    {
+      "id": "Minnesota|Lyon",
+      "name": "Lyon, Minnesota",
+      "mu": [
+        "46/61",
+        "281/365"
+      ],
+      "nu": [
+        "1/183",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Minnesota|Ramsey",
+      "name": "Ramsey, Minnesota",
+      "mu": [
+        "133/183",
+        "256/365"
+      ],
+      "nu": [
+        "1/366",
+        "9/365"
+      ]
+    },
+    {
+      "id": "Minnesota|Saint Louis",
+      "name": "Saint Louis, Minnesota",
+      "mu": [
+        "143/183",
+        "243/365"
+      ],
+      "nu": [
+        "1/122",
+        "23/365"
+      ]
+    },
+    {
+      "id": "Minnesota|Scott",
+      "name": "Scott, Minnesota",
+      "mu": [
+        "43/61",
+        "266/365"
+      ],
+      "nu": [
+        "1/366",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Mississippi|DeSoto",
+      "name": "DeSoto, Mississippi",
+      "mu": [
+        "104/183",
+        "252/365"
+      ],
+      "nu": [
+        "2/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Mississippi|Hinds",
+      "name": "Hinds, Mississippi",
+      "mu": [
+        "203/366",
+        "167/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Missouri|Buchanan",
+      "name": "Buchanan, Missouri",
+      "mu": [
+        "73/122",
+        "206/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Missouri|Jackson",
+      "name": "Jackson, Missouri",
+      "mu": [
+        "217/366",
+        "209/365"
+      ],
+      "nu": [
+        "1/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Missouri|Jasper",
+      "name": "Jasper, Missouri",
+      "mu": [
+        "148/183",
+        "61/73"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Missouri|Jefferson",
+      "name": "Jefferson, Missouri",
+      "mu": [
+        "99/122",
+        "268/365"
+      ],
+      "nu": [
+        "1/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Missouri|Monroe",
+      "name": "Monroe, Missouri",
+      "mu": [
+        "119/122",
+        "343/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Missouri|Saint Louis",
+      "name": "Saint Louis, Missouri",
+      "mu": [
+        "269/366",
+        "268/365"
+      ],
+      "nu": [
+        "1/183",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Missouri|St. Louis City",
+      "name": "St. Louis City, Missouri",
+      "mu": [
+        "137/366",
+        "25/73"
+      ],
+      "nu": [
+        "5/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Montana|Flathead",
+      "name": "Flathead, Montana",
+      "mu": [
+        "253/366",
+        "269/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Montana|Lewis and Clark",
+      "name": "Lewis and Clark, Montana",
+      "mu": [
+        "233/366",
+        "261/365"
+      ],
+      "nu": [
+        "1/61",
+        "0"
+      ]
+    },
+    {
+      "id": "Montana|Missoula",
+      "name": "Missoula, Montana",
+      "mu": [
+        "79/122",
+        "298/365"
+      ],
+      "nu": [
+        "2/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Montana|Silver Bow",
+      "name": "Silver Bow, Montana",
+      "mu": [
+        "43/61",
+        "62/73"
+      ],
+      "nu": [
+        "5/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Nebraska|Douglas",
+      "name": "Douglas, Nebraska",
+      "mu": [
+        "233/366",
+        "259/365"
+      ],
+      "nu": [
+        "1/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Nevada|Clark",
+      "name": "Clark, Nevada",
+      "mu": [
+        "15/61",
+        "113/365"
+      ],
+      "nu": [
+        "20/183",
+        "26/365"
+      ]
+    },
+    {
+      "id": "Nevada|Nye",
+      "name": "Nye, Nevada",
+      "mu": [
+        "319/366",
+        "338/365"
+      ],
+      "nu": [
+        "1/122",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Nevada|Washoe",
+      "name": "Washoe, Nevada",
+      "mu": [
+        "94/183",
+        "183/365"
+      ],
+      "nu": [
+        "2/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "New Hampshire|Cheshire",
+      "name": "Cheshire, New Hampshire",
+      "mu": [
+        "151/183",
+        "288/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "New Hampshire|Grafton",
+      "name": "Grafton, New Hampshire",
+      "mu": [
+        "167/183",
+        "61/73"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "New Hampshire|Hillsborough",
+      "name": "Hillsborough, New Hampshire",
+      "mu": [
+        "164/183",
+        "62/73"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "New Hampshire|Rockingham",
+      "name": "Rockingham, New Hampshire",
+      "mu": [
+        "51/61",
+        "309/365"
+      ],
+      "nu": [
+        "1/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "New Jersey|Atlantic",
+      "name": "Atlantic, New Jersey",
+      "mu": [
+        "151/183",
+        "60/73"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "New Jersey|Hudson",
+      "name": "Hudson, New Jersey",
+      "mu": [
+        "87/122",
+        "261/365"
+      ],
+      "nu": [
+        "1/122",
+        "3/365"
+      ]
+    },
+    {
+      "id": "New Jersey|Mercer",
+      "name": "Mercer, New Jersey",
+      "mu": [
+        "41/61",
+        "51/73"
+      ],
+      "nu": [
+        "5/366",
+        "6/365"
+      ]
+    },
+    {
+      "id": "New Mexico|Bernalillo",
+      "name": "Bernalillo, New Mexico",
+      "mu": [
+        "50/183",
+        "97/365"
+      ],
+      "nu": [
+        "5/61",
+        "21/365"
+      ]
+    },
+    {
+      "id": "New Mexico|Dona Ana",
+      "name": "Dona Ana, New Mexico",
+      "mu": [
+        "97/366",
+        "20/73"
+      ],
+      "nu": [
+        "16/183",
+        "48/365"
+      ]
+    },
+    {
+      "id": "New Mexico|Eddy",
+      "name": "Eddy, New Mexico",
+      "mu": [
+        "94/183",
+        "196/365"
+      ],
+      "nu": [
+        "6/61",
+        "5/73"
+      ]
+    },
+    {
+      "id": "New Mexico|San Juan",
+      "name": "San Juan, New Mexico",
+      "mu": [
+        "109/183",
+        "248/365"
+      ],
+      "nu": [
+        "11/366",
+        "0"
+      ]
+    },
+    {
+      "id": "New York|Albany",
+      "name": "Albany, New York",
+      "mu": [
+        "140/183",
+        "50/73"
+      ],
+      "nu": [
+        "1/366",
+        "1/73"
+      ]
+    },
+    {
+      "id": "New York|Bronx",
+      "name": "Bronx, New York",
+      "mu": [
+        "41/61",
+        "216/365"
+      ],
+      "nu": [
+        "1/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "New York|Erie",
+      "name": "Erie, New York",
+      "mu": [
+        "39/61",
+        "233/365"
+      ],
+      "nu": [
+        "1/366",
+        "11/365"
+      ]
+    },
+    {
+      "id": "New York|Essex",
+      "name": "Essex, New York",
+      "mu": [
+        "155/183",
+        "306/365"
+      ],
+      "nu": [
+        "0",
+        "1/73"
+      ]
+    },
+    {
+      "id": "New York|Kings",
+      "name": "Kings, New York",
+      "mu": [
+        "253/366",
+        "233/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "New York|Monroe",
+      "name": "Monroe, New York",
+      "mu": [
+        "271/366",
+        "271/365"
+      ],
+      "nu": [
+        "0",
+        "7/365"
+      ]
+    },
+    {
+      "id": "New York|New York",
+      "name": "New York, New York",
+      "mu": [
+        "241/366",
+        "183/365"
+      ],
+      "nu": [
+        "1/122",
+        "6/365"
+      ]
+    },
+    {
+      "id": "New York|Queens",
+      "name": "Queens, New York",
+      "mu": [
+        "112/183",
+        "232/365"
+      ],
+      "nu": [
+        "1/183",
+        "7/365"
+      ]
+    },
+    {
+      "id": "New York|Richmond",
+      "name": "Richmond, New York",
+      "mu": [
+        "140/183",
+        "54/73"
+      ],
+      "nu": [
+        "1/122",
+        "3/365"
+      ]
+    },
+    {
+      "id": "New York|Rockland",
+      "name": "Rockland, New York",
+      "mu": [
+        "154/183",
+        "312/365"
+      ],
+      "nu": [
+        "5/366",
+        "7/365"
+      ]
+    },
+    {
+      "id": "New York|Suffolk",
+      "name": "Suffolk, New York",
+      "mu": [
+        "97/122",
+        "53/73"
+      ],
+      "nu": [
+        "1/61",
+        "1/73"
+      ]
+    },
+    {
+      "id": "North Carolina|Cumberland",
+      "name": "Cumberland, North Carolina",
+      "mu": [
+        "233/366",
+        "251/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "North Carolina|Durham",
+      "name": "Durham, North Carolina",
+      "mu": [
+        "85/183",
+        "262/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "North Carolina|Forsyth",
+      "name": "Forsyth, North Carolina",
+      "mu": [
+        "35/61",
+        "232/365"
+      ],
+      "nu": [
+        "2/183",
+        "0"
+      ]
+    },
+    {
+      "id": "North Carolina|Guilford",
+      "name": "Guilford, North Carolina",
+      "mu": [
+        "83/122",
+        "274/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "North Carolina|Mecklenburg",
+      "name": "Mecklenburg, North Carolina",
+      "mu": [
+        "169/366",
+        "176/365"
+      ],
+      "nu": [
+        "2/183",
+        "0"
+      ]
+    },
+    {
+      "id": "North Carolina|Swain",
+      "name": "Swain, North Carolina",
+      "mu": [
+        "5/6",
+        "296/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "North Carolina|Wake",
+      "name": "Wake, North Carolina",
+      "mu": [
+        "113/183",
+        "50/73"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "North Dakota|Burleigh",
+      "name": "Burleigh, North Dakota",
+      "mu": [
+        "134/183",
+        "57/73"
+      ],
+      "nu": [
+        "5/183",
+        "12/365"
+      ]
+    },
+    {
+      "id": "North Dakota|McKenzie",
+      "name": "McKenzie, North Dakota",
+      "mu": [
+        "50/61",
+        "59/73"
+      ],
+      "nu": [
+        "4/183",
+        "6/365"
+      ]
+    },
+    {
+      "id": "North Dakota|Mercer",
+      "name": "Mercer, North Dakota",
+      "mu": [
+        "152/183",
+        "293/365"
+      ],
+      "nu": [
+        "1/61",
+        "2/73"
+      ]
+    },
+    {
+      "id": "North Dakota|Oliver",
+      "name": "Oliver, North Dakota",
+      "mu": [
+        "299/366",
+        "59/73"
+      ],
+      "nu": [
+        "7/366",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Ohio|Butler",
+      "name": "Butler, Ohio",
+      "mu": [
+        "77/183",
+        "121/365"
+      ],
+      "nu": [
+        "1/122",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Ohio|Cuyahoga",
+      "name": "Cuyahoga, Ohio",
+      "mu": [
+        "68/183",
+        "158/365"
+      ],
+      "nu": [
+        "1/61",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Ohio|Franklin",
+      "name": "Franklin, Ohio",
+      "mu": [
+        "151/366",
+        "147/365"
+      ],
+      "nu": [
+        "2/183",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Ohio|Hamilton",
+      "name": "Hamilton, Ohio",
+      "mu": [
+        "82/183",
+        "25/73"
+      ],
+      "nu": [
+        "11/366",
+        "13/365"
+      ]
+    },
+    {
+      "id": "Ohio|Jefferson",
+      "name": "Jefferson, Ohio",
+      "mu": [
+        "227/366",
+        "39/73"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Ohio|Lawrence",
+      "name": "Lawrence, Ohio",
+      "mu": [
+        "44/61",
+        "259/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Ohio|Lucas",
+      "name": "Lucas, Ohio",
+      "mu": [
+        "155/366",
+        "173/365"
+      ],
+      "nu": [
+        "2/183",
+        "9/365"
+      ]
+    },
+    {
+      "id": "Ohio|Preble",
+      "name": "Preble, Ohio",
+      "mu": [
+        "42/61",
+        "247/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Ohio|Scioto",
+      "name": "Scioto, Ohio",
+      "mu": [
+        "124/183",
+        "204/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Ohio|Stark",
+      "name": "Stark, Ohio",
+      "mu": [
+        "32/61",
+        "194/365"
+      ],
+      "nu": [
+        "0",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Ohio|Trumbull",
+      "name": "Trumbull, Ohio",
+      "mu": [
+        "113/183",
+        "44/73"
+      ],
+      "nu": [
+        "0",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Oklahoma|Oklahoma",
+      "name": "Oklahoma, Oklahoma",
+      "mu": [
+        "86/183",
+        "182/365"
+      ],
+      "nu": [
+        "11/366",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Oklahoma|Ottawa",
+      "name": "Ottawa, Oklahoma",
+      "mu": [
+        "181/366",
+        "196/365"
+      ],
+      "nu": [
+        "1/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Oklahoma|Tulsa",
+      "name": "Tulsa, Oklahoma",
+      "mu": [
+        "59/122",
+        "37/73"
+      ],
+      "nu": [
+        "4/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Oregon|Baker",
+      "name": "Baker, Oregon",
+      "mu": [
+        "93/122",
+        "304/365"
+      ],
+      "nu": [
+        "1/122",
+        "0"
+      ]
+    },
+    {
+      "id": "Oregon|Crook",
+      "name": "Crook, Oregon",
+      "mu": [
+        "47/61",
+        "266/365"
+      ],
+      "nu": [
+        "4/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Oregon|Deschutes",
+      "name": "Deschutes, Oregon",
+      "mu": [
+        "43/61",
+        "326/365"
+      ],
+      "nu": [
+        "19/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Oregon|Jackson",
+      "name": "Jackson, Oregon",
+      "mu": [
+        "131/183",
+        "242/365"
+      ],
+      "nu": [
+        "5/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Oregon|Josephine",
+      "name": "Josephine, Oregon",
+      "mu": [
+        "142/183",
+        "249/365"
+      ],
+      "nu": [
+        "4/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Oregon|Klamath",
+      "name": "Klamath, Oregon",
+      "mu": [
+        "259/366",
+        "47/73"
+      ],
+      "nu": [
+        "8/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Oregon|Lane",
+      "name": "Lane, Oregon",
+      "mu": [
+        "73/122",
+        "206/365"
+      ],
+      "nu": [
+        "8/183",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Oregon|Linn",
+      "name": "Linn, Oregon",
+      "mu": [
+        "160/183",
+        "4/5"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Oregon|Marion",
+      "name": "Marion, Oregon",
+      "mu": [
+        "149/183",
+        "4/5"
+      ],
+      "nu": [
+        "2/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Oregon|Multnomah",
+      "name": "Multnomah, Oregon",
+      "mu": [
+        "311/366",
+        "283/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Oregon|Umatilla",
+      "name": "Umatilla, Oregon",
+      "mu": [
+        "136/183",
+        "52/73"
+      ],
+      "nu": [
+        "2/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Oregon|Washington",
+      "name": "Washington, Oregon",
+      "mu": [
+        "103/122",
+        "289/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Allegheny",
+      "name": "Allegheny, Pennsylvania",
+      "mu": [
+        "175/366",
+        "168/365"
+      ],
+      "nu": [
+        "3/122",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Beaver",
+      "name": "Beaver, Pennsylvania",
+      "mu": [
+        "106/183",
+        "203/365"
+      ],
+      "nu": [
+        "1/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Berks",
+      "name": "Berks, Pennsylvania",
+      "mu": [
+        "127/183",
+        "249/365"
+      ],
+      "nu": [
+        "1/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Centre",
+      "name": "Centre, Pennsylvania",
+      "mu": [
+        "287/366",
+        "271/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Dauphin",
+      "name": "Dauphin, Pennsylvania",
+      "mu": [
+        "103/183",
+        "228/365"
+      ],
+      "nu": [
+        "1/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Delaware",
+      "name": "Delaware, Pennsylvania",
+      "mu": [
+        "125/183",
+        "238/365"
+      ],
+      "nu": [
+        "1/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Erie",
+      "name": "Erie, Pennsylvania",
+      "mu": [
+        "295/366",
+        "56/73"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Fayette",
+      "name": "Fayette, Pennsylvania",
+      "mu": [
+        "269/366",
+        "288/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Lackawanna",
+      "name": "Lackawanna, Pennsylvania",
+      "mu": [
+        "265/366",
+        "54/73"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Lancaster",
+      "name": "Lancaster, Pennsylvania",
+      "mu": [
+        "63/122",
+        "221/365"
+      ],
+      "nu": [
+        "1/122",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Lebanon",
+      "name": "Lebanon, Pennsylvania",
+      "mu": [
+        "121/183",
+        "47/73"
+      ],
+      "nu": [
+        "1/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Mercer",
+      "name": "Mercer, Pennsylvania",
+      "mu": [
+        "137/183",
+        "53/73"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Northampton",
+      "name": "Northampton, Pennsylvania",
+      "mu": [
+        "139/183",
+        "263/365"
+      ],
+      "nu": [
+        "1/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Philadelphia",
+      "name": "Philadelphia, Pennsylvania",
+      "mu": [
+        "173/366",
+        "184/365"
+      ],
+      "nu": [
+        "5/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Pennsylvania|Washington",
+      "name": "Washington, Pennsylvania",
+      "mu": [
+        "112/183",
+        "247/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Pennsylvania|York",
+      "name": "York, Pennsylvania",
+      "mu": [
+        "40/61",
+        "217/365"
+      ],
+      "nu": [
+        "1/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Rhode Island|Providence",
+      "name": "Providence, Rhode Island",
+      "mu": [
+        "293/366",
+        "268/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "South Carolina|Charleston",
+      "name": "Charleston, South Carolina",
+      "mu": [
+        "269/366",
+        "222/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "South Carolina|Richland",
+      "name": "Richland, South Carolina",
+      "mu": [
+        "35/61",
+        "212/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "South Dakota|Brookings",
+      "name": "Brookings, South Dakota",
+      "mu": [
+        "146/183",
+        "214/365"
+      ],
+      "nu": [
+        "1/183",
+        "1/73"
+      ]
+    },
+    {
+      "id": "South Dakota|Jackson",
+      "name": "Jackson, South Dakota",
+      "mu": [
+        "269/366",
+        "287/365"
+      ],
+      "nu": [
+        "7/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Tennessee|Blount",
+      "name": "Blount, Tennessee",
+      "mu": [
+        "221/366",
+        "261/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Tennessee|Davidson",
+      "name": "Davidson, Tennessee",
+      "mu": [
+        "63/122",
+        "193/365"
+      ],
+      "nu": [
+        "1/61",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Tennessee|Knox",
+      "name": "Knox, Tennessee",
+      "mu": [
+        "205/366",
+        "46/73"
+      ],
+      "nu": [
+        "1/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Tennessee|Loudon",
+      "name": "Loudon, Tennessee",
+      "mu": [
+        "143/183",
+        "312/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Tennessee|Shelby",
+      "name": "Shelby, Tennessee",
+      "mu": [
+        "21/61",
+        "44/73"
+      ],
+      "nu": [
+        "3/122",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Texas|Bell",
+      "name": "Bell, Texas",
+      "mu": [
+        "113/183",
+        "241/365"
+      ],
+      "nu": [
+        "5/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Texas|Bexar",
+      "name": "Bexar, Texas",
+      "mu": [
+        "29/61",
+        "158/365"
+      ],
+      "nu": [
+        "11/183",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Texas|Cameron",
+      "name": "Cameron, Texas",
+      "mu": [
+        "33/122",
+        "109/365"
+      ],
+      "nu": [
+        "1/6",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Texas|Dallas",
+      "name": "Dallas, Texas",
+      "mu": [
+        "43/122",
+        "148/365"
+      ],
+      "nu": [
+        "19/366",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Texas|Denton",
+      "name": "Denton, Texas",
+      "mu": [
+        "35/61",
+        "211/365"
+      ],
+      "nu": [
+        "14/183",
+        "19/365"
+      ]
+    },
+    {
+      "id": "Texas|El Paso",
+      "name": "El Paso, Texas",
+      "mu": [
+        "27/122",
+        "66/365"
+      ],
+      "nu": [
+        "21/122",
+        "63/365"
+      ]
+    },
+    {
+      "id": "Texas|Harris",
+      "name": "Harris, Texas",
+      "mu": [
+        "25/183",
+        "8/73"
+      ],
+      "nu": [
+        "47/366",
+        "38/365"
+      ]
+    },
+    {
+      "id": "Texas|Hidalgo",
+      "name": "Hidalgo, Texas",
+      "mu": [
+        "25/61",
+        "162/365"
+      ],
+      "nu": [
+        "4/61",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Texas|Jefferson",
+      "name": "Jefferson, Texas",
+      "mu": [
+        "137/366",
+        "35/73"
+      ],
+      "nu": [
+        "4/183",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Texas|Nueces",
+      "name": "Nueces, Texas",
+      "mu": [
+        "89/183",
+        "148/365"
+      ],
+      "nu": [
+        "8/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Texas|Tarrant",
+      "name": "Tarrant, Texas",
+      "mu": [
+        "65/183",
+        "116/365"
+      ],
+      "nu": [
+        "5/61",
+        "6/73"
+      ]
+    },
+    {
+      "id": "Texas|Travis",
+      "name": "Travis, Texas",
+      "mu": [
+        "26/61",
+        "159/365"
+      ],
+      "nu": [
+        "7/366",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Texas|Webb",
+      "name": "Webb, Texas",
+      "mu": [
+        "211/366",
+        "182/365"
+      ],
+      "nu": [
+        "5/122",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Utah|Box Elder",
+      "name": "Box Elder, Utah",
+      "mu": [
+        "107/183",
+        "236/365"
+      ],
+      "nu": [
+        "5/366",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Utah|Cache",
+      "name": "Cache, Utah",
+      "mu": [
+        "119/183",
+        "241/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Utah|Davis",
+      "name": "Davis, Utah",
+      "mu": [
+        "39/61",
+        "231/365"
+      ],
+      "nu": [
+        "5/122",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Utah|Duchesne",
+      "name": "Duchesne, Utah",
+      "mu": [
+        "75/122",
+        "218/365"
+      ],
+      "nu": [
+        "5/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Utah|Salt Lake",
+      "name": "Salt Lake, Utah",
+      "mu": [
+        "25/61",
+        "121/365"
+      ],
+      "nu": [
+        "43/366",
+        "16/365"
+      ]
+    },
+    {
+      "id": "Utah|Tooele",
+      "name": "Tooele, Utah",
+      "mu": [
+        "227/366",
+        "271/365"
+      ],
+      "nu": [
+        "2/61",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Utah|Uintah",
+      "name": "Uintah, Utah",
+      "mu": [
+        "109/183",
+        "213/365"
+      ],
+      "nu": [
+        "7/366",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Utah|Utah",
+      "name": "Utah, Utah",
+      "mu": [
+        "35/61",
+        "206/365"
+      ],
+      "nu": [
+        "3/122",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Utah|Washington",
+      "name": "Washington, Utah",
+      "mu": [
+        "139/183",
+        "274/365"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Utah|Weber",
+      "name": "Weber, Utah",
+      "mu": [
+        "81/122",
+        "48/73"
+      ],
+      "nu": [
+        "1/61",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Vermont|Chittenden",
+      "name": "Chittenden, Vermont",
+      "mu": [
+        "323/366",
+        "64/73"
+      ],
+      "nu": [
+        "0",
+        "4/365"
+      ]
+    },
+    {
+      "id": "Virginia|Arlington",
+      "name": "Arlington, Virginia",
+      "mu": [
+        "103/122",
+        "319/365"
+      ],
+      "nu": [
+        "2/183",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Virginia|Fairfax",
+      "name": "Fairfax, Virginia",
+      "mu": [
+        "263/366",
+        "284/365"
+      ],
+      "nu": [
+        "1/122",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Virginia|Hampton City",
+      "name": "Hampton City, Virginia",
+      "mu": [
+        "293/366",
+        "303/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Virginia|Loudoun",
+      "name": "Loudoun, Virginia",
+      "mu": [
+        "245/366",
+        "294/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Virginia|Prince William",
+      "name": "Prince William, Virginia",
+      "mu": [
+        "113/122",
+        "349/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Virginia|Richmond City",
+      "name": "Richmond City, Virginia",
+      "mu": [
+        "145/183",
+        "288/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Virginia|Roanoke",
+      "name": "Roanoke, Virginia",
+      "mu": [
+        "51/61",
+        "306/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Virginia|Rockingham",
+      "name": "Rockingham, Virginia",
+      "mu": [
+        "283/366",
+        "4/5"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Virginia|Virginia Beach City",
+      "name": "Virginia Beach City, Virginia",
+      "mu": [
+        "49/61",
+        "59/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Benton",
+      "name": "Benton, Washington",
+      "mu": [
+        "299/366",
+        "293/365"
+      ],
+      "nu": [
+        "1/122",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Washington|Chelan",
+      "name": "Chelan, Washington",
+      "mu": [
+        "293/366",
+        "254/365"
+      ],
+      "nu": [
+        "5/366",
+        "14/365"
+      ]
+    },
+    {
+      "id": "Washington|Clallam",
+      "name": "Clallam, Washington",
+      "mu": [
+        "107/122",
+        "312/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Clark",
+      "name": "Clark, Washington",
+      "mu": [
+        "107/122",
+        "302/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Columbia",
+      "name": "Columbia, Washington",
+      "mu": [
+        "331/366",
+        "66/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Grant",
+      "name": "Grant, Washington",
+      "mu": [
+        "53/61",
+        "291/365"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Washington|Grays Harbor",
+      "name": "Grays Harbor, Washington",
+      "mu": [
+        "353/366",
+        "71/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|King",
+      "name": "King, Washington",
+      "mu": [
+        "85/122",
+        "49/73"
+      ],
+      "nu": [
+        "1/122",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Kittitas",
+      "name": "Kittitas, Washington",
+      "mu": [
+        "160/183",
+        "4/5"
+      ],
+      "nu": [
+        "0",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Washington|Mason",
+      "name": "Mason, Washington",
+      "mu": [
+        "341/366",
+        "66/73"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Washington|Pierce",
+      "name": "Pierce, Washington",
+      "mu": [
+        "265/366",
+        "267/365"
+      ],
+      "nu": [
+        "1/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Snohomish",
+      "name": "Snohomish, Washington",
+      "mu": [
+        "131/183",
+        "248/365"
+      ],
+      "nu": [
+        "0",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Washington|Spokane",
+      "name": "Spokane, Washington",
+      "mu": [
+        "140/183",
+        "236/365"
+      ],
+      "nu": [
+        "1/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Washington|Stevens",
+      "name": "Stevens, Washington",
+      "mu": [
+        "257/366",
+        "252/365"
+      ],
+      "nu": [
+        "0",
+        "9/365"
+      ]
+    },
+    {
+      "id": "Washington|Walla Walla",
+      "name": "Walla Walla, Washington",
+      "mu": [
+        "157/183",
+        "59/73"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Whitman",
+      "name": "Whitman, Washington",
+      "mu": [
+        "155/183",
+        "317/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Washington|Yakima",
+      "name": "Yakima, Washington",
+      "mu": [
+        "124/183",
+        "226/365"
+      ],
+      "nu": [
+        "7/366",
+        "3/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Brown",
+      "name": "Brown, Wisconsin",
+      "mu": [
+        "145/183",
+        "267/365"
+      ],
+      "nu": [
+        "0",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Dane",
+      "name": "Dane, Wisconsin",
+      "mu": [
+        "44/61",
+        "246/365"
+      ],
+      "nu": [
+        "0",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Dodge",
+      "name": "Dodge, Wisconsin",
+      "mu": [
+        "99/122",
+        "264/365"
+      ],
+      "nu": [
+        "0",
+        "7/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Eau Claire",
+      "name": "Eau Claire, Wisconsin",
+      "mu": [
+        "299/366",
+        "269/365"
+      ],
+      "nu": [
+        "1/366",
+        "11/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Milwaukee",
+      "name": "Milwaukee, Wisconsin",
+      "mu": [
+        "251/366",
+        "228/365"
+      ],
+      "nu": [
+        "1/61",
+        "16/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Outagamie",
+      "name": "Outagamie, Wisconsin",
+      "mu": [
+        "97/122",
+        "264/365"
+      ],
+      "nu": [
+        "0",
+        "9/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Ozaukee",
+      "name": "Ozaukee, Wisconsin",
+      "mu": [
+        "148/183",
+        "277/365"
+      ],
+      "nu": [
+        "3/122",
+        "3/73"
+      ]
+    },
+    {
+      "id": "Wisconsin|Sauk",
+      "name": "Sauk, Wisconsin",
+      "mu": [
+        "52/61",
+        "276/365"
+      ],
+      "nu": [
+        "0",
+        "6/365"
+      ]
+    },
+    {
+      "id": "Wisconsin|Waukesha",
+      "name": "Waukesha, Wisconsin",
+      "mu": [
+        "130/183",
+        "242/365"
+      ],
+      "nu": [
+        "1/366",
+        "2/73"
+      ]
+    },
+    {
+      "id": "Wyoming|Albany",
+      "name": "Albany, Wyoming",
+      "mu": [
+        "95/183",
+        "203/365"
+      ],
+      "nu": [
+        "13/366",
+        "12/365"
+      ]
+    },
+    {
+      "id": "Wyoming|Campbell",
+      "name": "Campbell, Wyoming",
+      "mu": [
+        "116/183",
+        "271/365"
+      ],
+      "nu": [
+        "5/366",
+        "2/365"
+      ]
+    },
+    {
+      "id": "Wyoming|Converse",
+      "name": "Converse, Wyoming",
+      "mu": [
+        "5/6",
+        "351/365"
+      ],
+      "nu": [
+        "2/183",
+        "0"
+      ]
+    },
+    {
+      "id": "Wyoming|Fremont",
+      "name": "Fremont, Wyoming",
+      "mu": [
+        "35/61",
+        "254/365"
+      ],
+      "nu": [
+        "5/366",
+        "0"
+      ]
+    },
+    {
+      "id": "Wyoming|Laramie",
+      "name": "Laramie, Wyoming",
+      "mu": [
+        "271/366",
+        "274/365"
+      ],
+      "nu": [
+        "2/183",
+        "1/365"
+      ]
+    },
+    {
+      "id": "Wyoming|Lincoln",
+      "name": "Lincoln, Wyoming",
+      "mu": [
+        "170/183",
+        "361/365"
+      ],
+      "nu": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "Wyoming|Natrona",
+      "name": "Natrona, Wyoming",
+      "mu": [
+        "47/61",
+        "63/73"
+      ],
+      "nu": [
+        "1/61",
+        "0"
+      ]
+    },
+    {
+      "id": "Wyoming|Sublette",
+      "name": "Sublette, Wyoming",
+      "mu": [
+        "2/3",
+        "256/365"
+      ],
+      "nu": [
+        "7/366",
+        "1/73"
+      ]
+    },
+    {
+      "id": "Wyoming|Sweetwater",
+      "name": "Sweetwater, Wyoming",
+      "mu": [
+        "247/366",
+        "266/365"
+      ],
+      "nu": [
+        "5/183",
+        "8/365"
+      ]
+    },
+    {
+      "id": "Wyoming|Teton",
+      "name": "Teton, Wyoming",
+      "mu": [
+        "46/61",
+        "62/73"
+      ],
+      "nu": [
+        "1/183",
+        "0"
+      ]
+    }
+  ]
+}

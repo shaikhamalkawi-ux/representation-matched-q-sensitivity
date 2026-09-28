@@ -1,0 +1,3242 @@
+{
+  "plan": {
+    "q_values": [
+      4,
+      8,
+      16
+    ],
+    "rivals": [
+      "Y1",
+      "Y3",
+      "Y4"
+    ],
+    "seed": 177031,
+    "starts": "Baseline and three seeded uniform points in each normalized box.",
+    "initial_upper_radius": "3/100",
+    "bisection_steps": 22,
+    "max_iterations_per_local_run": 400,
+    "method": "L-BFGS-B with analytical gradient and four starts; 22-step heuristic bisection after a negative gap is found.",
+    "safety_increment": "1/10000000",
+    "scope": "A fixed-rung witness search in the unchanged 40-component normalized baseline-raw L-infinity geometry, baseline rung 4.",
+    "warning": "An unsuccessful local search is not evidence of nonexistence. Bisection lower endpoints are never certified lower bounds."
+  },
+  "gradient_checks": [
+    {
+      "q": 4,
+      "rival": 1,
+      "max_absolute_error": 1.0454770382750667e-10
+    },
+    {
+      "q": 4,
+      "rival": 3,
+      "max_absolute_error": 1.550966022278999e-10
+    },
+    {
+      "q": 4,
+      "rival": 4,
+      "max_absolute_error": 1.3618062233433648e-10
+    },
+    {
+      "q": 8,
+      "rival": 1,
+      "max_absolute_error": 1.0480710743721033e-10
+    },
+    {
+      "q": 8,
+      "rival": 3,
+      "max_absolute_error": 7.43998751495667e-11
+    },
+    {
+      "q": 8,
+      "rival": 4,
+      "max_absolute_error": 1.0299161523619205e-10
+    },
+    {
+      "q": 16,
+      "rival": 1,
+      "max_absolute_error": 9.338006062842297e-11
+    },
+    {
+      "q": 16,
+      "rival": 3,
+      "max_absolute_error": 9.950237161993059e-11
+    },
+    {
+      "q": 16,
+      "rival": 4,
+      "max_absolute_error": 1.163733033548997e-10
+    }
+  ],
+  "records": [
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": -0.03489936986808559,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 23,
+          "function_evaluations": 42,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.03489936986808559
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 17,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.03489936986808559
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 24,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.03489936986808559
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 43,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.03489936986808559
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.015,
+      "minimum_gap_found_float": 0.0425754002593739,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0425754002593739
+        },
+        {
+          "success": true,
+          "iterations": 10,
+          "function_evaluations": 12,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0425754002593739
+        },
+        {
+          "success": true,
+          "iterations": 13,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0425754002593739
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 21,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0425754002593739
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.0225,
+      "minimum_gap_found_float": 0.0037143284970040935,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 24,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0037143284970040935
+        },
+        {
+          "success": true,
+          "iterations": 13,
+          "function_evaluations": 14,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0037143284970040935
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0037143284970040935
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0037143284970040935
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02625,
+      "minimum_gap_found_float": -0.01561914369832934,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.01561914369832934
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 18,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.01561914369832934
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 23,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.01561914369832934
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.015619143698329285
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.024375,
+      "minimum_gap_found_float": -0.005959588329336463,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005959588329336463
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005959588329336407
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 22,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005959588329336463
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 47,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005959588329336463
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.0234375,
+      "minimum_gap_found_float": -0.0011244914217796165,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0011244914217796165
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0011244914217796165
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 19,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0011244914217796165
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0011244914217796165
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02296875,
+      "minimum_gap_found_float": 0.001294444823845109,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.001294444823845109
+        },
+        {
+          "success": true,
+          "iterations": 13,
+          "function_evaluations": 14,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.001294444823845109
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.001294444823845109
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.001294444823845109
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023203124999999998,
+      "minimum_gap_found_float": 8.485931691859516e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.485931691859516e-05
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 16,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.485931691859516e-05
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.485931691859516e-05
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.485931691859516e-05
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.0233203125,
+      "minimum_gap_found_float": -0.0005198452681087762,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 29,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0005198452681087762
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0005198452681087762
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 19,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0005198452681087762
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0005198452681087762
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02326171875,
+      "minimum_gap_found_float": -0.00021750029580031027,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00021750029580031027
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00021750029580019925
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 19,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00021750029580019925
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00021750029580031027
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023232421875,
+      "minimum_gap_found_float": -6.63223215282005e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.63223215282005e-05
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.63223215282005e-05
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 19,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.63223215282005e-05
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.63223215282005e-05
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.0232177734375,
+      "minimum_gap_found_float": 9.268039418586227e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.268039418586227e-06
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.268039418586227e-06
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.26803941875276e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.26803941875276e-06
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02322509765625,
+      "minimum_gap_found_float": -2.8527255592325496e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8527255592325496e-05
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8527255592325496e-05
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8527255592325496e-05
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8527255592325496e-05
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023221435546875,
+      "minimum_gap_found_float": -9.62963672485051e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -9.62963672485051e-06
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -9.62963672485051e-06
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -9.62963672485051e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -9.62963672485051e-06
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023219604492187497,
+      "minimum_gap_found_float": -1.8080581348778324e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.8080581348778324e-07
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.8080581337676094e-07
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.8080581348778324e-07
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.8080581348778324e-07
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023218688964843748,
+      "minimum_gap_found_float": 4.5436150124533725e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.5436150124533725e-06
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.5436150124533725e-06
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.5436150124533725e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.5436150124533725e-06
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023219146728515622,
+      "minimum_gap_found_float": 2.1814041518131155e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.1814041518131155e-06
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.1814041518131155e-06
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.1814041518131155e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.1814041518131155e-06
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02321937561035156,
+      "minimum_gap_found_float": 1.0002990574742299e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.0002990574742299e-06
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.0002990574742299e-06
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.0002990574742299e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.0002990574742299e-06
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02321949005126953,
+      "minimum_gap_found_float": 4.097465940988698e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.097465940988698e-07
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.097465940988698e-07
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.097465940988698e-07
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.097465940988698e-07
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023219547271728515,
+      "minimum_gap_found_float": 1.1447038350542726e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.1447038350542726e-07
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.1447038350542726e-07
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.1447038350542726e-07
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.1447038350542726e-07
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023219575881958006,
+      "minimum_gap_found_float": -3.316771673977925e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -3.316771673977925e-08
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -3.316771673977925e-08
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -3.316771673977925e-08
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -3.316771673977925e-08
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02321956157684326,
+      "minimum_gap_found_float": 4.065133291097922e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.065133291097922e-08
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.065133291097922e-08
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.065133291097922e-08
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.065133291097922e-08
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.023219568729400633,
+      "minimum_gap_found_float": 3.741807752533077e-09,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.741807752533077e-09
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.74180786355538e-09
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.741807752533077e-09
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.741807752533077e-09
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y1",
+      "halfwidth_float": 0.02321968,
+      "minimum_gap_found_float": -5.704506862991288e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 27,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.704506862991288e-07
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 15,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.704506861881065e-07
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.704506862991288e-07
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.704506862991288e-07
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y3",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": 0.05740523589968921,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 28,
+          "function_evaluations": 66,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05740523589968921
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 16,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05740523589968921
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 17,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05740523589968921
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 18,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05740523589968921
+        }
+      ]
+    },
+    {
+      "q": 4,
+      "rival": "Y4",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": 0.023083671112591686,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 13,
+          "function_evaluations": 19,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.023083671112591686
+        },
+        {
+          "success": true,
+          "iterations": 10,
+          "function_evaluations": 16,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.023083671112591686
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.023083671112591686
+        },
+        {
+          "success": true,
+          "iterations": 14,
+          "function_evaluations": 21,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.023083671112591686
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": -0.024234452983120824,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 35,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.024234452983120824
+        },
+        {
+          "success": true,
+          "iterations": 23,
+          "function_evaluations": 44,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.024234452983120824
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 42,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.024234452983120824
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.024234452983120824
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.015,
+      "minimum_gap_found_float": 0.049509453859580776,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 28,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.049509453859580776
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.049509453859580776
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 35,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.049509453859580776
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 24,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.049509453859580776
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.0225,
+      "minimum_gap_found_float": 0.012527930876173488,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.012527930876173488
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 33,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.012527930876173488
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.012527930876173488
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.012527930876173488
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02625,
+      "minimum_gap_found_float": -0.005876437034288973,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 42,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005876437034288973
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 42,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005876437034288973
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005876437034288973
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.005876437034288973
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.024375,
+      "minimum_gap_found_float": 0.00331943589975503,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00331943589975503
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 35,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00331943589975503
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 29,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00331943589975503
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 26,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00331943589975503
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.0253125,
+      "minimum_gap_found_float": -0.00128001312573639,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00128001312573639
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00128001312573639
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 33,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00128001312573639
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00128001312573639
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02484375,
+      "minimum_gap_found_float": 0.0010193251350454902,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0010193251350454902
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0010193251350454902
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0010193251350454902
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0010193251350454902
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025078125,
+      "minimum_gap_found_float": -0.00013043954201946706,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00013043954201946706
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00013043954201946706
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00013043954201946706
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.00013043954201946706
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.024960937500000002,
+      "minimum_gap_found_float": 0.00044441878294881887,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00044441878294881887
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00044441878294881887
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00044441878294881887
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 29,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00044441878294881887
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02501953125,
+      "minimum_gap_found_float": 0.00015698363294436302,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00015698363294436302
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00015698363294436302
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00015698363294436302
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 29,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00015698363294436302
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025048828125,
+      "minimum_gap_found_float": 1.327055056565829e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.327055056565829e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.327055056565829e-05
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.327055056565829e-05
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.327055056565829e-05
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.0250634765625,
+      "minimum_gap_found_float": -5.85848692033486e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.85848692033486e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.85848692033486e-05
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.85848692033486e-05
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.85848692033486e-05
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02505615234375,
+      "minimum_gap_found_float": -2.2657252719271437e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.2657252719271437e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.2657252719271437e-05
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.2657252719271437e-05
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.2657252719271437e-05
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025052490234375,
+      "minimum_gap_found_float": -4.693374430542185e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -4.693374430542185e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -4.693374430542185e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -4.693374430542185e-06
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 42,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -4.693374430542185e-06
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025050659179687497,
+      "minimum_gap_found_float": 4.288582228229032e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.288582228229032e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.288582228229032e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.288582228229032e-06
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 4.288582228229032e-06
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025051574707031246,
+      "minimum_gap_found_float": -2.0239756076678717e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.0239756076678717e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.0239756076678717e-07
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.0239756076678717e-07
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.0239756076678717e-07
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02505111694335937,
+      "minimum_gap_found_float": 2.04309196882857e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.04309196882857e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.04309196882857e-06
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.04309196882857e-06
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.04309196882857e-06
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02505134582519531,
+      "minimum_gap_found_float": 9.203471129093366e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.203471129093366e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.203471129093366e-07
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.203471129093366e-07
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 9.203471129093366e-07
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02505146026611328,
+      "minimum_gap_found_float": 3.5897475325619155e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.5897475325619155e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.5897475325619155e-07
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.5897475325619155e-07
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.5897475325619155e-07
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025051517486572264,
+      "minimum_gap_found_float": 7.828859033276458e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 7.828859033276458e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 7.828859033276458e-08
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 7.828859033276458e-08
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 7.828859033276458e-08
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025051546096801755,
+      "minimum_gap_found_float": -6.205448643825662e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.205448643825662e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.205448643825662e-08
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.205448643825662e-08
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.205448643825662e-08
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02505153179168701,
+      "minimum_gap_found_float": 8.1170515864315e-09,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.1170515864315e-09
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.1170515864315e-09
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.1170515864315e-09
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 8.1170515864315e-09
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.025051538944244382,
+      "minimum_gap_found_float": -2.6968717592446012e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6968717592446012e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6968717592446012e-08
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6968717592446012e-08
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6968717592446012e-08
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y1",
+      "halfwidth_float": 0.02505164,
+      "minimum_gap_found_float": -5.226821522263947e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.226821522263947e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.226821522263947e-07
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.226821522263947e-07
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.226821522263947e-07
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y3",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": 0.07649348099279624,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 26,
+          "function_evaluations": 56,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.07649348099279624
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 18,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.07649348099279624
+        },
+        {
+          "success": true,
+          "iterations": 15,
+          "function_evaluations": 22,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.07649348099279624
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.07649348099279624
+        }
+      ]
+    },
+    {
+      "q": 8,
+      "rival": "Y4",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": 0.04192462063816771,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.04192462063816771
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.04211844158321176
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.04192462063816771
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.04192462063816771
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": -0.019538643548959067,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 51,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.019538643548959067
+        },
+        {
+          "success": true,
+          "iterations": 23,
+          "function_evaluations": 47,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.019538643548959067
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.019538643548959067
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 35,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.019538643548959067
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.015,
+      "minimum_gap_found_float": 0.05216124968178942,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05216124968178942
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 78,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05216124968178942
+        },
+        {
+          "success": true,
+          "iterations": 17,
+          "function_evaluations": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05216124968178942
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05216124968178942
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.0225,
+      "minimum_gap_found_float": 0.016215763759205637,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.016215763759205637
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 46,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.016215763759205637
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 29,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.016215763759205637
+        },
+        {
+          "success": true,
+          "iterations": 18,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.016215763759205637
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02625,
+      "minimum_gap_found_float": -0.0016812153352800396,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0016812153352800396
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0016812153352800396
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0016812153352800396
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 33,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.0016812153352800396
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.024375,
+      "minimum_gap_found_float": 0.007261826581177189,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.007261826581177189
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.007261826581177189
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 35,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.007261826581177189
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.007261826581177189
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.0253125,
+      "minimum_gap_found_float": 0.0027890072458964243,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0027890072458964243
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 39,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0027890072458964243
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0027890072458964243
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 41,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0027890072458964243
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02578125,
+      "minimum_gap_found_float": 0.000553579251416525,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.000553579251416525
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.000553579251416525
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.000553579251416525
+        },
+        {
+          "success": true,
+          "iterations": 23,
+          "function_evaluations": 51,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.000553579251416525
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.026015625,
+      "minimum_gap_found_float": -0.000563896234686001,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.000563896234686001
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.000563896234686001
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.000563896234686001
+        },
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 33,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -0.000563896234686001
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.0258984375,
+      "minimum_gap_found_float": -5.178162590213642e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.178162590213642e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.178162590213642e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.178162590213642e-06
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.178162590213642e-06
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02583984375,
+      "minimum_gap_found_float": 0.0002741956113163635,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0002741956113163635
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0002741956113163635
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0002741956113163635
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.0002741956113163635
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025869140625000002,
+      "minimum_gap_found_float": 0.00013450749300908393,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00013450749300908393
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00013450749300908393
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00013450749300908393
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.00013450749300908393
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025883789062500002,
+      "minimum_gap_found_float": 6.466435761093292e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 6.466435761093292e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 6.466435761093292e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 6.466435761093292e-05
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 6.466435761093292e-05
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025891113281250003,
+      "minimum_gap_found_float": 2.9743020640404794e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.9743020640404794e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.9743020640404794e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.9743020640404794e-05
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.9743020640404794e-05
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025894775390625,
+      "minimum_gap_found_float": 1.2282409811381623e-05,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.2282409811381623e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.2282409811381623e-05
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.2282409811381623e-05
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.2282409811381623e-05
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025896606445312498,
+      "minimum_gap_found_float": 3.55211880748163e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.55211880748163e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.55211880748163e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.55211880748163e-06
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 3.55211880748163e-06
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025897521972656247,
+      "minimum_gap_found_float": -8.130230921277182e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -8.130230921277182e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -8.130230921277182e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -8.130230921277182e-07
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -8.130230921277182e-07
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025897064208984372,
+      "minimum_gap_found_float": 1.3695475574726501e-06,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.3695475574726501e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.3695475574726501e-06
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.3695475574726501e-06
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 1.3695475574726501e-06
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02589729309082031,
+      "minimum_gap_found_float": 2.7826215770465623e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.7826215770465623e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.7826215770465623e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.7826215770465623e-07
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 2.7826215770465623e-07
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02589740753173828,
+      "minimum_gap_found_float": -2.6738048591878893e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6738048591878893e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6738048591878893e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6738048591878893e-07
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.6738048591878893e-07
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025897350311279294,
+      "minimum_gap_found_float": 5.440831341019248e-09,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 5.440831341019248e-09
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 5.440831341019248e-09
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 5.440831341019248e-09
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 5.440831341019248e-09
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025897378921508785,
+      "minimum_gap_found_float": -1.3096982853788575e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.3096982853788575e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.3096982853788575e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.3096982853788575e-07
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -1.3096982853788575e-07
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02589736461639404,
+      "minimum_gap_found_float": -6.276449882047785e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.276449882047785e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.276449882047785e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.276449882047785e-08
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -6.276449882047785e-08
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.025897357463836666,
+      "minimum_gap_found_float": -2.8661833961773908e-08,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8661833961773908e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8661833961773908e-08
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8661833961773908e-08
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -2.8661833961773908e-08
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y1",
+      "halfwidth_float": 0.02589746,
+      "minimum_gap_found_float": -5.175438025917245e-07,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.175438025917245e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 40,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.175438025917245e-07
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 37,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.175438025917245e-07
+        },
+        {
+          "success": true,
+          "iterations": 19,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": -5.175438025917245e-07
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y3",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": 0.08560224663321495,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 20,
+          "function_evaluations": 30,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.08560224663321495
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 29,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.08572018733122622
+        },
+        {
+          "success": true,
+          "iterations": 16,
+          "function_evaluations": 20,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.08560224663321495
+        },
+        {
+          "success": true,
+          "iterations": 22,
+          "function_evaluations": 32,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.08572018733122622
+        }
+      ]
+    },
+    {
+      "q": 16,
+      "rival": "Y4",
+      "halfwidth_float": 0.03,
+      "minimum_gap_found_float": 0.05108043505860399,
+      "starts": [
+        {
+          "success": true,
+          "iterations": 25,
+          "function_evaluations": 51,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05108043505860399
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 36,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05108043505860399
+        },
+        {
+          "success": true,
+          "iterations": 21,
+          "function_evaluations": 34,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05108043505860399
+        },
+        {
+          "success": true,
+          "iterations": 24,
+          "function_evaluations": 35,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "gap_float": 0.05108043505860399
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "status": "PASS_WITNESS",
+      "q_exact": "4",
+      "winner": "Y1",
+      "raw_baseline_normalized_inputs": [
+        "5145123/6250000",
+        "2979877/6250000",
+        "3895123/6250000",
+        "5479877/6250000",
+        "4520123/6250000",
+        "1167377/6250000",
+        "5145123/6250000",
+        "4229877/6250000",
+        "4270123/6250000",
+        "4229877/6250000",
+        "5479877/6250000",
+        "3270123/6250000",
+        "4854877/6250000",
+        "1395123/6250000",
+        "3604877/6250000",
+        "2645123/6250000",
+        "3979877/6250000",
+        "5770123/6250000",
+        "4229877/6250000",
+        "2707623/6250000",
+        "2979877/6250000",
+        "2979877/6250000",
+        "3604877/6250000",
+        "4229877/6250000",
+        "5145123/6250000",
+        "5145123/6250000",
+        "4957623/6250000",
+        "1854877/6250000",
+        "1395123/6250000",
+        "4229877/6250000",
+        "183939720351/500000000000",
+        "4917377/6250000",
+        "3604877/6250000",
+        "3604877/6250000",
+        "4645123/6250000",
+        "3270123/6250000",
+        "5082623/6250000",
+        "1792377/6250000",
+        "4354877/6250000",
+        "3917377/6250000"
+      ],
+      "radius_limit": "145123/6250000",
+      "actual_linf_change": "145123/6250000",
+      "admissible": true,
+      "maximum_canonical_pair_sum": "700782174117967620221746641/762939453125000000000000000",
+      "scores_exact": [
+        [
+          "6990455171345604286511908618485052042574314945138761607248517507639/26959946667150639794667015087019630673637144422540572481103610249216",
+          "6990455171345604286511908618485052042574314945138761607248517508857/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "3495219896012762188096542943612159199046856300511761923952965402781/13479973333575319897333507543509815336818572211270286240551805124608",
+          "1747609948006381094048271471806079599523428150255880961976482701677/6739986666787659948666753771754907668409286105635143120275902562304"
+        ],
+        [
+          "507852896732006756805028844949863671375104297411202667342027416709/3369993333393829974333376885877453834204643052817571560137951281152",
+          "4062823173856054054440230759598909371000834379289621338736219335127/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "2326338997817940346256946621227728966405724648760011778461093998123/13479973333575319897333507543509815336818572211270286240551805124608",
+          "4652677995635880692513893242455457932811449297520023556922187997465/26959946667150639794667015087019630673637144422540572481103610249216"
+        ]
+      ],
+      "weights_exact": [
+        [
+          "5101105931732691470807641769112696675633763028747361198212296692645/26959946667150639794667015087019630673637144422540572481103610249216",
+          "2550552965866345735403820884556348337816881514373680599106148346557/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "5311546186712953211180320947595276258431835524600141608079182025945/26959946667150639794667015087019630673637144422540572481103610249216",
+          "2655773093356476605590160473797638129215917762300070804039591013205/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "340717913810227807729913085228059716548108741519819883594570327283/1684996666696914987166688442938726917102321526408785780068975640576",
+          "1362871655240911230919652340912238866192434966079279534378281309249/6739986666787659948666753771754907668409286105635143120275902562304"
+        ],
+        [
+          "193121178462395835748120205083071773231769722922917557736256403585/842498333348457493583344221469363458551160763204392890034487820288",
+          "6179877710796666743939846562658296743416631133533361847560204915203/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "1228982554236170861265149111001101382846293717835647422434700344553/6739986666787659948666753771754907668409286105635143120275902562304",
+          "1228982554236170861265149111001101382846293717835647422434700344665/6739986666787659948666753771754907668409286105635143120275902562304"
+        ]
+      ],
+      "margin_Y2_minus_rival": [
+        "-15379320079910318822731260733644480602344115237759342586703295/26959946667150639794667015087019630673637144422540572481103610249216",
+        "-15379320079910318822731260733644480602344115237759342586700931/26959946667150639794667015087019630673637144422540572481103610249216"
+      ],
+      "rival_margins_over_other_alternatives": [
+        [
+          "15379320079910318822731260733644480602344115237759342586700931/26959946667150639794667015087019630673637144422540572481103610249216",
+          "15379320079910318822731260733644480602344115237759342586703295/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "91488499921548444752239933090191958486671267682785633391009317891/842498333348457493583344221469363458551160763204392890034487820288",
+          "2927631997489550232071677858886142671573480565849140268512298175185/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "1168888587854861796999007688014797054881432823809369025163164755087/13479973333575319897333507543509815336818572211270286240551805124608",
+          "2337777175709723593998015376029594109762865647618738050326329512611/26959946667150639794667015087019630673637144422540572481103610249216"
+        ]
+      ],
+      "rival_is_unique_winner": true,
+      "bits": 224,
+      "interpretation": "Feasible upper witness only, not a global minimum or lower bound.",
+      "heuristic_transition_interval_float": [
+        0.023219568729400633,
+        0.023219575881958006
+      ]
+    },
+    {
+      "status": "PASS_WITNESS",
+      "q_exact": "8",
+      "winner": "Y1",
+      "raw_baseline_normalized_inputs": [
+        "20626291/25000000",
+        "11873709/25000000",
+        "15626291/25000000",
+        "21873709/25000000",
+        "18126291/25000000",
+        "4623709/25000000",
+        "20626291/25000000",
+        "16873709/25000000",
+        "17126291/25000000",
+        "16873709/25000000",
+        "21873709/25000000",
+        "13126291/25000000",
+        "19373709/25000000",
+        "5626291/25000000",
+        "14373709/25000000",
+        "10626291/25000000",
+        "15873709/25000000",
+        "23126291/25000000",
+        "16873709/25000000",
+        "10876291/25000000",
+        "11873709/25000000",
+        "11873709/25000000",
+        "14373709/25000000",
+        "16873709/25000000",
+        "20626291/25000000",
+        "20626291/25000000",
+        "19876291/25000000",
+        "8626291/25000000",
+        "4373709/25000000",
+        "16873709/25000000",
+        "8123709/25000000",
+        "19623709/25000000",
+        "14373709/25000000",
+        "14373709/25000000",
+        "18626291/25000000",
+        "13126291/25000000",
+        "20376291/25000000",
+        "8376291/25000000",
+        "17373709/25000000",
+        "15623709/25000000"
+      ],
+      "radius_limit": "626291/25000000",
+      "actual_linf_change": "626291/25000000",
+      "admissible": true,
+      "maximum_canonical_pair_sum": "181002495384003162898183055761/195312500000000000000000000000",
+      "scores_exact": [
+        [
+          "3510209122939317117213760525679382439878282615580127282116488269173/13479973333575319897333507543509815336818572211270286240551805124608",
+          "7020418245878634234427521051358764879756565231160254564232976539247/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "3510202077197847554432351325678114243256534745277174422583977314525/13479973333575319897333507543509815336818572211270286240551805124608",
+          "3510202077197847554432351325678114243256534745277174422583977314943/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "1769899037277270168247361456001505267434669310686474697992676223305/13479973333575319897333507543509815336818572211270286240551805124608",
+          "1769899037277270168247361456001505267434669310686474697992676223867/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "2081758280329153677792538522409786183879942635037734499765181332589/13479973333575319897333507543509815336818572211270286240551805124608",
+          "1040879140164576838896269261204893091939971317518867249882590666543/6739986666787659948666753771754907668409286105635143120275902562304"
+        ]
+      ],
+      "weights_exact": [
+        [
+          "2612827203737439337266369444214381167115975930387146580955322478407/13479973333575319897333507543509815336818572211270286240551805124608",
+          "5225654407474878674532738888428762334231951860774293161910644956989/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "1347096759333723019837412735612517566474465269399606199126860078259/6739986666787659948666753771754907668409286105635143120275902562304",
+          "5388387037334892079349650942450070265897861077598424796507440313211/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "5348644431745715415117740515080569888889844926909321173805517868345/26959946667150639794667015087019630673637144422540572481103610249216",
+          "5348644431745715415117740515080569888889844926909321173805517868523/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "5851486798581334748074038296280568449518738486233731209423598039325/26959946667150639794667015087019630673637144422540572481103610249216",
+          "2925743399290667374037019148140284224759369243116865604711799019751/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "5145773992013818877592846444779659735098748071024802139456409071255/26959946667150639794667015087019630673637144422540572481103610249216",
+          "643221749001727359699105805597457466887343508878100267432051133929/3369993333393829974333376885877453834204643052817571560137951281152"
+        ]
+      ],
+      "margin_Y2_minus_rival": [
+        "-14091482939125562818400002536393243495740605905719065021910197/26959946667150639794667015087019630673637144422540572481103610249216",
+        "-3522870734781390704600000634098310873935151476429766255477115/6739986666787659948666753771754907668409286105635143120275902562304"
+      ],
+      "rival_margins_over_other_alternatives": [
+        [
+          "3522870734781390704600000634098310873935151476429766255477115/6739986666787659948666753771754907668409286105635143120275902562304",
+          "14091482939125562818400002536393243495740605905719065021910197/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "870155042831023474483199534838938586221806652446826292061906022653/6739986666787659948666753771754907668409286105635143120275902562304",
+          "3480620171324093897932798139355754344887226609787305168247624092637/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "1428450842610163439421222003269596255998339980542392782351306936087/13479973333575319897333507543509815336818572211270286240551805124608",
+          "2856901685220326878842444006539192511996679961084785564702613874069/26959946667150639794667015087019630673637144422540572481103610249216"
+        ]
+      ],
+      "rival_is_unique_winner": true,
+      "bits": 224,
+      "interpretation": "Feasible upper witness only, not a global minimum or lower bound.",
+      "heuristic_transition_interval_float": [
+        0.02505153179168701,
+        0.025051538944244382
+      ]
+    },
+    {
+      "status": "PASS_WITNESS",
+      "q_exact": "16",
+      "winner": "Y1",
+      "raw_baseline_normalized_inputs": [
+        "41294873/50000000",
+        "23705127/50000000",
+        "31294873/50000000",
+        "43705127/50000000",
+        "36294873/50000000",
+        "9205127/50000000",
+        "41294873/50000000",
+        "33705127/50000000",
+        "34294873/50000000",
+        "33705127/50000000",
+        "43705127/50000000",
+        "26294873/50000000",
+        "38705127/50000000",
+        "11294873/50000000",
+        "28705127/50000000",
+        "21294873/50000000",
+        "31705127/50000000",
+        "46294873/50000000",
+        "33705127/50000000",
+        "21794873/50000000",
+        "23705127/50000000",
+        "23705127/50000000",
+        "28705127/50000000",
+        "33705127/50000000",
+        "41294873/50000000",
+        "41294873/50000000",
+        "39794873/50000000",
+        "17294873/50000000",
+        "8705127/50000000",
+        "33705127/50000000",
+        "16205127/50000000",
+        "39205127/50000000",
+        "28705127/50000000",
+        "28705127/50000000",
+        "37294873/50000000",
+        "26294873/50000000",
+        "40794873/50000000",
+        "16794873/50000000",
+        "34705127/50000000",
+        "31205127/50000000"
+      ],
+      "radius_limit": "1294873/50000000",
+      "actual_linf_change": "1294873/50000000",
+      "admissible": true,
+      "maximum_canonical_pair_sum": "2907933959095185098965706204641/3125000000000000000000000000000",
+      "scores_exact": [
+        [
+          "7053024842118765284406056003449410293232372179044654006562002960393/26959946667150639794667015087019630673637144422540572481103610249216",
+          "7053024842118765284406056003449410293232372179044654006562002961169/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "3526505444582726140254570350549705366808297765864523711420244680217/13479973333575319897333507543509815336818572211270286240551805124608",
+          "3526505444582726140254570350549705366808297765864523711420244680577/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "1719530873762397018909139259187487952353964921121910429964714094271/13479973333575319897333507543509815336818572211270286240551805124608",
+          "3439061747524794037818278518374975904707929842243820859929428189527/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "4049468002374876223514793497861936707446079069543476535684226758669/26959946667150639794667015087019630673637144422540572481103610249216",
+          "4049468002374876223514793497861936707446079069543476535684226759559/26959946667150639794667015087019630673637144422540572481103610249216"
+        ]
+      ],
+      "weights_exact": [
+        [
+          "2662859521948471946196333289195509321449962269991843386051463784747/13479973333575319897333507543509815336818572211270286240551805124608",
+          "5325719043896943892392666578391018642899924539983686772102927569559/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "5403144008566220136645049090372022293192346607790071463823434212201/26959946667150639794667015087019630673637144422540572481103610249216",
+          "5403144008566220136645049090372022293192346607790071463823434212267/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "5341168723304989678770002944101288566331387540003700388579320296995/26959946667150639794667015087019630673637144422540572481103610249216",
+          "2670584361652494839385001472050644283165693770001850194289660148531/13479973333575319897333507543509815336818572211270286240551805124608"
+        ],
+        [
+          "5640457473199396766331787608480635370410420128825422316926512293079/26959946667150639794667015087019630673637144422540572481103610249216",
+          "705057184149924595791473451060079421301302516103177789615814036643/3369993333393829974333376885877453834204643052817571560137951281152"
+        ],
+        [
+          "5249457418183089320527508865674665800803065605937691539671415877281/26959946667150639794667015087019630673637144422540572481103610249216",
+          "5249457418183089320527508865674665800803065605937691539671415877349/26959946667150639794667015087019630673637144422540572481103610249216"
+        ]
+      ],
+      "margin_Y2_minus_rival": [
+        "-13952953313003896915302349999559615776647315606583721513600735/26959946667150639794667015087019630673637144422540572481103610249216",
+        "-13952953313003896915302349999559615776647315606583721513599239/26959946667150639794667015087019630673637144422540572481103610249216"
+      ],
+      "rival_margins_over_other_alternatives": [
+        [
+          "13952953313003896915302349999559615776647315606583721513599239/26959946667150639794667015087019630673637144422540572481103610249216",
+          "13952953313003896915302349999559615776647315606583721513600735/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "1806981547296985623293888742537217194262221168400416573316287385433/13479973333575319897333507543509815336818572211270286240551805124608",
+          "3613963094593971246587777485074434388524442336800833146632574772627/26959946667150639794667015087019630673637144422540572481103610249216"
+        ],
+        [
+          "1501778419871944530445631252793736792893146554750588735438888100417/13479973333575319897333507543509815336818572211270286240551805124608",
+          "750889209935972265222815626396868396446573277375294367719444050625/6739986666787659948666753771754907668409286105635143120275902562304"
+        ]
+      ],
+      "rival_is_unique_winner": true,
+      "bits": 224,
+      "interpretation": "Feasible upper witness only, not a global minimum or lower bound.",
+      "heuristic_transition_interval_float": [
+        0.025897350311279294,
+        0.025897357463836666
+      ]
+    }
+  ],
+  "immutable_input_sha256": {
+    "model_inputs.json": "71351416bb73b22f3781bad962a023b6ea7362e8020429aab97b47d3f36d1797",
+    "exact_models.py": "8d5941c32cd7cf7140c3273ac6805a370f73bcea627d321cd2ba3c2bfc62f427",
+    "dyadic_interval.py": "38cae911d1feb49562dcfd3693bb56a8e1bb8219c8afa51f89d44aff5998852e"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "elapsed_seconds": 5.633035999984713,
+  "summary_status": "PASS"
+}

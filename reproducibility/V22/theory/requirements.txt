@@ -1,0 +1,4 @@
+# Already-installed packages are required; the replay runner never installs.
+# Versions used in the curator's successful original checks:
+gmpy2==2.3.1
+mpmath==1.3.0

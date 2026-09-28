@@ -1,0 +1,1395 @@
+{
+  "cohort": "epa_secondary",
+  "names_in_order": [
+    "DeKalb, Alabama",
+    "Jefferson, Alabama",
+    "Morgan, Alabama",
+    "Anchorage , Alaska",
+    "Fairbanks North Star , Alaska",
+    "Cochise, Arizona",
+    "Coconino, Arizona",
+    "Gila, Arizona",
+    "Maricopa, Arizona",
+    "Pima, Arizona",
+    "Pinal, Arizona",
+    "Crittenden, Arkansas",
+    "Pulaski, Arkansas",
+    "Washington, Arkansas",
+    "Butte, California",
+    "Colusa, California",
+    "El Dorado, California",
+    "Fresno, California",
+    "Glenn, California",
+    "Humboldt, California",
+    "Imperial, California",
+    "Inyo, California",
+    "Kern, California",
+    "Kings, California",
+    "Los Angeles, California",
+    "Madera, California",
+    "Mendocino, California",
+    "Merced, California",
+    "Mono, California",
+    "Monterey, California",
+    "Orange, California",
+    "Placer, California",
+    "Plumas, California",
+    "Riverside, California",
+    "Sacramento, California",
+    "San Benito, California",
+    "San Bernardino, California",
+    "San Diego, California",
+    "San Joaquin, California",
+    "San Luis Obispo, California",
+    "Santa Barbara, California",
+    "Santa Cruz, California",
+    "Shasta, California",
+    "Sonoma, California",
+    "Stanislaus, California",
+    "Tehama, California",
+    "Tulare, California",
+    "Ventura, California",
+    "Yolo, California",
+    "Adams, Colorado",
+    "Arapahoe, Colorado",
+    "Boulder, Colorado",
+    "Denver, Colorado",
+    "El Paso, Colorado",
+    "Garfield, Colorado",
+    "Jefferson, Colorado",
+    "La Plata, Colorado",
+    "Larimer, Colorado",
+    "Mesa, Colorado",
+    "Montezuma, Colorado",
+    "Prowers, Colorado",
+    "Pueblo, Colorado",
+    "Weld, Colorado",
+    "Fairfield, Connecticut",
+    "Hartford, Connecticut",
+    "New Haven, Connecticut",
+    "New Castle, Delaware",
+    "District of Columbia, District Of Columbia",
+    "Brevard, Florida",
+    "Broward, Florida",
+    "Collier, Florida",
+    "Duval, Florida",
+    "Escambia, Florida",
+    "Miami-Dade, Florida",
+    "Palm Beach, Florida",
+    "Santa Rosa, Florida",
+    "Bibb, Georgia",
+    "DeKalb, Georgia",
+    "Dougherty, Georgia",
+    "Fulton, Georgia",
+    "Muscogee, Georgia",
+    "Hawaii, Hawaii",
+    "Honolulu, Hawaii",
+    "Ada, Idaho",
+    "Bannock, Idaho",
+    "Boise, Idaho",
+    "Idaho, Idaho",
+    "Lemhi, Idaho",
+    "Champaign, Illinois",
+    "Cook, Illinois",
+    "DuPage, Illinois",
+    "Macon, Illinois",
+    "Madison, Illinois",
+    "McLean, Illinois",
+    "Rock Island, Illinois",
+    "Saint Clair, Illinois",
+    "Sangamon, Illinois",
+    "Allen, Indiana",
+    "Bartholomew, Indiana",
+    "Clark, Indiana",
+    "Delaware, Indiana",
+    "LaPorte, Indiana",
+    "Lake, Indiana",
+    "Marion, Indiana",
+    "Porter, Indiana",
+    "St. Joseph, Indiana",
+    "Vanderburgh, Indiana",
+    "Vigo, Indiana",
+    "Warrick, Indiana",
+    "Johnson, Iowa",
+    "Linn, Iowa",
+    "Muscatine, Iowa",
+    "Polk, Iowa",
+    "Scott, Iowa",
+    "Johnson, Kansas",
+    "Neosho, Kansas",
+    "Sedgwick, Kansas",
+    "Shawnee, Kansas",
+    "Campbell, Kentucky",
+    "Jefferson, Kentucky",
+    "Pulaski, Kentucky",
+    "Calcasieu, Louisiana",
+    "East Baton Rouge, Louisiana",
+    "Jefferson, Louisiana",
+    "Orleans, Louisiana",
+    "Ouachita, Louisiana",
+    "St. Bernard, Louisiana",
+    "West Baton Rouge, Louisiana",
+    "Androscoggin, Maine",
+    "Aroostook, Maine",
+    "Cumberland, Maine",
+    "Hancock, Maine",
+    "Kennebec, Maine",
+    "Baltimore, Maryland",
+    "Dorchester, Maryland",
+    "Garrett, Maryland",
+    "Howard, Maryland",
+    "Prince George's, Maryland",
+    "Berkshire, Massachusetts",
+    "Bristol, Massachusetts",
+    "Essex, Massachusetts",
+    "Hampden, Massachusetts",
+    "Hampshire, Massachusetts",
+    "Middlesex, Massachusetts",
+    "Norfolk, Massachusetts",
+    "Plymouth, Massachusetts",
+    "Suffolk, Massachusetts",
+    "Worcester, Massachusetts",
+    "Ingham, Michigan",
+    "Kalamazoo, Michigan",
+    "Kent, Michigan",
+    "Lenawee, Michigan",
+    "Macomb, Michigan",
+    "Washtenaw, Michigan",
+    "Wayne, Michigan",
+    "Crow Wing, Minnesota",
+    "Dakota, Minnesota",
+    "Hennepin, Minnesota",
+    "Lyon, Minnesota",
+    "Ramsey, Minnesota",
+    "Saint Louis, Minnesota",
+    "Scott, Minnesota",
+    "DeSoto, Mississippi",
+    "Hinds, Mississippi",
+    "Buchanan, Missouri",
+    "Jackson, Missouri",
+    "Jasper, Missouri",
+    "Jefferson, Missouri",
+    "Monroe, Missouri",
+    "Saint Louis, Missouri",
+    "St. Louis City, Missouri",
+    "Flathead, Montana",
+    "Lewis and Clark, Montana",
+    "Missoula, Montana",
+    "Silver Bow, Montana",
+    "Douglas, Nebraska",
+    "Clark, Nevada",
+    "Nye, Nevada",
+    "Washoe, Nevada",
+    "Cheshire, New Hampshire",
+    "Grafton, New Hampshire",
+    "Hillsborough, New Hampshire",
+    "Rockingham, New Hampshire",
+    "Atlantic, New Jersey",
+    "Hudson, New Jersey",
+    "Mercer, New Jersey",
+    "Bernalillo, New Mexico",
+    "Dona Ana, New Mexico",
+    "Eddy, New Mexico",
+    "San Juan, New Mexico",
+    "Albany, New York",
+    "Bronx, New York",
+    "Erie, New York",
+    "Essex, New York",
+    "Kings, New York",
+    "Monroe, New York",
+    "New York, New York",
+    "Queens, New York",
+    "Richmond, New York",
+    "Rockland, New York",
+    "Suffolk, New York",
+    "Cumberland, North Carolina",
+    "Durham, North Carolina",
+    "Forsyth, North Carolina",
+    "Guilford, North Carolina",
+    "Mecklenburg, North Carolina",
+    "Swain, North Carolina",
+    "Wake, North Carolina",
+    "Burleigh, North Dakota",
+    "McKenzie, North Dakota",
+    "Mercer, North Dakota",
+    "Oliver, North Dakota",
+    "Butler, Ohio",
+    "Cuyahoga, Ohio",
+    "Franklin, Ohio",
+    "Hamilton, Ohio",
+    "Jefferson, Ohio",
+    "Lawrence, Ohio",
+    "Lucas, Ohio",
+    "Preble, Ohio",
+    "Scioto, Ohio",
+    "Stark, Ohio",
+    "Trumbull, Ohio",
+    "Oklahoma, Oklahoma",
+    "Ottawa, Oklahoma",
+    "Tulsa, Oklahoma",
+    "Baker, Oregon",
+    "Crook, Oregon",
+    "Deschutes, Oregon",
+    "Jackson, Oregon",
+    "Josephine, Oregon",
+    "Klamath, Oregon",
+    "Lane, Oregon",
+    "Linn, Oregon",
+    "Marion, Oregon",
+    "Multnomah, Oregon",
+    "Umatilla, Oregon",
+    "Washington, Oregon",
+    "Allegheny, Pennsylvania",
+    "Beaver, Pennsylvania",
+    "Berks, Pennsylvania",
+    "Centre, Pennsylvania",
+    "Dauphin, Pennsylvania",
+    "Delaware, Pennsylvania",
+    "Erie, Pennsylvania",
+    "Fayette, Pennsylvania",
+    "Lackawanna, Pennsylvania",
+    "Lancaster, Pennsylvania",
+    "Lebanon, Pennsylvania",
+    "Mercer, Pennsylvania",
+    "Northampton, Pennsylvania",
+    "Philadelphia, Pennsylvania",
+    "Washington, Pennsylvania",
+    "York, Pennsylvania",
+    "Providence, Rhode Island",
+    "Charleston, South Carolina",
+    "Richland, South Carolina",
+    "Brookings, South Dakota",
+    "Jackson, South Dakota",
+    "Blount, Tennessee",
+    "Davidson, Tennessee",
+    "Knox, Tennessee",
+    "Loudon, Tennessee",
+    "Shelby, Tennessee",
+    "Bell, Texas",
+    "Bexar, Texas",
+    "Cameron, Texas",
+    "Dallas, Texas",
+    "Denton, Texas",
+    "El Paso, Texas",
+    "Harris, Texas",
+    "Hidalgo, Texas",
+    "Jefferson, Texas",
+    "Nueces, Texas",
+    "Tarrant, Texas",
+    "Travis, Texas",
+    "Webb, Texas",
+    "Box Elder, Utah",
+    "Cache, Utah",
+    "Davis, Utah",
+    "Duchesne, Utah",
+    "Salt Lake, Utah",
+    "Tooele, Utah",
+    "Uintah, Utah",
+    "Utah, Utah",
+    "Washington, Utah",
+    "Weber, Utah",
+    "Chittenden, Vermont",
+    "Arlington, Virginia",
+    "Fairfax, Virginia",
+    "Hampton City, Virginia",
+    "Loudoun, Virginia",
+    "Prince William, Virginia",
+    "Richmond City, Virginia",
+    "Roanoke, Virginia",
+    "Rockingham, Virginia",
+    "Virginia Beach City, Virginia",
+    "Benton, Washington",
+    "Chelan, Washington",
+    "Clallam, Washington",
+    "Clark, Washington",
+    "Columbia, Washington",
+    "Grant, Washington",
+    "Grays Harbor, Washington",
+    "King, Washington",
+    "Kittitas, Washington",
+    "Mason, Washington",
+    "Pierce, Washington",
+    "Snohomish, Washington",
+    "Spokane, Washington",
+    "Stevens, Washington",
+    "Walla Walla, Washington",
+    "Whitman, Washington",
+    "Yakima, Washington",
+    "Brown, Wisconsin",
+    "Dane, Wisconsin",
+    "Dodge, Wisconsin",
+    "Eau Claire, Wisconsin",
+    "Milwaukee, Wisconsin",
+    "Outagamie, Wisconsin",
+    "Ozaukee, Wisconsin",
+    "Sauk, Wisconsin",
+    "Waukesha, Wisconsin",
+    "Albany, Wyoming",
+    "Campbell, Wyoming",
+    "Converse, Wyoming",
+    "Fremont, Wyoming",
+    "Laramie, Wyoming",
+    "Lincoln, Wyoming",
+    "Natrona, Wyoming",
+    "Sublette, Wyoming",
+    "Sweetwater, Wyoming",
+    "Teton, Wyoming"
+  ],
+  "ids_in_order": [
+    "Alabama|DeKalb",
+    "Alabama|Jefferson",
+    "Alabama|Morgan",
+    "Alaska|Anchorage ",
+    "Alaska|Fairbanks North Star ",
+    "Arizona|Cochise",
+    "Arizona|Coconino",
+    "Arizona|Gila",
+    "Arizona|Maricopa",
+    "Arizona|Pima",
+    "Arizona|Pinal",
+    "Arkansas|Crittenden",
+    "Arkansas|Pulaski",
+    "Arkansas|Washington",
+    "California|Butte",
+    "California|Colusa",
+    "California|El Dorado",
+    "California|Fresno",
+    "California|Glenn",
+    "California|Humboldt",
+    "California|Imperial",
+    "California|Inyo",
+    "California|Kern",
+    "California|Kings",
+    "California|Los Angeles",
+    "California|Madera",
+    "California|Mendocino",
+    "California|Merced",
+    "California|Mono",
+    "California|Monterey",
+    "California|Orange",
+    "California|Placer",
+    "California|Plumas",
+    "California|Riverside",
+    "California|Sacramento",
+    "California|San Benito",
+    "California|San Bernardino",
+    "California|San Diego",
+    "California|San Joaquin",
+    "California|San Luis Obispo",
+    "California|Santa Barbara",
+    "California|Santa Cruz",
+    "California|Shasta",
+    "California|Sonoma",
+    "California|Stanislaus",
+    "California|Tehama",
+    "California|Tulare",
+    "California|Ventura",
+    "California|Yolo",
+    "Colorado|Adams",
+    "Colorado|Arapahoe",
+    "Colorado|Boulder",
+    "Colorado|Denver",
+    "Colorado|El Paso",
+    "Colorado|Garfield",
+    "Colorado|Jefferson",
+    "Colorado|La Plata",
+    "Colorado|Larimer",
+    "Colorado|Mesa",
+    "Colorado|Montezuma",
+    "Colorado|Prowers",
+    "Colorado|Pueblo",
+    "Colorado|Weld",
+    "Connecticut|Fairfield",
+    "Connecticut|Hartford",
+    "Connecticut|New Haven",
+    "Delaware|New Castle",
+    "District Of Columbia|District of Columbia",
+    "Florida|Brevard",
+    "Florida|Broward",
+    "Florida|Collier",
+    "Florida|Duval",
+    "Florida|Escambia",
+    "Florida|Miami-Dade",
+    "Florida|Palm Beach",
+    "Florida|Santa Rosa",
+    "Georgia|Bibb",
+    "Georgia|DeKalb",
+    "Georgia|Dougherty",
+    "Georgia|Fulton",
+    "Georgia|Muscogee",
+    "Hawaii|Hawaii",
+    "Hawaii|Honolulu",
+    "Idaho|Ada",
+    "Idaho|Bannock",
+    "Idaho|Boise",
+    "Idaho|Idaho",
+    "Idaho|Lemhi",
+    "Illinois|Champaign",
+    "Illinois|Cook",
+    "Illinois|DuPage",
+    "Illinois|Macon",
+    "Illinois|Madison",
+    "Illinois|McLean",
+    "Illinois|Rock Island",
+    "Illinois|Saint Clair",
+    "Illinois|Sangamon",
+    "Indiana|Allen",
+    "Indiana|Bartholomew",
+    "Indiana|Clark",
+    "Indiana|Delaware",
+    "Indiana|LaPorte",
+    "Indiana|Lake",
+    "Indiana|Marion",
+    "Indiana|Porter",
+    "Indiana|St. Joseph",
+    "Indiana|Vanderburgh",
+    "Indiana|Vigo",
+    "Indiana|Warrick",
+    "Iowa|Johnson",
+    "Iowa|Linn",
+    "Iowa|Muscatine",
+    "Iowa|Polk",
+    "Iowa|Scott",
+    "Kansas|Johnson",
+    "Kansas|Neosho",
+    "Kansas|Sedgwick",
+    "Kansas|Shawnee",
+    "Kentucky|Campbell",
+    "Kentucky|Jefferson",
+    "Kentucky|Pulaski",
+    "Louisiana|Calcasieu",
+    "Louisiana|East Baton Rouge",
+    "Louisiana|Jefferson",
+    "Louisiana|Orleans",
+    "Louisiana|Ouachita",
+    "Louisiana|St. Bernard",
+    "Louisiana|West Baton Rouge",
+    "Maine|Androscoggin",
+    "Maine|Aroostook",
+    "Maine|Cumberland",
+    "Maine|Hancock",
+    "Maine|Kennebec",
+    "Maryland|Baltimore",
+    "Maryland|Dorchester",
+    "Maryland|Garrett",
+    "Maryland|Howard",
+    "Maryland|Prince George's",
+    "Massachusetts|Berkshire",
+    "Massachusetts|Bristol",
+    "Massachusetts|Essex",
+    "Massachusetts|Hampden",
+    "Massachusetts|Hampshire",
+    "Massachusetts|Middlesex",
+    "Massachusetts|Norfolk",
+    "Massachusetts|Plymouth",
+    "Massachusetts|Suffolk",
+    "Massachusetts|Worcester",
+    "Michigan|Ingham",
+    "Michigan|Kalamazoo",
+    "Michigan|Kent",
+    "Michigan|Lenawee",
+    "Michigan|Macomb",
+    "Michigan|Washtenaw",
+    "Michigan|Wayne",
+    "Minnesota|Crow Wing",
+    "Minnesota|Dakota",
+    "Minnesota|Hennepin",
+    "Minnesota|Lyon",
+    "Minnesota|Ramsey",
+    "Minnesota|Saint Louis",
+    "Minnesota|Scott",
+    "Mississippi|DeSoto",
+    "Mississippi|Hinds",
+    "Missouri|Buchanan",
+    "Missouri|Jackson",
+    "Missouri|Jasper",
+    "Missouri|Jefferson",
+    "Missouri|Monroe",
+    "Missouri|Saint Louis",
+    "Missouri|St. Louis City",
+    "Montana|Flathead",
+    "Montana|Lewis and Clark",
+    "Montana|Missoula",
+    "Montana|Silver Bow",
+    "Nebraska|Douglas",
+    "Nevada|Clark",
+    "Nevada|Nye",
+    "Nevada|Washoe",
+    "New Hampshire|Cheshire",
+    "New Hampshire|Grafton",
+    "New Hampshire|Hillsborough",
+    "New Hampshire|Rockingham",
+    "New Jersey|Atlantic",
+    "New Jersey|Hudson",
+    "New Jersey|Mercer",
+    "New Mexico|Bernalillo",
+    "New Mexico|Dona Ana",
+    "New Mexico|Eddy",
+    "New Mexico|San Juan",
+    "New York|Albany",
+    "New York|Bronx",
+    "New York|Erie",
+    "New York|Essex",
+    "New York|Kings",
+    "New York|Monroe",
+    "New York|New York",
+    "New York|Queens",
+    "New York|Richmond",
+    "New York|Rockland",
+    "New York|Suffolk",
+    "North Carolina|Cumberland",
+    "North Carolina|Durham",
+    "North Carolina|Forsyth",
+    "North Carolina|Guilford",
+    "North Carolina|Mecklenburg",
+    "North Carolina|Swain",
+    "North Carolina|Wake",
+    "North Dakota|Burleigh",
+    "North Dakota|McKenzie",
+    "North Dakota|Mercer",
+    "North Dakota|Oliver",
+    "Ohio|Butler",
+    "Ohio|Cuyahoga",
+    "Ohio|Franklin",
+    "Ohio|Hamilton",
+    "Ohio|Jefferson",
+    "Ohio|Lawrence",
+    "Ohio|Lucas",
+    "Ohio|Preble",
+    "Ohio|Scioto",
+    "Ohio|Stark",
+    "Ohio|Trumbull",
+    "Oklahoma|Oklahoma",
+    "Oklahoma|Ottawa",
+    "Oklahoma|Tulsa",
+    "Oregon|Baker",
+    "Oregon|Crook",
+    "Oregon|Deschutes",
+    "Oregon|Jackson",
+    "Oregon|Josephine",
+    "Oregon|Klamath",
+    "Oregon|Lane",
+    "Oregon|Linn",
+    "Oregon|Marion",
+    "Oregon|Multnomah",
+    "Oregon|Umatilla",
+    "Oregon|Washington",
+    "Pennsylvania|Allegheny",
+    "Pennsylvania|Beaver",
+    "Pennsylvania|Berks",
+    "Pennsylvania|Centre",
+    "Pennsylvania|Dauphin",
+    "Pennsylvania|Delaware",
+    "Pennsylvania|Erie",
+    "Pennsylvania|Fayette",
+    "Pennsylvania|Lackawanna",
+    "Pennsylvania|Lancaster",
+    "Pennsylvania|Lebanon",
+    "Pennsylvania|Mercer",
+    "Pennsylvania|Northampton",
+    "Pennsylvania|Philadelphia",
+    "Pennsylvania|Washington",
+    "Pennsylvania|York",
+    "Rhode Island|Providence",
+    "South Carolina|Charleston",
+    "South Carolina|Richland",
+    "South Dakota|Brookings",
+    "South Dakota|Jackson",
+    "Tennessee|Blount",
+    "Tennessee|Davidson",
+    "Tennessee|Knox",
+    "Tennessee|Loudon",
+    "Tennessee|Shelby",
+    "Texas|Bell",
+    "Texas|Bexar",
+    "Texas|Cameron",
+    "Texas|Dallas",
+    "Texas|Denton",
+    "Texas|El Paso",
+    "Texas|Harris",
+    "Texas|Hidalgo",
+    "Texas|Jefferson",
+    "Texas|Nueces",
+    "Texas|Tarrant",
+    "Texas|Travis",
+    "Texas|Webb",
+    "Utah|Box Elder",
+    "Utah|Cache",
+    "Utah|Davis",
+    "Utah|Duchesne",
+    "Utah|Salt Lake",
+    "Utah|Tooele",
+    "Utah|Uintah",
+    "Utah|Utah",
+    "Utah|Washington",
+    "Utah|Weber",
+    "Vermont|Chittenden",
+    "Virginia|Arlington",
+    "Virginia|Fairfax",
+    "Virginia|Hampton City",
+    "Virginia|Loudoun",
+    "Virginia|Prince William",
+    "Virginia|Richmond City",
+    "Virginia|Roanoke",
+    "Virginia|Rockingham",
+    "Virginia|Virginia Beach City",
+    "Washington|Benton",
+    "Washington|Chelan",
+    "Washington|Clallam",
+    "Washington|Clark",
+    "Washington|Columbia",
+    "Washington|Grant",
+    "Washington|Grays Harbor",
+    "Washington|King",
+    "Washington|Kittitas",
+    "Washington|Mason",
+    "Washington|Pierce",
+    "Washington|Snohomish",
+    "Washington|Spokane",
+    "Washington|Stevens",
+    "Washington|Walla Walla",
+    "Washington|Whitman",
+    "Washington|Yakima",
+    "Wisconsin|Brown",
+    "Wisconsin|Dane",
+    "Wisconsin|Dodge",
+    "Wisconsin|Eau Claire",
+    "Wisconsin|Milwaukee",
+    "Wisconsin|Outagamie",
+    "Wisconsin|Ozaukee",
+    "Wisconsin|Sauk",
+    "Wisconsin|Waukesha",
+    "Wyoming|Albany",
+    "Wyoming|Campbell",
+    "Wyoming|Converse",
+    "Wyoming|Fremont",
+    "Wyoming|Laramie",
+    "Wyoming|Lincoln",
+    "Wyoming|Natrona",
+    "Wyoming|Sublette",
+    "Wyoming|Sweetwater",
+    "Wyoming|Teton"
+  ],
+  "methods": {
+    "wa": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "California|Sonoma"
+        ],
+        "q1_top_names": [
+          "Sonoma, California"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              43
+            ],
+            "ids": [
+              "California|Sonoma"
+            ],
+            "names": [
+              "Sonoma, California"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 4,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55275,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55250,
+            "strict_discordance": 25,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55210,
+            "strict_discordance": 65,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55192,
+            "strict_discordance": 83,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55192,
+            "strict_discordance": 83,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55206,
+            "strict_discordance": 69,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55215,
+            "strict_discordance": 60,
+            "exactly_one_tied": 0,
+            "both_tied": 3
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 83
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "California|Sonoma"
+        ],
+        "q1_top_names": [
+          "Sonoma, California"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              43
+            ],
+            "ids": [
+              "California|Sonoma"
+            ],
+            "names": [
+              "Sonoma, California"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "California|Sonoma"
+        ],
+        "q1_top_names": [
+          "Sonoma, California"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              43
+            ],
+            "ids": [
+              "California|Sonoma"
+            ],
+            "names": [
+              "Sonoma, California"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "wg": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "Hawaii|Honolulu"
+        ],
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              82
+            ],
+            "ids": [
+              "Hawaii|Honolulu"
+            ],
+            "names": [
+              "Honolulu, Hawaii"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 4,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55278,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55241,
+            "strict_discordance": 37,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55208,
+            "strict_discordance": 70,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55180,
+            "strict_discordance": 98,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55180,
+            "strict_discordance": 98,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55201,
+            "strict_discordance": 77,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55212,
+            "strict_discordance": 66,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 98
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "Hawaii|Honolulu"
+        ],
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              82
+            ],
+            "ids": [
+              "Hawaii|Honolulu"
+            ],
+            "names": [
+              "Honolulu, Hawaii"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "Hawaii|Honolulu"
+        ],
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              82
+            ],
+            "ids": [
+              "Hawaii|Honolulu"
+            ],
+            "names": [
+              "Honolulu, Hawaii"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "cosine_topsis": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "Hawaii|Honolulu"
+        ],
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              82
+            ],
+            "ids": [
+              "Hawaii|Honolulu"
+            ],
+            "names": [
+              "Honolulu, Hawaii"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 3,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55278,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55245,
+            "strict_discordance": 33,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55216,
+            "strict_discordance": 62,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55203,
+            "strict_discordance": 75,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55204,
+            "strict_discordance": 74,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55213,
+            "strict_discordance": 65,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 55278,
+            "strict_concordance": 55221,
+            "strict_discordance": 57,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 75
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "Hawaii|Honolulu"
+        ],
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              82
+            ],
+            "ids": [
+              "Hawaii|Honolulu"
+            ],
+            "names": [
+              "Honolulu, Hawaii"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "Hawaii|Honolulu"
+        ],
+        "q1_top_names": [
+          "Honolulu, Hawaii"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              82
+            ],
+            "ids": [
+              "Hawaii|Honolulu"
+            ],
+            "names": [
+              "Honolulu, Hawaii"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    }
+  },
+  "q1_cross_method": {
+    "frozen_q1": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 55278,
+        "strict_concordance": 54559,
+        "strict_discordance": 716,
+        "exactly_one_tied": 3,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 67
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 55278,
+        "strict_concordance": 54405,
+        "strict_discordance": 870,
+        "exactly_one_tied": 3,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 43
+      }
+    },
+    "equal": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 55278,
+        "strict_concordance": 54555,
+        "strict_discordance": 718,
+        "exactly_one_tied": 5,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 67
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 55278,
+        "strict_concordance": 54409,
+        "strict_discordance": 864,
+        "exactly_one_tied": 5,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 43
+      }
+    }
+  },
+  "q1_dominance": {
+    "wa": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 30272,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 3,
+        "algebraically_confirmed_boundary_equal_count": 3,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 30269,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 30272,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 3,
+        "algebraically_confirmed_boundary_equal_count": 3,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 30269,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "wg": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 30272,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 30272,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 30272,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 30272,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "cosine_topsis": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 30272,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 30272,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 30272,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 30272,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    }
+  },
+  "validation_nodes": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    12,
+    16
+  ],
+  "tie_tolerance": 1e-12,
+  "array_layout": {
+    "q": {
+      "shape": [
+        961
+      ],
+      "dtype": "float64"
+    },
+    "weights_dynamic": {
+      "shape": [
+        961,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "weights_frozen_q1": {
+      "shape": [
+        2
+      ],
+      "dtype": "float64"
+    },
+    "weights_equal": {
+      "shape": [
+        2
+      ],
+      "dtype": "float64"
+    },
+    "ids": {
+      "shape": [
+        333
+      ],
+      "dtype": "<U41"
+    },
+    "names": {
+      "shape": [
+        333
+      ],
+      "dtype": "<U42"
+    },
+    "wa__dynamic": {
+      "shape": [
+        961,
+        333
+      ],
+      "dtype": "float64"
+    },
+    "wa__frozen_q1": {
+      "shape": [
+        333
+      ],
+      "dtype": "float64"
+    },
+    "wa__equal": {
+      "shape": [
+        333
+      ],
+      "dtype": "float64"
+    },
+    "wg__dynamic": {
+      "shape": [
+        961,
+        333
+      ],
+      "dtype": "float64"
+    },
+    "wg__frozen_q1": {
+      "shape": [
+        333
+      ],
+      "dtype": "float64"
+    },
+    "wg__equal": {
+      "shape": [
+        333
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__dynamic": {
+      "shape": [
+        961,
+        333
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__frozen_q1": {
+      "shape": [
+        333
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__equal": {
+      "shape": [
+        333
+      ],
+      "dtype": "float64"
+    }
+  },
+  "invariant_array_semantics": "Frozen/equal one-dimensional score arrays broadcast identically to all 961 q nodes by proved matching identities; these are not 961 independent evaluations."
+}

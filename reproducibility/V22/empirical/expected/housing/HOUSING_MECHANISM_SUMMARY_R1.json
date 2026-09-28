@@ -1,0 +1,158 @@
+{
+  "status": "PASS_POST_HOC_EXPLANATORY_READBACK_AND_SAME_MODEL_REPLAY",
+  "selection": "Known Wyoming rank movement motivated this post-hoc display; not held-out validation.",
+  "model": "ACS2024 primary computable denominator; r=1 algebraic WA, same-table raw-natural-log weights",
+  "grid": {
+    "formula": "q=1+k/64, k=0,...,960",
+    "nodes": 961,
+    "m": 51
+  },
+  "weight_ranges_sampled": {
+    "renters": {
+      "minimum": 0.35135769326251476,
+      "first_q_at_minimum": 1.0,
+      "maximum": 0.5078853247298281,
+      "first_q_at_maximum": 8.53125,
+      "q1": 0.35135769326251476,
+      "q16": 0.5061271506538607,
+      "range_percentage_points": 15.65276314673133
+    },
+    "owners": {
+      "minimum": 0.49211467527017194,
+      "first_q_at_minimum": 8.53125,
+      "maximum": 0.6486423067374852,
+      "first_q_at_maximum": 1.0,
+      "q1": 0.6486423067374852,
+      "q16": 0.4938728493461392,
+      "range_percentage_points": 15.65276314673133
+    }
+  },
+  "north_dakota": {
+    "unique_winner_all961_nodes": true,
+    "runner_up_names": [
+      "South Dakota"
+    ],
+    "minimum_sampled_all_rival_gap": 0.04612257674387665,
+    "q_at_gap_minimum": 1.0,
+    "maximum_sampled_all_rival_gap": 0.04930001870004763,
+    "q_at_gap_maximum": 8.53125,
+    "minimum_sampled_score": 0.6666201305559869,
+    "maximum_sampled_score": 0.712036696642023
+  },
+  "wyoming": {
+    "rank_q1": 22,
+    "rank_q16": 15,
+    "minimum_sampled_rank": 15,
+    "maximum_sampled_rank": 22,
+    "sampled_opposite_sign_brackets": 7,
+    "near_tied_rival_nodes": 0
+  },
+  "maximum_displacement_vs_q1_all_rows_nodes": 7,
+  "normalized_maximum_displacement_vs_q1_all_rows_nodes": 0.14,
+  "selected_nodes": [
+    {
+      "node_index": 0,
+      "q": 1.0,
+      "weight_renters": 0.35135769326251476,
+      "weight_owners": 0.6486423067374852,
+      "north_dakota_score": 0.712036696642023,
+      "north_dakota_gap": 0.04612257674387665,
+      "runner_up_name": "South Dakota",
+      "wyoming_score": 0.5986177795621171,
+      "wyoming_rank": 22,
+      "above_wyoming_name": "New Mexico",
+      "above_minus_wyoming_score": 9.552136401846933e-05,
+      "below_wyoming_name": "Montana",
+      "wyoming_minus_below_score": 0.0026460361558646728,
+      "maximum_displacement_vs_q1": 0,
+      "normalized_maximum_displacement": 0.0
+    },
+    {
+      "node_index": 64,
+      "q": 2.0,
+      "weight_renters": 0.4372085088553664,
+      "weight_owners": 0.5627914911446336,
+      "north_dakota_score": 0.6879620543668824,
+      "north_dakota_gap": 0.04787854186701934,
+      "runner_up_name": "South Dakota",
+      "wyoming_score": 0.5750989340070238,
+      "wyoming_rank": 18,
+      "above_wyoming_name": "Minnesota",
+      "above_minus_wyoming_score": 0.0010784440856299593,
+      "below_wyoming_name": "Montana",
+      "wyoming_minus_below_score": 0.002216786186971742,
+      "maximum_displacement_vs_q1": 4,
+      "normalized_maximum_displacement": 0.08
+    },
+    {
+      "node_index": 192,
+      "q": 4.0,
+      "weight_renters": 0.4974822130804346,
+      "weight_owners": 0.5025177869195654,
+      "north_dakota_score": 0.669851889919772,
+      "north_dakota_gap": 0.04909257941870393,
+      "runner_up_name": "South Dakota",
+      "wyoming_score": 0.5577677380465035,
+      "wyoming_rank": 16,
+      "above_wyoming_name": "Tennessee",
+      "above_minus_wyoming_score": 0.0012994909034096391,
+      "below_wyoming_name": "Montana",
+      "wyoming_minus_below_score": 0.0018872073541585932,
+      "maximum_displacement_vs_q1": 6,
+      "normalized_maximum_displacement": 0.12
+    },
+    {
+      "node_index": 448,
+      "q": 8.0,
+      "weight_renters": 0.5078482271110079,
+      "weight_owners": 0.49215177288899203,
+      "north_dakota_score": 0.6666317117399074,
+      "north_dakota_gap": 0.04929928020270524,
+      "runner_up_name": "South Dakota",
+      "wyoming_score": 0.5547165788876243,
+      "wyoming_rank": 15,
+      "above_wyoming_name": "Nebraska",
+      "above_minus_wyoming_score": 0.004575469372376739,
+      "below_wyoming_name": "Tennessee",
+      "wyoming_minus_below_score": 0.00031111041313358623,
+      "maximum_displacement_vs_q1": 7,
+      "normalized_maximum_displacement": 0.14
+    },
+    {
+      "node_index": 960,
+      "q": 16.0,
+      "weight_renters": 0.5061271506538607,
+      "weight_owners": 0.4938728493461392,
+      "north_dakota_score": 0.6671685523474469,
+      "north_dakota_gap": 0.0492650091231821,
+      "runner_up_name": "South Dakota",
+      "wyoming_score": 0.5552246193609174,
+      "wyoming_rank": 15,
+      "above_wyoming_name": "Nebraska",
+      "above_minus_wyoming_score": 0.004729446651325464,
+      "below_wyoming_name": "Tennessee",
+      "wyoming_minus_below_score": 4.1747034493999635e-05,
+      "maximum_displacement_vs_q1": 7,
+      "normalized_maximum_displacement": 0.14
+    }
+  ],
+  "checks": {
+    "input_grades_exact_interior_admissible": true,
+    "same_model_recomputed_scalar_weights": 1922,
+    "same_model_recomputed_scalar_scores": 49011,
+    "maximum_absolute_weight_difference_from_frozen": 0.0,
+    "maximum_absolute_score_difference_from_frozen": 3.3306690738754696e-16,
+    "all_ranks_equal_in_frozen_and_replayed_scores": true,
+    "original_winner_gap_and_rank_summary_agrees": true,
+    "frozen_controls_identical_at_all_nodes": {
+      "matched_fixed_q1": true,
+      "matched_equal": true
+    }
+  },
+  "limitations": [
+    "No new data, model, encoding, parameter range, or mathematical theorem.",
+    "Grid minima and sign brackets are not interval/continuum certificates.",
+    "Score gaps are deterministic model differences, not propagated ACS sampling uncertainty.",
+    "Same-model parity replay is not an independent source extraction or peer review."
+  ]
+}

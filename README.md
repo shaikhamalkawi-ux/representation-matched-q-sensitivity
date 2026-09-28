@@ -1,42 +1,64 @@
-# Representation-Matched q-Sensitivity - V18 reproducibility archive
+# Winner-Path Complexity and Score Margins — V22 code
 
-Companion code and certificate archive for **Representation-Matched q-Sensitivity: Rank Changes and Winner Robustness in Orthopair Fuzzy Models**.
+Computational companion for **Winner-Path Complexity and Score Margins in a
+Two-Criterion Entropy-Weighted Orthopair Model** (manuscript V22).
 
-Authors: Ghassan Malkawi, Ahmed Elsayed, Mohammed Alhagyan, Nazihah Ahmad, Haslinda Ibrahim, and Wan Suhana Wan Daud. Corresponding author: Mohammed Alhagyan. See [AUTHORS.md](AUTHORS.md).
+Authors: Ghassan Malkawi, Ahmed Elsayed, Mohammed Alhagyan, Nazihah Ahmad,
+Haslinda Ibrahim, and Wan Suhana Wan Daud. Manuscript corresponding author:
+Mohammed Alhagyan. See [AUTHORS.md](AUTHORS.md).
 
-## Current release
+## Current public code
 
-The current public code is in [reproducibility/V18](reproducibility/V18/). Start with its README and scope inventory. Earlier Git history and baseline release notes are preserved; old titles, dates and QA summaries refer to their original versions, not to V18.
+Start at [reproducibility/V22](reproducibility/V22/). Download the standalone
+[V22 reproducibility ZIP](releases/QROF_V22_Reproducibility.zip).
+SHA-256: `e09ac8027edd50e33379b56be1224917c9206511eca6b887067ac1514d00a87f`; 5,159,988 bytes;
+138 members including its exact SHA-256 manifest.
 
-Download the standalone [QROF V18 reproducibility ZIP](releases/QROF_V18_Reproducibility.zip). Its SHA-256 is `208a14374e757ea264c4e77bead0c4b076c07f1aba8dc6c3c808c175cfdef6fb` (1,775,127 bytes). It contains 116 files including the integrity manifest. The included `PUBLIC_QA.json` records the complete fresh replay, including the slower Qin retained cover; the packaged ZIP was also extracted and its Seikh core recompiled and replayed again.
-
-After cloning this repository, run integrity checking from `reproducibility/V18`:
+The module READMEs, claim maps and QA records state exactly which computations
+were rerun and which results remain analytic manuscript proofs. The artifact
+contains frozen derived aggregate inputs, grid comparisons, a post-hoc housing
+analysis and explicitly identified numerical certificates. It is not a
+complete archive of every historical calculation or independent human peer
+review. Install the documented dependencies separately and run the supplied
+commands with fresh external output directories. No runtime or publisher PDF
+is bundled. Start integrity checking with:
 
 ```sh
+cd reproducibility/V22
 python -B verify_manifest.py
 ```
 
-Follow that directory's README to install the required dependencies separately and run numerical replay in a new output directory. The released scripts do not install dependencies or access the network.
+## Zenodo access status
 
-The reserved Zenodo identifier is **10.5281/zenodo.22793242**. It must not be treated as a published, accessible deposit until publication is verified. GitHub access does not by itself establish Zenodo publication.
+The identifier **10.5281/zenodo.22793242** is currently reserved in a draft;
+publication is not yet verified. Do not cite it as an accessible public archive
+until this status has been updated after anonymous record/file verification.
+GitHub V22 access is independent of Zenodo publication.
 
-## Scientific scope
+## Preserved history
 
-The curated release includes the recoverable seven-case benchmark, Qin and He checks, Qin interval covers, Zhang's score-table control, and Seikh source-coordinate certificates and rational witnesses. The inventory distinguishes fresh replay from inherited evidence. It is not a complete archive of every historical analysis.
+[V18 code](reproducibility/V18/) and its unchanged
+[V18 ZIP](releases/QROF_V18_Reproducibility.zip) remain available.
+V18 ZIP SHA-256 is `208a14374e757ea264c4e77bead0c4b076c07f1aba8dc6c3c808c175cfdef6fb`.
+Older titles, source-radius bounds and QA records describe their historical
+versions, not the current refined V22 evidence. Prior commits are preserved;
+V19–V21 private manuscript packages are not redistributed here.
 
-- Seikh uses the same 40-coordinate normalized-baseline-raw L-infinity domain, center, and metric at the compared rungs.
-- The certified bounds imply `rho_src(4) <= 0.02321968 < 0.0235 <= rho_src(16)`.
-- The all-finite-real-`q >= 4` uniform bracket is `0.019 <= rho_src <= 0.02321968`.
-- These are bounds, not exact radii or a proof of monotonicity for all `q`. The `q=8` interval overlaps the others.
-- The Qin model H, q=3, canonical L2 bound `0.000995 <= rho_win <= 0.003514796840392034` is separate; it is not an exact global minimum or a bound for every rung/model.
-- The seven-case benchmark is purposive, not a prevalence sample. The historical 30-record candidate-state ledger remains unavailable.
+## Scope, rights and review
 
-## Public-release boundary
+The main law is restricted to the stated two-criterion, common-nonmembership,
+entropy-weighted model. Sampled grid stability is not a continuum certificate;
+constructed examples do not establish prevalence or real-world superiority.
+Read the [V22 scope and claim maps](reproducibility/V22/README.md).
 
-Publisher PDFs and binaries, respondent-level third-party data, internal development notes, credentials, and superseded internal manuscript packages are not redistributed. Source publications remain separately cited. Deterministic numerical replay is not independent human peer review or proof-assistant verification.
+The existing [CC0 licence](LICENSE) applies to original material only.
+Derived third-party data retain their source conditions; see the
+[third-party notices](reproducibility/V22/THIRD_PARTY_NOTICES.md), including
+CAA's no-onward-sale restriction and source attribution requirements.
 
-OpenAI ChatGPT/Codex assisted with drafting, literature review, mathematical development, and code development and checking. The authors reviewed the outputs and take responsibility for the work.
-
-## License and citation
-
-The existing [CC0 1.0 license](LICENSE) applies to original material only; third-party rights are not waived. See [CITATION.cff](CITATION.cff). Repository publication is not journal submission, acceptance, or publication of the manuscript.
+OpenAI ChatGPT/Codex assisted literature review, mathematical development,
+drafting, programming and verification. Automated replays and agent reviews
+do not establish completed human scientific approval of the new V22 results.
+The authors remain responsible for their final work. Repository publication
+is not journal submission, acceptance or publication of the manuscript.
+See [CITATION.cff](CITATION.cff) for the versioned software citation.

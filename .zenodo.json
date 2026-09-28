@@ -1,24 +1,44 @@
 {
-  "title": "Representation-Matched q-Sensitivity: Reproducibility Archive for Rank Changes and Winner Robustness in Orthopair Fuzzy Models",
+  "title": "Winner-Path Complexity and Score Margins in a Two-Criterion Entropy-Weighted Orthopair Model — V22 Reproducibility Archive",
   "upload_type": "software",
   "license": "cc0-1.0",
-  "version": "V18",
-  "description": "Curated code and certificate archive accompanying Representation-Matched q-Sensitivity: Rank Changes and Winner Robustness in Orthopair Fuzzy Models. It includes the recoverable seven-case benchmark, Qin and He checks, and the V17 Seikh integer-interval and MPFR certificate/witness evidence retained in manuscript V18. The Seikh comparison proves rho_src(4) <= 0.02321968 < 0.0235 <= rho_src(16) in the same normalized-baseline-raw L-infinity geometry; these are bounds, not exact radii or a claim of monotonicity for all q. The uniform finite-real-q>=4 bracket is 0.019 <= rho_src <= 0.02321968. The archive inventory distinguishes fresh replays from inherited evidence and missing historical records. Publisher PDFs and binaries, respondent-level third-party data, and internal development archives are not redistributed. The historical 30-record candidate-state ledger remains unavailable.",
+  "version": "V22",
+  "description": "Curated computational companion to manuscript V22, Winner-Path Complexity and Score Margins in a Two-Criterion Entropy-Weighted Orthopair Model. Contains frozen derived aggregate inputs, WA/WG/cosine-TOPSIS grid comparisons for eleven encodings of six official-data domains, the post-hoc housing mechanism analysis, and specifically identified numerical certificates. The claim maps separate grid evidence from continuum certificates and analytical proofs. This is not a complete archive of every historical calculation, a proof-assistant verification, completed human specialist review, or journal publication. V18 is retained separately as historical material. CC0 applies only to original material; derived third-party data retain the source conditions in THIRD_PARTY_NOTICES.md. No publisher PDFs, private manuscript/development packages, credentials or dependency binaries are redistributed. OpenAI ChatGPT/Codex assisted literature review, mathematical development, drafting, code and checking. New V22 human scientific approval is not inferred from automated verification.",
   "creators": [
-    {"name": "Malkawi, Ghassan", "affiliation": "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates"},
-    {"name": "Elsayed, Ahmed", "affiliation": "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"},
-    {"name": "Alhagyan, Mohammed", "affiliation": "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"},
-    {"name": "Ahmad, Nazihah", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
-    {"name": "Ibrahim, Haslinda", "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"},
-    {"name": "Wan Daud, Wan Suhana", "affiliation": "Department of Mathematical Sciences, Faculty of Intelligent Computing, Universiti Malaysia Perlis, 02600, Arau, Perlis, Malaysia"}
+    {
+      "name": "Malkawi, Ghassan",
+      "affiliation": "Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates",
+      "orcid": "0000-0002-5320-7561"
+    },
+    {
+      "name": "Elsayed, Ahmed",
+      "affiliation": "Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates"
+    },
+    {
+      "name": "Alhagyan, Mohammed",
+      "affiliation": "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"
+    },
+    {
+      "name": "Ahmad, Nazihah",
+      "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"
+    },
+    {
+      "name": "Ibrahim, Haslinda",
+      "affiliation": "School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia"
+    },
+    {
+      "name": "Wan Daud, Wan Suhana",
+      "affiliation": "Department of Mathematical Sciences, Faculty of Intelligent Computing, Universiti Malaysia Perlis, 02600, Arau, Perlis, Malaysia"
+    }
   ],
   "keywords": [
-    "q-rung orthopair fuzzy sets",
-    "q-ROF",
-    "representation matching",
-    "rank reversal",
-    "decision robustness",
-    "sensitivity analysis",
-    "reproducibility"
-  ]
+    "orthopair fuzzy models",
+    "entropy weighting",
+    "winner-path complexity",
+    "score margins",
+    "reproducibility",
+    "interval certificates",
+    "multi-criteria decision analysis"
+  ],
+  "publication_date": "2026-09-28"
 }

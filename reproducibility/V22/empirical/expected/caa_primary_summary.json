@@ -1,0 +1,775 @@
+{
+  "cohort": "caa_primary",
+  "names_in_order": [
+    "ABERDEEN",
+    "BELFAST CITY (GEORGE BEST)",
+    "BELFAST INTERNATIONAL",
+    "BIRMINGHAM",
+    "BRISTOL",
+    "CARDIFF WALES",
+    "EAST MIDLANDS INTERNATIONAL",
+    "EDINBURGH",
+    "EXETER",
+    "GATWICK",
+    "GLASGOW",
+    "HEATHROW",
+    "JERSEY",
+    "LEEDS BRADFORD",
+    "LIVERPOOL (JOHN LENNON)",
+    "LONDON CITY",
+    "LUTON",
+    "MANCHESTER",
+    "NEWCASTLE",
+    "SOUTHAMPTON",
+    "SOUTHEND",
+    "STANSTED",
+    "TEESSIDE INTERNATIONAL AIRPORT"
+  ],
+  "ids_in_order": [
+    "ABERDEEN",
+    "BELFAST CITY (GEORGE BEST)",
+    "BELFAST INTERNATIONAL",
+    "BIRMINGHAM",
+    "BRISTOL",
+    "CARDIFF WALES",
+    "EAST MIDLANDS INTERNATIONAL",
+    "EDINBURGH",
+    "EXETER",
+    "GATWICK",
+    "GLASGOW",
+    "HEATHROW",
+    "JERSEY",
+    "LEEDS BRADFORD",
+    "LIVERPOOL (JOHN LENNON)",
+    "LONDON CITY",
+    "LUTON",
+    "MANCHESTER",
+    "NEWCASTLE",
+    "SOUTHAMPTON",
+    "SOUTHEND",
+    "STANSTED",
+    "TEESSIDE INTERNATIONAL AIRPORT"
+  ],
+  "methods": {
+    "wa": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 1,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 1
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "wg": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 1,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 252,
+            "strict_discordance": 1,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 1
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    },
+    "cosine_topsis": {
+      "dynamic": {
+        "q_nodes": 961,
+        "invariant_broadcast": false,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0,
+        "seven_node_pair_comparisons_to_q1": [
+          {
+            "q": 1,
+            "index": 0,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 2,
+            "index": 64,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 3,
+            "index": 128,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 4,
+            "index": 192,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 8,
+            "index": 448,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 12,
+            "index": 704,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          },
+          {
+            "q": 16,
+            "index": 960,
+            "total_unordered_pairs": 253,
+            "strict_concordance": 253,
+            "strict_discordance": 0,
+            "exactly_one_tied": 0,
+            "both_tied": 0
+          }
+        ],
+        "max_strict_pair_discordance_SEVEN_NODES_ONLY": 0
+      },
+      "frozen_q1": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      },
+      "equal": {
+        "q_nodes": 961,
+        "invariant_broadcast": true,
+        "q1_top_ids": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_names": [
+          "LIVERPOOL (JOHN LENNON)"
+        ],
+        "q1_top_cardinality": 1,
+        "top_set_runs": [
+          {
+            "first_index": 0,
+            "last_index": 960,
+            "indices": [
+              14
+            ],
+            "ids": [
+              "LIVERPOOL (JOHN LENNON)"
+            ],
+            "names": [
+              "LIVERPOOL (JOHN LENNON)"
+            ]
+          }
+        ],
+        "nodes_different_top_set_from_q1": 0,
+        "different_top_set_node_indices": [],
+        "consecutive_top_set_changes": 0,
+        "top_change_right_indices": [],
+        "consecutive_unique_winner_changes": 0,
+        "independent_change_adjacent_indices_required": [],
+        "max_competition_rank_displacement_from_q1": 0
+      }
+    }
+  },
+  "q1_cross_method": {
+    "frozen_q1": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 253,
+        "strict_concordance": 251,
+        "strict_discordance": 2,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 1
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 253,
+        "strict_concordance": 228,
+        "strict_discordance": 25,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 5
+      }
+    },
+    "equal": {
+      "wg_versus_wa": {
+        "total_unordered_pairs": 253,
+        "strict_concordance": 249,
+        "strict_discordance": 4,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 2
+      },
+      "cosine_topsis_versus_wa": {
+        "total_unordered_pairs": 253,
+        "strict_concordance": 227,
+        "strict_discordance": 26,
+        "exactly_one_tied": 0,
+        "both_tied": 0,
+        "max_competition_rank_displacement": 5
+      }
+    }
+  },
+  "q1_dominance": {
+    "wa": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 113,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 113,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 113,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 113,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "wg": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 113,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 113,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 113,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 113,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    },
+    "cosine_topsis": {
+      "frozen_q1": {
+        "exact_strict_componentwise_pairs": 113,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 113,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      },
+      "equal": {
+        "exact_strict_componentwise_pairs": 113,
+        "numeric_dominator_losing_count": 0,
+        "numeric_dominator_tied_within_tolerance_count": 0,
+        "algebraically_confirmed_boundary_equal_count": 0,
+        "unresolved_near_tie_count": 0,
+        "dominator_strictly_better_beyond_tolerance_count": 113,
+        "losing_pair_offsets": [],
+        "unresolved_near_tie_pair_offsets": [],
+        "scope": "q1 only for numerical counts; exact WA/WG product equalities hold for every positive common weight vector. Near ties are not asserted exact."
+      }
+    }
+  },
+  "validation_nodes": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    12,
+    16
+  ],
+  "tie_tolerance": 1e-12,
+  "array_layout": {
+    "q": {
+      "shape": [
+        961
+      ],
+      "dtype": "float64"
+    },
+    "weights_dynamic": {
+      "shape": [
+        961,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "weights_frozen_q1": {
+      "shape": [
+        2
+      ],
+      "dtype": "float64"
+    },
+    "weights_equal": {
+      "shape": [
+        2
+      ],
+      "dtype": "float64"
+    },
+    "ids": {
+      "shape": [
+        23
+      ],
+      "dtype": "<U30"
+    },
+    "names": {
+      "shape": [
+        23
+      ],
+      "dtype": "<U30"
+    },
+    "wa__dynamic": {
+      "shape": [
+        961,
+        23
+      ],
+      "dtype": "float64"
+    },
+    "wa__frozen_q1": {
+      "shape": [
+        23
+      ],
+      "dtype": "float64"
+    },
+    "wa__equal": {
+      "shape": [
+        23
+      ],
+      "dtype": "float64"
+    },
+    "wg__dynamic": {
+      "shape": [
+        961,
+        23
+      ],
+      "dtype": "float64"
+    },
+    "wg__frozen_q1": {
+      "shape": [
+        23
+      ],
+      "dtype": "float64"
+    },
+    "wg__equal": {
+      "shape": [
+        23
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__dynamic": {
+      "shape": [
+        961,
+        23
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__frozen_q1": {
+      "shape": [
+        23
+      ],
+      "dtype": "float64"
+    },
+    "cosine_topsis__equal": {
+      "shape": [
+        23
+      ],
+      "dtype": "float64"
+    }
+  },
+  "invariant_array_semantics": "Frozen/equal one-dimensional score arrays broadcast identically to all 961 q nodes by proved matching identities; these are not 961 independent evaluations."
+}

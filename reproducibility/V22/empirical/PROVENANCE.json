@@ -1,0 +1,438 @@
+{
+  "schema": "portable empirical V22 R5",
+  "new_mathematics": false,
+  "new_source_acquisition": false,
+  "input_conversion": "Fraction strings and stored row order unchanged; clean public containers newly generated.",
+  "kernels": {
+    "model_core.py": {
+      "source_basename": "compare_methods_r1.py",
+      "source": {
+        "bytes": 24825,
+        "sha256": "a4b526d624f2f0d719a21a544c6ffdba2129c66528403e6410264c00cff6859f"
+      },
+      "unchanged_function_source_sha256": {
+        "utc": "eaf581fceee82ef95cedac7d0369ead3de59532e834ccec7e141b018164760c0",
+        "canonical": "f598c641f012cf157b63d6118a7f8efe4935633db0b2099c7302b4dffb74b1ec",
+        "digest": "a804309b8d14509551db4368edffa720f69ea13d05396177c269c7819c087ed4",
+        "file_pin": "89ab6c8d5ab285a25e979f13a39be7e6b31de06f32ebe36a2a68074f6d92f348",
+        "write_json": "ab99d05e55b8ac4257f9118126b23a62b41f2646d01fbda03c032a4ffa4a0f7a",
+        "write_npz": "47a646e2e591836893d521fc9bc6a714c77bd77db94925d25dba82822b7518e8",
+        "require": "8c712510f4d80e6894b5229c011e7ce59161462f166f5cdcdec4e06f588f26b8",
+        "entropy_weights": "553c005e102fe738da0791cf3ea5f961856e10322bb292a5bad827c9a2eaf6e8",
+        "log_products": "08cfca088ab6c800823b4be5275062c10b61274a0abce090e597af2c1cc87d6a",
+        "scores_for_weights": "481d1b805c6cbc078e9ee2d68df9bc171ae57819e1aa9271f8bfa36bbe79f89d",
+        "ranks": "1893ad9ceb60f570c20bb6f77d0e8a13eae880e3526d9a6ab2a171e062625aaf",
+        "top_indices": "37a90610b0da7b397fdf4317e05cee821badb7fded60208e0e71a00a93d2499c",
+        "pair_categories": "0f44cbb2a1bc463f1094387008310291a1ec0b49b4955bc923a988cbf6909241",
+        "trajectory_summary": "02fb789276867d24b2dca6c31f9286f837cbc2b9a2df772d1e24a974e539b75e",
+        "exact_dominance": "55577f34d0814d9d23bdab250e097cb1a49eb3edabff70636629161c93a7c9ea",
+        "dominance_summary": "b0fe55266101b057985841aa86642717334bb22ec783c08bbaab6e6a79ef04d4",
+        "evaluate_cohort": "951baf764d3ab2fe3b8476ac4dd6da4f01663cd985a58a78f5bd681fd7d490dc",
+        "synthetic_tests": "5fba583a2d05e6e26a8de05c1aae37a14023688b569eda2b2e7ea068139e9bff"
+      },
+      "changes": "New minimal imports/constants; exact named function source copied verbatim; private loader/main/admission omitted."
+    },
+    "decimal_core.py": {
+      "source_basename": "decimal80_comparison_r2.py",
+      "source": {
+        "bytes": 14010,
+        "sha256": "d594331396d162fa6da4a36cf5263dcb03cf45d00f589b7f99e5939ca2a85b5a"
+      },
+      "unchanged_function_source_sha256": {
+        "decimal_fraction": "d514b77bcc1bcf092da2538136a821fd5d4c163f861e9088f1a2584c829fa596",
+        "decimal_pi": "e5aee7ae9793bcaea44761b5423e29040d326091daea0b9121a0392027c6d844",
+        "cosine": "be0319226123250e3c53bc14545f5115bd41582c192b2efa093a0ac102693ddb",
+        "power": "541487f29b396c9b33b2a8104fcacff58ccea6e26266833bc598434014e06cb7",
+        "product_power": "cbdd3f5531b8a9fd0638060c3be3114547f550fa9831bc69e0899faf44bc8603",
+        "reduced": "9f2b25be1862e015669859c32d2df86541ebc04219b33d6f968677fee75d6959",
+        "literal_transport": "1ae1a4fbc17c0f96e8a9fc0dea0e28618990b8bd11675f6dd7b91d7c88f2a744",
+        "synthetic_gates": "0eacad9a3e49877ba02e856de4de83988a3b2030dd5e9ff79701bac0e31500e2",
+        "caches_for": "82c65c451abe6ea70f14b3cd7e57e39a38165f351994808a0898ccef220790d3",
+        "entropy_weights": "7cee94fab0e55629af6faed0c1c1100307f919092a3afedc3017d118adbb29fa",
+        "scores": "274634926b60456a5a1b4f02d1513d4da82ebd247cf0a456d6e2cc7e6a49d9aa",
+        "fmt": "e9b9d1ca966fd6253c7eaf40e7546d2ed63e0ff1f10ea3509cdd69a521861d3e"
+      },
+      "changes": "Minimal imports; exact named function source copied verbatim; only portable wrapper/I/O is new."
+    }
+  },
+  "cohorts": [
+    {
+      "key": "qol_primary",
+      "source_id": "EC_QOL2023",
+      "original_derived_input": {
+        "bytes": 562221,
+        "sha256": "4d739810763b3093e62756e35832018c095c1a9bd43c1f1453040290c983c5ee",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "1d35692f0b042abd82501b45cdbbf650e3641428a0eff2bacced6cf6acb89ebb",
+      "ordered_ids_sha256": "8ca62ed3557eaa9eb45ee0131405fedca010b2a1cc51830613729a841a4a2265",
+      "original_primary_arrays": {
+        "bytes": 1454025,
+        "sha256": "261ec1415d8905cabaa486e0131243af812a8a9666ff1672fabaa70989c51b30"
+      },
+      "original_primary_summary": {
+        "bytes": 25000,
+        "sha256": "c7ceeea900b19d89a90510add26ec4c90105b4c9e2f01441113a4c5740286780"
+      },
+      "original_decimal_reference": {
+        "bytes": 18497,
+        "sha256": "982cf78ac070514647fbcb9c30037e49a7a91c8a183bfbd1da371de99495de50"
+      }
+    },
+    {
+      "key": "qol_secondary",
+      "source_id": "EC_QOL2023",
+      "original_derived_input": {
+        "bytes": 562221,
+        "sha256": "4d739810763b3093e62756e35832018c095c1a9bd43c1f1453040290c983c5ee",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "1d19ad259b09b8c96853087768796072d0f30ea8a1455263863352b68a7731c2",
+      "ordered_ids_sha256": "8ca62ed3557eaa9eb45ee0131405fedca010b2a1cc51830613729a841a4a2265",
+      "original_primary_arrays": {
+        "bytes": 1518345,
+        "sha256": "b1efac214d9ed889c9ca5226282fb3258d7cd20f79e7fc074460deac5937e59d"
+      },
+      "original_primary_summary": {
+        "bytes": 25120,
+        "sha256": "84e33683d88bd2e28f70915fe7d7c8426cb057c2121c0d83f2bf5b805eb21390"
+      },
+      "original_decimal_reference": {
+        "bytes": 19082,
+        "sha256": "194ed877451f224caeb3922ba99d925e2febbaeed182990e28a016876ecdc271"
+      }
+    },
+    {
+      "key": "cms_primary",
+      "source_id": "CMS_HCAHPS2026",
+      "original_derived_input": {
+        "bytes": 17994763,
+        "sha256": "81888b427db143637a5601d2b326f0dedcf67265cbdcff868c7ed1f51a9d0930",
+        "basename": "EXACT_INPUTS_AND_EXCLUSIONS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "7feb86a0cf7b1a067d7f00fec3845094c92dcf8d0a929efcc4e6ef8f5258e5b4",
+      "ordered_ids_sha256": "f8b16ee84bb4ff2a91678b336ffc49eff2e18bdd2f7d050cf3fe3242235c4c3d",
+      "original_primary_arrays": {
+        "bytes": 46360680,
+        "sha256": "9685a50dba64d0ed0def4558ca0d9ba01318902142aafb14165d7c985b91392d"
+      },
+      "original_primary_summary": {
+        "bytes": 191997,
+        "sha256": "fc2cd43bacaa07694d67a67703bcccc4f5c936463a38e784dece6d98bab532ea"
+      },
+      "original_decimal_reference": {
+        "bytes": 507492,
+        "sha256": "ec0b881c09b7146bd3af0e86f58c249e23eb64ceaf912eca171bbe27d31fb93f"
+      }
+    },
+    {
+      "key": "cms_strict",
+      "source_id": "CMS_HCAHPS2026",
+      "original_derived_input": {
+        "bytes": 17994763,
+        "sha256": "81888b427db143637a5601d2b326f0dedcf67265cbdcff868c7ed1f51a9d0930",
+        "basename": "EXACT_INPUTS_AND_EXCLUSIONS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "35eda6f2cc2b4b529d03997fb8af1b41f8a8604f484a4a61370596d14f431600",
+      "ordered_ids_sha256": "05483be026fc0dd99fc72d70a5d49714d1c9cc26049ca09152d7a997b402b41e",
+      "original_primary_arrays": {
+        "bytes": 45985346,
+        "sha256": "0f4a9e8b5630f66da7447e584c174abe6d8e308abd878b30efc80e11fe447b52"
+      },
+      "original_primary_summary": {
+        "bytes": 190617,
+        "sha256": "520e93b1f24f8c8cea299732c62799584e7728ea83a051307e7c672214f5d0b0"
+      },
+      "original_decimal_reference": {
+        "bytes": 500751,
+        "sha256": "a57eed1d79860e74191b2b59aaad13502b2c9220921b8c7b63a40fe9b641c01f"
+      }
+    },
+    {
+      "key": "pisa_primary",
+      "source_id": "OECD_PISA2022",
+      "original_derived_input": {
+        "bytes": 566290,
+        "sha256": "2fa3170b2e4b09cdf9be65785697d3eb4b8a71ab9b8527bae4d38658cd565cb7",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "3b6c3bccceda4114d5a0cadccb16479a56b8f3a8b163244be7eefa3163c726ec",
+      "ordered_ids_sha256": "ddff522cee7f28d84e8254ade059822edccaa2540a10607d4f4e58225a8f8ff1",
+      "original_primary_arrays": {
+        "bytes": 1301023,
+        "sha256": "9e716ce69232e8a17c36a1fa9cfea7be4b50b20377dbbbb4a9b1551194073384"
+      },
+      "original_primary_summary": {
+        "bytes": 25517,
+        "sha256": "290620d170392264a89cd9596b03f63edcd5aaa7753ac01b3e261b2b7b918dcb"
+      },
+      "original_decimal_reference": {
+        "bytes": 17151,
+        "sha256": "908ef882e543c59c12557c283547b5051e000fbe1ad570e54f24e9728cdf6632"
+      }
+    },
+    {
+      "key": "pisa_secondary",
+      "source_id": "OECD_PISA2022",
+      "original_derived_input": {
+        "bytes": 566290,
+        "sha256": "2fa3170b2e4b09cdf9be65785697d3eb4b8a71ab9b8527bae4d38658cd565cb7",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "1a93099be687dfafb23692d1e7b4ce6121ddb22b272a753679ad18f5246884c8",
+      "ordered_ids_sha256": "6ba4a6b21dbdc830a5aeaa8e6105a94a1ef19dfa33fa1ba2e909569117043121",
+      "original_primary_arrays": {
+        "bytes": 1095945,
+        "sha256": "37c5e2716277a2b8ef5a80990d96ee2c0b9678fe8a8a11d4f9a0c5ce5c0059bc"
+      },
+      "original_primary_summary": {
+        "bytes": 25013,
+        "sha256": "cebd2a2cdd7701e06b2be2dbb13303008729ac1b595a39e30f8718c822e6b74e"
+      },
+      "original_decimal_reference": {
+        "bytes": 14830,
+        "sha256": "31fbd336b91b3b8f2dc31a98f0b9ed1e15851302639a5bb029710600498a2dc1"
+      }
+    },
+    {
+      "key": "caa_primary",
+      "source_id": "CAA_PUNCTUALITY2025",
+      "original_derived_input": {
+        "bytes": 21197807,
+        "sha256": "d2ef2c1fdcc1e010a901f18824c3db403fa95116b06bbc2fbc9e2e84d0de4bbc",
+        "basename": "EXACT_INPUTS_AND_EXCLUSIONS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "a81cd2111abae0b15970c623dfaac2117825c9d921ff79b4cac3bbbbf7d47be4",
+      "ordered_ids_sha256": "b6b998eb0d5ead57b0ef29a3f762baba960f4cfe123323dcda47be213d270934",
+      "original_primary_arrays": {
+        "bytes": 351705,
+        "sha256": "62de415ccb4ab0adb0a87f616d83f69a6c2b72da8aad1ef3e9baa73ab75998c0"
+      },
+      "original_primary_summary": {
+        "bytes": 23597,
+        "sha256": "54c601e62664484a7c7c74729a6afdfd2d30e60d112e35dc93c0cf5e3300eaeb"
+      },
+      "original_decimal_reference": {
+        "bytes": 6523,
+        "sha256": "c35c048c66ff090e54fccc3fae0a4b006a1324581fe51445025150ffbe5bacf6"
+      }
+    },
+    {
+      "key": "epa_primary",
+      "source_id": "EPA_AQI2024_2025",
+      "original_derived_input": {
+        "bytes": 273203,
+        "sha256": "de19b346d890c0d0e13d00091cba1c3b56803456395f810144adf4191016b1d5",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "b10b42572c4338033b49ab600b88a761a51a4c3e69b2cf61839a83243ca352f0",
+      "ordered_ids_sha256": "cfe5de21fb16d037b0702b86914515df93f835a4d7740852af312b157d758b17",
+      "original_primary_arrays": {
+        "bytes": 11359210,
+        "sha256": "91f33a4b2eb263f138f119e3008c0991bc89460a953c9b13449dfcef9efa5858"
+      },
+      "original_primary_summary": {
+        "bytes": 62782,
+        "sha256": "0d2c778d050029078c485829555d1f7676c8c26d2e4793fff2eba923ff3006ff"
+      },
+      "original_decimal_reference": {
+        "bytes": 168008,
+        "sha256": "6c6d7377bb6463e9a35cef243cfd0edc9bbd9a2739ed23b3887d1e9493da7bc3"
+      }
+    },
+    {
+      "key": "epa_secondary",
+      "source_id": "EPA_AQI2024_2025",
+      "original_derived_input": {
+        "bytes": 273203,
+        "sha256": "de19b346d890c0d0e13d00091cba1c3b56803456395f810144adf4191016b1d5",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "5b9af077910f2a159991f38d8bb2033e48c1e3ae556e4bdf3959a0708f4aeb9d",
+      "ordered_ids_sha256": "a3fca148287f5bf0894bd4dbf1627183a0fe4d6c1c56603b3e1eb97a7276016c",
+      "original_primary_arrays": {
+        "bytes": 5352669,
+        "sha256": "486c8cad5b691910807f423c355b193b454926c00d255fed5c2d59129342edc7"
+      },
+      "original_primary_summary": {
+        "bytes": 40061,
+        "sha256": "6a68517a47b8899d01a8c9b519ed9d27184d08489beffae117e08165c0ce69cd"
+      },
+      "original_decimal_reference": {
+        "bytes": 69022,
+        "sha256": "0e0ebf5477e926f1cc18f94cb051e5bff52cb30c0de7de6f861236f674fc60be"
+      }
+    },
+    {
+      "key": "housing_primary",
+      "source_id": "ACS_HOUSING2024",
+      "original_derived_input": {
+        "bytes": 26798,
+        "sha256": "82d849b277864b6e1da6a6f0ae6f89dd18d11d4ac984bdb322832ae2afa3053d",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "e296d0d6ed6504a9013d4e076c35bd871f7a81ee79a028925389cbf86f6e647d",
+      "ordered_ids_sha256": "aea7ed276888ae27dd227035a26e2ada5e39aa7471c9c077cd4bd0e4ed928b5d",
+      "original_primary_arrays": {
+        "bytes": 948518,
+        "sha256": "ea9040c03df8fd0d2a369264d459b382181ae08b33d83feae53b65333c6f3afc"
+      },
+      "original_primary_summary": {
+        "bytes": 23550,
+        "sha256": "b59bced4a35e2f87a87e3ced418d96d18a64514509190d24a8952ff74e92b061"
+      },
+      "original_decimal_reference": {
+        "bytes": 11911,
+        "sha256": "bd71394750a49296b19d9a6944a7930644b9c40d864a785c5b6509b7f72c5e64"
+      }
+    },
+    {
+      "key": "housing_secondary",
+      "source_id": "ACS_HOUSING2024",
+      "original_derived_input": {
+        "bytes": 26798,
+        "sha256": "82d849b277864b6e1da6a6f0ae6f89dd18d11d4ac984bdb322832ae2afa3053d",
+        "basename": "EXACT_INPUTS_R1.json"
+      },
+      "canonical_fraction_rows_sha256": "0143821fca69ae3f0ce5564fe56c330318064e846dfe8109c8433523aa3099b0",
+      "ordered_ids_sha256": "aea7ed276888ae27dd227035a26e2ada5e39aa7471c9c077cd4bd0e4ed928b5d",
+      "original_primary_arrays": {
+        "bytes": 941322,
+        "sha256": "86be349a7fb0d7cfb22328a7825a430daa0ecc4ca0e5d9c84c5497ec6b63a085"
+      },
+      "original_primary_summary": {
+        "bytes": 23555,
+        "sha256": "9788ab05fcc78b9624045eda8f9194687c79fad06612a688bcc03c12a882ea2f"
+      },
+      "original_decimal_reference": {
+        "bytes": 11911,
+        "sha256": "8aa3d5814cc41a9309b5a6fc6f5a5eff110e109cc6fa670bb55a8143e2e2a9d3"
+      }
+    }
+  ],
+  "housing": {
+    "source_checker": {
+      "bytes": 15810,
+      "sha256": "23d34875436dbaa585607af9890ef0237d21b9338929e3b3751e654a283acbe0"
+    },
+    "source_checker_basename": "check_decimal60_r1.py",
+    "changes": "Original imports/helper functions and complete Decimal arithmetic/comparison block unchanged; run input paths/hash gate and CLI replaced. Original known source pins now enforced by module manifest.",
+    "reference_arrays": {
+      "bytes": 706803,
+      "sha256": "f66dda50dab590ce97e4659e2f049aa7b9ce65968d7d2936f3074035fad641d7"
+    },
+    "posthoc_selection": true,
+    "continuum_certificate": false
+  },
+  "official_source_sha256": {
+    "EC_QOL2023": "49986134cde7cddd1858ad1536558e66698ae86d28252f4d9b911ee63d79c03c",
+    "CMS_HCAHPS2026": "b70e598f29552df302e30ed649d178abd1b3d3c868ae97cf8e55453dd33898fc",
+    "OECD_PISA2022": "2c276a66d020c29fc2a18c9646d9d31fa2529ec011f81d6264c5de7e38d96488",
+    "CAA_PUNCTUALITY2025": "a4d45132f0aa1967b732cec369a3f9e95214b3e55d81cfa37ebb0a093edfc733",
+    "EPA_AQI2024_2025": {
+      "2024": {
+        "zip_sha256": "f6bec6492d0d2a64c557a48ca7d54aa5ac39993051d1eea43d055d9b391d689b",
+        "csv_sha256": "c7cd2d324634bb87ef474c86370461efe3f74e60570b61102bbe1365d3d56c9d",
+        "csv_bytes": 68633,
+        "header": [
+          "State",
+          "County",
+          "Year",
+          "Days with AQI",
+          "Good Days",
+          "Moderate Days",
+          "Unhealthy for Sensitive Groups Days",
+          "Unhealthy Days",
+          "Very Unhealthy Days",
+          "Hazardous Days",
+          "Max AQI",
+          "90th Percentile AQI",
+          "Median AQI",
+          "Days CO",
+          "Days NO2",
+          "Days Ozone",
+          "Days PM2.5",
+          "Days PM10"
+        ],
+        "records": 997
+      },
+      "2025": {
+        "zip_sha256": "72b022b3828c611007df5ededcb5933b0bce877077573dbd66a0c1c66d467130",
+        "csv_sha256": "473ad542aa3106ff56230ce587933a3263dbcb9b93c5f24d90e612d42923fc01",
+        "csv_bytes": 67684,
+        "header": [
+          "State",
+          "County",
+          "Year",
+          "Days with AQI",
+          "Good Days",
+          "Moderate Days",
+          "Unhealthy for Sensitive Groups Days",
+          "Unhealthy Days",
+          "Very Unhealthy Days",
+          "Hazardous Days",
+          "Max AQI",
+          "90th Percentile AQI",
+          "Median AQI",
+          "Days CO",
+          "Days NO2",
+          "Days Ozone",
+          "Days PM2.5",
+          "Days PM10"
+        ],
+        "records": 985
+      }
+    },
+    "ACS_HOUSING2024": {
+      "acsdt1y2024-b25070.dat": {
+        "requested_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25070.dat",
+        "bytes": 973896,
+        "sha256": "edf1abe1970b39c3cb9038f762fc203dcfea081e8f2ca6cb0f8c7a75c62cd770"
+      },
+      "acsdt1y2024-b25091.dat": {
+        "requested_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25091.dat",
+        "bytes": 1854794,
+        "sha256": "0085d9c111e7903211ae2482efa0f581344d7adb542227acec9325dd94dcf2c9"
+      },
+      "Geos20241YR.txt": {
+        "requested_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/Geos20241YR.txt",
+        "bytes": 1065169,
+        "sha256": "2155acb3c81672eee9b0bd971cca60cd77d8b66222b34973928f57c087ea4afe"
+      },
+      "ACS20241YR_Table_Shells.txt": {
+        "requested_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20241YR_Table_Shells.txt",
+        "bytes": 7230781,
+        "sha256": "2e4d8a460131be19ca06e87bb478e12ccb4dd44892369245049ee0e463454ad4"
+      }
+    }
+  },
+  "optional_renderer": {
+    "source_basename": "render_housing_figure_r2.py",
+    "source": {
+      "bytes": 3125,
+      "sha256": "4c95b04dbfff55fbe36c2b49490ec886587e7fa0bc43d8a13913e71974e412c4"
+    },
+    "unchanged_plot_block_sha256": "392a371f5f2499bde57e76f2392cec767a5d597037cab72753b0d2ca8672c443",
+    "changes": "Module-relative input, exclusive CLI output and hash gate only; plot block unchanged; no new arithmetic."
+  },
+  "r2_changes": "Optional renderer/dependency documentation and original ACS source fingerprints only; all numerical kernels, derived tables, exclusions and expected values identical to R1.",
+  "printed_examples": {
+    "source_basename": "check_published_examples_r2.py",
+    "source": {
+      "bytes": 5983,
+      "sha256": "352a00250d033c6e5b3b6bee945866f4a6db858f928b522d209072e15d550f7d"
+    },
+    "unchanged_arithmetic_block_sha256": "46e3f3516feeb0511d13de0349e8e00b1a29cb19a46c84f1ab40e04899a04621",
+    "expected_original_report": {
+      "bytes": 15300,
+      "sha256": "36847889856867210450249aec3febaa7f06ed3c3727450a160ebd9199fa2ad6"
+    },
+    "changes": "Only private source-pin dependencies, CLI output routing and final expected-result comparison changed; complete numeric arithmetic/input/result-construction block unchanged.",
+    "source_pdf_reauthentication": false,
+    "preserve_printed_WG_incompatibility": true
+  },
+  "r3_changes": "Add existing printed-example Decimal90 audit only; all R2 scientific payloads and kernels unchanged.",
+  "r4_changes": "Cache the unchanged original Decimal NPZ scores once before scalar comparisons instead of repeatedly decompressing inside the loop. I/O-performance fix only; pure Decimal arithmetic, input values, comparison tolerances and expected arrays unchanged.",
+  "prior_wrapper_runs": "R1 and R3 full-grid/Decimal60 jobs completed, but Decimal90 jobs were intentionally stopped during slow repeated NPZ decompression. Those are not successful complete replay runs and are retained as failed/incomplete wrapper history; no numerical mismatch or data repair occurred.",
+  "r5_changes": "Reject no new scientific outcome: suppress bytecode in two optional wrappers, correct pinned NumPy Python requirement to >=3.11, and explicitly check the 60 already-computed fixed/equal weights in addition to all dynamic weights and scores. Exact numerical kernels, input tables, expectations, mathematical operation order and tolerances unchanged."
+}

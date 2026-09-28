@@ -1,0 +1,11 @@
+# Archive creators
+
+1. Ghassan Malkawi — Faculty of Computer Information Science (CIS), Higher Colleges of Technology, Al Ain Campuses, Al Ain, United Arab Emirates — gmalkawi@hct.ac.ae
+2. Ahmed Elsayed — Department of Computer Engineering and Computational Sciences, School of Engineering, Applied Science and Technology, Canadian University Dubai, Dubai, United Arab Emirates — ahmed.elsayed@cud.ac.ae
+3. Mohammed Alhagyan — Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates — m.alhagyan@uaeu.ac.ae
+4. Nazihah Ahmad — School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia — nazihah@uum.edu.my
+5. Haslinda Ibrahim — School of Quantitative Sciences, UUM College of Arts and Sciences, Universiti Utara Malaysia, 06010 Sintok, Kedah, Malaysia — linda@uum.edu.my
+6. Wan Suhana Wan Daud — Department of Mathematical Sciences, Faculty of Intelligent Computing, Universiti Malaysia Perlis, 02600, Arau, Perlis, Malaysia — wsuhana@unimap.edu.my
+
+Manuscript corresponding author: Mohammed Alhagyan (m.alhagyan@uaeu.ac.ae).
+Repository maintainer: Ghassan Malkawi.

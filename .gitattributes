@@ -1,3 +1,4 @@
 # Certificate input pins and the release manifest identify exact byte streams.
 reproducibility/V18/** -text
 releases/*.zip -text
+reproducibility/V22/** -text
